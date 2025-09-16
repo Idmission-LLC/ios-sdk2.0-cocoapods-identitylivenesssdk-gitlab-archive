@@ -7,6 +7,6 @@ pod spec lint
 
 #Push All PodSpec file to CocoapodsTrunk
 echo "⬆️ livenessSDK: Pushing to Cocoapod Trunk"
-pod trunk push SelfieCaptureliveness.podspec
-pod trunk push IDentitylivenessModels.podspec
-pod trunk push IDentitylivenessSDK2.0.podspec
+pod trunk push SelfieCaptureLiveness.podspec
+pod trunk push IDentityLivenessModels.podspec
+pod trunk push IDentityLivenessSDK2.0.podspec
