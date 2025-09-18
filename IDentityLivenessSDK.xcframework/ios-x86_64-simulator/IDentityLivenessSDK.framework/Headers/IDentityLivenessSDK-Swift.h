@@ -331,8 +331,18 @@ SWIFT_CLASS("_TtC19IDentityLivenessSDK14CaptureSession")
 @class NSCoder;
 
 /// :nodoc:
+SWIFT_CLASS("_TtC19IDentityLivenessSDK38ScreenRecordingDetectionViewController")
+@interface ScreenRecordingDetectionViewController : UIViewController
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+/// :nodoc:
 SWIFT_CLASS("_TtC19IDentityLivenessSDK28CaptureSessionViewController")
-@interface CaptureSessionViewController : UIViewController
+@interface CaptureSessionViewController : ScreenRecordingDetectionViewController
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
@@ -366,6 +376,7 @@ SWIFT_CLASS("_TtC19IDentityLivenessSDK15LocationManager")
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status;
 @end
+
 
 
 

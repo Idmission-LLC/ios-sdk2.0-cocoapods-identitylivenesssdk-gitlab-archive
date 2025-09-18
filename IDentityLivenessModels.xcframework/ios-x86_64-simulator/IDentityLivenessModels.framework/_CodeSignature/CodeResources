@@ -4,21 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>FocusFaceTrainingModel_UNIQUE_KEY_ID_4005_20250806080627.tflite</key>
+		<key>FaceMaskTrainingModel_UNIQUE_KEY_ID_7093_20250918005644.tflite</key>
 		<data>
-		nUuLEWJon6BjxE75DfKGOxufa3s=
+		x2awX1CAND0+4qUtRoyL/9A6muE=
 		</data>
-		<key>Headers/IDentityLiteModels.h</key>
+		<key>FocusFaceTrainingModel_UNIQUE_KEY_ID_7093_20250918005644.tflite</key>
 		<data>
-		8kWOZ1DgTWQMsMbZfbHid4LBrFY=
+		vYG4e/CiU0x7B0P1UpGVRTR0OM0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YP0s1m3wBc1zLG2ZH6AcyorrvVo=
+		w2lE/G9ErSDT34AHbUww0XCQBh0=
 		</data>
 		<key>Modules/IDentityLivenessModels.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		COSAfsY9JUDYgBPqoXxn1mL72Hk=
+		JmEr7c7sXy/rnQ72145G1OjICnA=
 		</data>
 		<key>Modules/IDentityLivenessModels.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -26,46 +26,46 @@
 		</data>
 		<key>Modules/IDentityLivenessModels.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		YvqRE2CRGJmesn8uKrOjTYMwwgs=
+		AYj9D7ZqtjGMRZZN+icml+hCMRg=
 		</data>
 		<key>Modules/IDentityLivenessModels.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		qiKmW++sXm5vQRqjFndtBapk5uE=
+		4IPVVYpsO6r/Ag+A+Ma9OPV3K9s=
 		</data>
 		<key>Modules/IDentityLivenessModels.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		YvqRE2CRGJmesn8uKrOjTYMwwgs=
+		AYj9D7ZqtjGMRZZN+icml+hCMRg=
 		</data>
 		<key>Modules/IDentityLivenessModels.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9EzhvZobHdb/Q42HYxR1w+bTMbw=
+		8ycvlbLW/JgIo213yFsPMKSAksI=
 		</data>
-		<key>PassiveFaceTrainingModel_UNIQUE_KEY_ID_4005_20250806080627.tflite</key>
+		<key>PassiveFaceTrainingModel_UNIQUE_KEY_ID_7093_20250918005644.tflite</key>
 		<data>
-		1stA/w9js+h0n1q2yVGxNianjiM=
+		8bOuNjstekExGh5Uf3Zz3RqA+ww=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>FocusFaceTrainingModel_UNIQUE_KEY_ID_4005_20250806080627.tflite</key>
+		<key>FaceMaskTrainingModel_UNIQUE_KEY_ID_7093_20250918005644.tflite</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RbS7EcJ6Hy8PDRuwJqExi6727VvwCu7Q6Pe+LW4FnSE=
+			7YwNMljKE99ViZMkMIuNB4WMbDa9gtNpqNUqL+YFtuw=
 			</data>
 		</dict>
-		<key>Headers/IDentityLiteModels.h</key>
+		<key>FocusFaceTrainingModel_UNIQUE_KEY_ID_7093_20250918005644.tflite</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			grKm4WqwF95b6DJz2GDGLEOj7mVCT4vP8KDfbIS15Kg=
+			LbYw4Vehg2DPq9Xh616okti4iOBBAgrYGM6AEX1GWYM=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessModels.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3H2qBjywPuznzXVC50MsuZFX9ETMxrkbwUVZQiJqeSQ=
+			lOVYW/vz5nd9HOJTz7ielIWBK4g/V6VyldPzDN8KHrM=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessModels.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -79,35 +79,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KhHMbmvSoJdW08luNR5Om1h3S7dri6IhVL5qnBZy2qs=
+			OEvJQE4//zSHMWZljInBvUlGXjBSlgQ26gmL9Kl1Jzc=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessModels.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W7p52Y7vPim+sF4tdxR0PNDozK1i/5V8uU0HEr7Wjgk=
+			dnNHa0Wb4qcQCoOaWN0zBz2+L88LDpAbjMKoHKqPZj8=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessModels.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KhHMbmvSoJdW08luNR5Om1h3S7dri6IhVL5qnBZy2qs=
+			OEvJQE4//zSHMWZljInBvUlGXjBSlgQ26gmL9Kl1Jzc=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessModels.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yznDkHbYvPUvoQkOL4SKNfVQ8cKlkFoksaozmFxRQRg=
+			a5SHVhuq4u62Eh8NpqUQFxFSz/mz2As1n3Q6QNZcv4U=
 			</data>
 		</dict>
-		<key>PassiveFaceTrainingModel_UNIQUE_KEY_ID_4005_20250806080627.tflite</key>
+		<key>PassiveFaceTrainingModel_UNIQUE_KEY_ID_7093_20250918005644.tflite</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nY1eH3/57eUk+g96v08ovmcq/oXWL7w22dnT1t7l7Lw=
+			aveUq0CUkX7rE3QGa/yF2Zhttlc5qFYfjLV6Itsl9Dw=
 			</data>
 		</dict>
 	</dict>

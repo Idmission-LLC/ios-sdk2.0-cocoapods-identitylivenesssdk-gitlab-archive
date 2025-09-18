@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>FocusFaceTrainingModel_UNIQUE_KEY_ID_4005_20250806080627.tflite</key>
-		<data>
-		nUuLEWJon6BjxE75DfKGOxufa3s=
-		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
 		96Uw5p4tLIiDbN11Du0p0c5xqE8=
@@ -22,7 +18,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
 		<data>
-		RyN/CMXzys/K0uSHuqht7d7YtmM=
+		XbL7t4UIl0GrT/4m60gpgUk3ef8=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
 		<data>
@@ -62,15 +58,11 @@
 		</data>
 		<key>Headers/IDentityLivenessSDK-Swift.h</key>
 		<data>
-		aFkbD8KQGZimrQPnW3N+zQ7F/t8=
+		aBjmoxGoY/alPvEhuT8QigBX6mQ=
 		</data>
 		<key>Headers/IDentityLivenessSDK.h</key>
 		<data>
-		3X2C2Q6KIX4ca/PzFjiTp55iWKU=
-		</data>
-		<key>Headers/IDentityXSLT.h</key>
-		<data>
-		Kw5kU13Uro49wJDcrtNx0+l5TsY=
+		EQceK7M52P0hcB3juQmC6smp/yM=
 		</data>
 		<key>Headers/UIImage+Rotation.h</key>
 		<data>
@@ -194,62 +186,67 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		XhB9E95Oialv3vA4BTonYpjfeHM=
+		PUzKzSb3oR88bfgwSLwbH2Q6Dx0=
+		</data>
+		<key>MLKitImageLabelingResources.bundle/Info.plist</key>
+		<data>
+		weMyNXMDr5IfAX9TTvm6gox69Fw=
+		</data>
+		<key>MLKitImageLabelingResources.bundle/mobile_ica_8bit_with_metadata.tflite</key>
+		<data>
+		Y6434zIKR82iA10WTDlfAdgRz0c=
+		</data>
+		<key>MLKitObjectDetectionCommonResources.bundle/Info.plist</key>
+		<data>
+		Z5BGEhMv/idLHmCJV8XIlgKreKs=
+		</data>
+		<key>MLKitObjectDetectionCommonResources.bundle/mobile_object_localizer_3_1_anchors.pb</key>
+		<data>
+		UQlVfpJHT3mpKw+zJjDXtIduup4=
+		</data>
+		<key>MLKitObjectDetectionCommonResources.bundle/mobile_object_localizer_labelmap.binarypb</key>
+		<data>
+		Lvzl8sOvVQQ/KCFZlmSSafDw15w=
+		</data>
+		<key>MLKitObjectDetectionCommonResources.bundle/tflite_mobile_object_localizer_3_1.tflite</key>
+		<data>
+		X/St4fXSxPand8U4CxGe23+VP7c=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		FaDEbifnx4EOqWuw+rwHLucCyog=
+		L/1BEbgJnWcE3LytmkqD8otJxh0=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		GqyT18aWI3tS7xovLzieNxCFaHY=
+		J4t5gZIKh3NtaGuXN/iJDzBkmSE=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		swdNVpQ7zeZu6D8HZxmO+HouW1I=
+		wiY9GWjYtcBrGyYCZ+qCxrcV5h4=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		m5vYCB/3Tc6wo+le9ui9JL/MQBk=
+		1HZ21xhyYlWo9XB2YH2elDat2sg=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		swdNVpQ7zeZu6D8HZxmO+HouW1I=
+		wiY9GWjYtcBrGyYCZ+qCxrcV5h4=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bMPtGc7q8XxirB6Jm2gooR5pTvc=
+		1XDwd/WzihFGfqXEmuRFYjGn3Y8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		AcKeiEDNgOOZI8qudZo+Hah/vgU=
 		</data>
-		<key>PassiveFaceTrainingModel_UNIQUE_KEY_ID_4005_20250806080627.tflite</key>
-		<data>
-		1stA/w9js+h0n1q2yVGxNianjiM=
-		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
 		TaTyTcEd6lmQI305SwzT0DmhxSc=
 		</data>
-		<key>SEARCH_COMPANY_TEMPLATE_DETAILS.json</key>
-		<data>
-		Vwq5XkLRRMhgBZjUYTYw8eBjt+U=
-		</data>
-		<key>SEARCH_COMPANY_TEMPLATE_DETAILS.xml</key>
-		<data>
-		+Besejjgg61DHPDJVuWdS2bVG+4=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>FocusFaceTrainingModel_UNIQUE_KEY_ID_4005_20250806080627.tflite</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			RbS7EcJ6Hy8PDRuwJqExi6727VvwCu7Q6Pe+LW4FnSE=
-			</data>
-		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<dict>
 			<key>hash2</key>
@@ -275,7 +272,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/VfAJQq8Ei23+HfRcYyyQRLGp5TQm4OFKCjtTdZl5KE=
+			iRFzZEjpGJUqPEVTP3fFYe1IDMBJDw22qNyHZIOlNtM=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
@@ -345,21 +342,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HALgb7YfP3nZUDNcW+ebGhcPhlULxwqT/dTG3d48IhY=
+			OX06EESpjpR40O36hlmpaV/LwMAqENW+TU7oxXyZCIo=
 			</data>
 		</dict>
 		<key>Headers/IDentityLivenessSDK.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			F8v3TSnmW48h/JvkcCG1Cw9X9ctsD7+boeXiguU6Z5g=
-			</data>
-		</dict>
-		<key>Headers/IDentityXSLT.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			U/aNEdTvONPMBD9bsPi1CjDtOPX8RD9X/RlBcRVnIR4=
+			Bbg4Mxqc/mI08SP3aCVghZk24JuLDT9RxObAtGGBgWM=
 			</data>
 		</dict>
 		<key>Headers/UIImage+Rotation.h</key>
@@ -572,46 +562,88 @@
 			aYNprLbIgDX45Q7oHJ1IwMY9px2AfQV2tO0IZF2Ssfc=
 			</data>
 		</dict>
+		<key>MLKitImageLabelingResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lZAQhMfkIMdgiPwWXyGwYfoK0IrIw+7A2N7iC4K2sqc=
+			</data>
+		</dict>
+		<key>MLKitImageLabelingResources.bundle/mobile_ica_8bit_with_metadata.tflite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Svo5cNPv1nJtFH1QXijH/x5P4cJL57zaa1Qp6wmXd6U=
+			</data>
+		</dict>
+		<key>MLKitObjectDetectionCommonResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1oHigd5w7ks1haiIQhP0hD3WJVxnCY5fh6z9HEVG7Lg=
+			</data>
+		</dict>
+		<key>MLKitObjectDetectionCommonResources.bundle/mobile_object_localizer_3_1_anchors.pb</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mTKguCRx5Q3v8PkmIJsIR06G8CgauQ0HJ2t3juYGz0A=
+			</data>
+		</dict>
+		<key>MLKitObjectDetectionCommonResources.bundle/mobile_object_localizer_labelmap.binarypb</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rn1PTC6Ync53nfca1gTKgeyTNNaCbu8WjqsO6RnwxDc=
+			</data>
+		</dict>
+		<key>MLKitObjectDetectionCommonResources.bundle/tflite_mobile_object_localizer_3_1.tflite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			M2eP5Mud1pzNw7lurfUhznLLHXkUl0pmkARt005EPhM=
+			</data>
+		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zQBZpXCYYqqy/SdZgiH5UDqGMbOkm7/ryK17k6gy6Lo=
+			ZoFhV3CmeYyqejX2w49Q50YlF991JARCb8/eNjSA3/Y=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WWVI8S+G4DFE63JyiUrn2I+tGX751CmQm9pjd25RJWU=
+			HVvuWoHiuZ/qGCy5aQ4tvMk4dZljki44wr9B2lPW60g=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wgvaJCNvZdySq+c7V9+9+iX6jEKQv4aLMDjs4y6yIMM=
+			ldfFYmqLWufNwSsBtMGG2+yu0aaU/4dhg4QLCwTFR7E=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5hZF8Ovd5S4S9awNVhq1JlIqeBB/Micc0KH+ZPC8EqU=
+			dut7omJ1H7F3s49bvuah5pn8w36RCLjEB55Cv8skwuc=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wgvaJCNvZdySq+c7V9+9+iX6jEKQv4aLMDjs4y6yIMM=
+			ldfFYmqLWufNwSsBtMGG2+yu0aaU/4dhg4QLCwTFR7E=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rzeAnigeq1PxwqpEG1u9nFt0HDNauVHKy08p/ySdgt4=
+			WKthrL5d4x1IsZjOOMtiTeC2dZNKUfN/khSrOrsgq7Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -621,32 +653,11 @@
 			YSGCZuA2m3rQ4DCEz2ZiIZ1s4lxrm8ht4kuYNhNd5aI=
 			</data>
 		</dict>
-		<key>PassiveFaceTrainingModel_UNIQUE_KEY_ID_4005_20250806080627.tflite</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nY1eH3/57eUk+g96v08ovmcq/oXWL7w22dnT1t7l7Lw=
-			</data>
-		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			Zb6xrIw/HNFfwVeI0CR8K/h753+aoGym+SUOfZ8KG4w=
-			</data>
-		</dict>
-		<key>SEARCH_COMPANY_TEMPLATE_DETAILS.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TJj2RjX8fMzdFPD/MPRGFrvXrzLT4ta3/pLxbGAy7BU=
-			</data>
-		</dict>
-		<key>SEARCH_COMPANY_TEMPLATE_DETAILS.xml</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YmDHj0If28dVTXDtzPSypdca/hiBtCN6BVsPzlVqqnM=
 			</data>
 		</dict>
 	</dict>

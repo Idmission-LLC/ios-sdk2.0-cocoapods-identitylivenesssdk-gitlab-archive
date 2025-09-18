@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>ios-arm64/IDentityLivenessSDK.framework/FocusFaceTrainingModel_UNIQUE_KEY_ID_4005_20250806080627.tflite</key>
-		<data>
-		nUuLEWJon6BjxE75DfKGOxufa3s=
-		</data>
 		<key>ios-arm64/IDentityLivenessSDK.framework/GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
 		96Uw5p4tLIiDbN11Du0p0c5xqE8=
@@ -22,7 +18,7 @@
 		</data>
 		<key>ios-arm64/IDentityLivenessSDK.framework/GoogleMVFaceDetectorResources.bundle/Info.plist</key>
 		<data>
-		K0VArfQ5TgXTUtLCM6CxizMMmhg=
+		lZV92RW6tZXJUtWABheKS6EdIxA=
 		</data>
 		<key>ios-arm64/IDentityLivenessSDK.framework/GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
 		<data>
@@ -62,15 +58,11 @@
 		</data>
 		<key>ios-arm64/IDentityLivenessSDK.framework/Headers/IDentityLivenessSDK-Swift.h</key>
 		<data>
-		o18PPlkQAwYcF1ih1PYVUFPD7wo=
+		/Qrv3m02kfyuMUfedXzTx1rxbhs=
 		</data>
 		<key>ios-arm64/IDentityLivenessSDK.framework/Headers/IDentityLivenessSDK.h</key>
 		<data>
-		3X2C2Q6KIX4ca/PzFjiTp55iWKU=
-		</data>
-		<key>ios-arm64/IDentityLivenessSDK.framework/Headers/IDentityXSLT.h</key>
-		<data>
-		Kw5kU13Uro49wJDcrtNx0+l5TsY=
+		EQceK7M52P0hcB3juQmC6smp/yM=
 		</data>
 		<key>ios-arm64/IDentityLivenessSDK.framework/Headers/UIImage+Rotation.h</key>
 		<data>
@@ -194,71 +186,79 @@
 		</data>
 		<key>ios-arm64/IDentityLivenessSDK.framework/IDentityLivenessSDK</key>
 		<data>
-		FI14VqmO6RrZFzw4flhJvS+/Jl8=
+		WoT+xrOBGXuZhTOEQ0uVwHDW1l8=
 		</data>
 		<key>ios-arm64/IDentityLivenessSDK.framework/Info.plist</key>
 		<data>
-		3BImQ9Agx2/hOskLCCEI8mkkk5c=
+		qovN7mT5C0eZYVUhHiHLCaI2CK8=
+		</data>
+		<key>ios-arm64/IDentityLivenessSDK.framework/MLKitImageLabelingResources.bundle/Info.plist</key>
+		<data>
+		qniPmn2doRTBlNRn+jF44e8H2z8=
+		</data>
+		<key>ios-arm64/IDentityLivenessSDK.framework/MLKitImageLabelingResources.bundle/mobile_ica_8bit_with_metadata.tflite</key>
+		<data>
+		Y6434zIKR82iA10WTDlfAdgRz0c=
+		</data>
+		<key>ios-arm64/IDentityLivenessSDK.framework/MLKitObjectDetectionCommonResources.bundle/Info.plist</key>
+		<data>
+		/y8LVBTclL9Wol/kNyi/GsCEg0E=
+		</data>
+		<key>ios-arm64/IDentityLivenessSDK.framework/MLKitObjectDetectionCommonResources.bundle/mobile_object_localizer_3_1_anchors.pb</key>
+		<data>
+		UQlVfpJHT3mpKw+zJjDXtIduup4=
+		</data>
+		<key>ios-arm64/IDentityLivenessSDK.framework/MLKitObjectDetectionCommonResources.bundle/mobile_object_localizer_labelmap.binarypb</key>
+		<data>
+		Lvzl8sOvVQQ/KCFZlmSSafDw15w=
+		</data>
+		<key>ios-arm64/IDentityLivenessSDK.framework/MLKitObjectDetectionCommonResources.bundle/tflite_mobile_object_localizer_3_1.tflite</key>
+		<data>
+		X/St4fXSxPand8U4CxGe23+VP7c=
 		</data>
 		<key>ios-arm64/IDentityLivenessSDK.framework/Modules/IDentityLivenessSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		OXkhBBHnV+4qYEKTrfXyBYAKb2g=
+		rqAL0W6ZJDe5AwC9DbneJxcZU9o=
 		</data>
 		<key>ios-arm64/IDentityLivenessSDK.framework/Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		GqyT18aWI3tS7xovLzieNxCFaHY=
+		J4t5gZIKh3NtaGuXN/iJDzBkmSE=
 		</data>
 		<key>ios-arm64/IDentityLivenessSDK.framework/Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		rH9Rzr6ADax/l+Yt7ekeWz+bHxM=
+		wwF07Cl4gweBLx2TwRQfs5QLwDE=
 		</data>
 		<key>ios-arm64/IDentityLivenessSDK.framework/Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		PENkRsKeXD5dj2oGE1PIDyg/Z/4=
+		ZXD0fhylPsSAdM/JK++CqcaZxhg=
 		</data>
 		<key>ios-arm64/IDentityLivenessSDK.framework/Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		rH9Rzr6ADax/l+Yt7ekeWz+bHxM=
+		wwF07Cl4gweBLx2TwRQfs5QLwDE=
 		</data>
 		<key>ios-arm64/IDentityLivenessSDK.framework/Modules/module.modulemap</key>
 		<data>
 		AcKeiEDNgOOZI8qudZo+Hah/vgU=
 		</data>
-		<key>ios-arm64/IDentityLivenessSDK.framework/PassiveFaceTrainingModel_UNIQUE_KEY_ID_4005_20250806080627.tflite</key>
-		<data>
-		1stA/w9js+h0n1q2yVGxNianjiM=
-		</data>
 		<key>ios-arm64/IDentityLivenessSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
 		TaTyTcEd6lmQI305SwzT0DmhxSc=
 		</data>
-		<key>ios-arm64/IDentityLivenessSDK.framework/SEARCH_COMPANY_TEMPLATE_DETAILS.json</key>
-		<data>
-		Vwq5XkLRRMhgBZjUYTYw8eBjt+U=
-		</data>
-		<key>ios-arm64/IDentityLivenessSDK.framework/SEARCH_COMPANY_TEMPLATE_DETAILS.xml</key>
-		<data>
-		+Besejjgg61DHPDJVuWdS2bVG+4=
-		</data>
 		<key>ios-arm64/IDentityLivenessSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		gTem8BkAjj/T1bTX/W3qGaF1GsU=
+		w2p3enVomIa9TBqF89VGnMQI24Q=
 		</data>
 		<key>ios-arm64/dSYMs/IDentityLivenessSDK.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		5qDltPSK4r3KD5rnVfu4gm1N5Gk=
+		Uk41HCaS2uXd3zXWf/kMZPUnotI=
 		</data>
 		<key>ios-arm64/dSYMs/IDentityLivenessSDK.framework.dSYM/Contents/Resources/DWARF/IDentityLivenessSDK</key>
 		<data>
-		K3aLOILYlI/UM0o+7sEG59eeV+k=
+		Bp4WuAQFxFfl0wsy4QY/Fv9XMiY=
 		</data>
 		<key>ios-arm64/dSYMs/IDentityLivenessSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/IDentityLivenessSDK.yml</key>
 		<data>
-		66oKXCv6087GtXwijwXBxlgAVWc=
-		</data>
-		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/FocusFaceTrainingModel_UNIQUE_KEY_ID_4005_20250806080627.tflite</key>
-		<data>
-		nUuLEWJon6BjxE75DfKGOxufa3s=
+		6uo6rSTd8chYFZSG80iFPtRw5UA=
 		</data>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
@@ -274,7 +274,7 @@
 		</data>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/GoogleMVFaceDetectorResources.bundle/Info.plist</key>
 		<data>
-		RyN/CMXzys/K0uSHuqht7d7YtmM=
+		XbL7t4UIl0GrT/4m60gpgUk3ef8=
 		</data>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
 		<data>
@@ -314,15 +314,11 @@
 		</data>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/Headers/IDentityLivenessSDK-Swift.h</key>
 		<data>
-		aFkbD8KQGZimrQPnW3N+zQ7F/t8=
+		aBjmoxGoY/alPvEhuT8QigBX6mQ=
 		</data>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/Headers/IDentityLivenessSDK.h</key>
 		<data>
-		3X2C2Q6KIX4ca/PzFjiTp55iWKU=
-		</data>
-		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/Headers/IDentityXSLT.h</key>
-		<data>
-		Kw5kU13Uro49wJDcrtNx0+l5TsY=
+		EQceK7M52P0hcB3juQmC6smp/yM=
 		</data>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/Headers/UIImage+Rotation.h</key>
 		<data>
@@ -446,82 +442,83 @@
 		</data>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/IDentityLivenessSDK</key>
 		<data>
-		jHtc3PgjGhxwQNRksVuueqkWOWo=
+		LAw4AZ7d8iMT32PSp/iick+SODU=
 		</data>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/Info.plist</key>
 		<data>
-		XhB9E95Oialv3vA4BTonYpjfeHM=
+		PUzKzSb3oR88bfgwSLwbH2Q6Dx0=
+		</data>
+		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/MLKitImageLabelingResources.bundle/Info.plist</key>
+		<data>
+		weMyNXMDr5IfAX9TTvm6gox69Fw=
+		</data>
+		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/MLKitImageLabelingResources.bundle/mobile_ica_8bit_with_metadata.tflite</key>
+		<data>
+		Y6434zIKR82iA10WTDlfAdgRz0c=
+		</data>
+		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/MLKitObjectDetectionCommonResources.bundle/Info.plist</key>
+		<data>
+		Z5BGEhMv/idLHmCJV8XIlgKreKs=
+		</data>
+		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/MLKitObjectDetectionCommonResources.bundle/mobile_object_localizer_3_1_anchors.pb</key>
+		<data>
+		UQlVfpJHT3mpKw+zJjDXtIduup4=
+		</data>
+		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/MLKitObjectDetectionCommonResources.bundle/mobile_object_localizer_labelmap.binarypb</key>
+		<data>
+		Lvzl8sOvVQQ/KCFZlmSSafDw15w=
+		</data>
+		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/MLKitObjectDetectionCommonResources.bundle/tflite_mobile_object_localizer_3_1.tflite</key>
+		<data>
+		X/St4fXSxPand8U4CxGe23+VP7c=
 		</data>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/Modules/IDentityLivenessSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		FaDEbifnx4EOqWuw+rwHLucCyog=
+		L/1BEbgJnWcE3LytmkqD8otJxh0=
 		</data>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		GqyT18aWI3tS7xovLzieNxCFaHY=
+		J4t5gZIKh3NtaGuXN/iJDzBkmSE=
 		</data>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		swdNVpQ7zeZu6D8HZxmO+HouW1I=
+		wiY9GWjYtcBrGyYCZ+qCxrcV5h4=
 		</data>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		m5vYCB/3Tc6wo+le9ui9JL/MQBk=
+		1HZ21xhyYlWo9XB2YH2elDat2sg=
 		</data>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		swdNVpQ7zeZu6D8HZxmO+HouW1I=
+		wiY9GWjYtcBrGyYCZ+qCxrcV5h4=
 		</data>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/Modules/module.modulemap</key>
 		<data>
 		AcKeiEDNgOOZI8qudZo+Hah/vgU=
 		</data>
-		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/PassiveFaceTrainingModel_UNIQUE_KEY_ID_4005_20250806080627.tflite</key>
-		<data>
-		1stA/w9js+h0n1q2yVGxNianjiM=
-		</data>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
 		TaTyTcEd6lmQI305SwzT0DmhxSc=
 		</data>
-		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/SEARCH_COMPANY_TEMPLATE_DETAILS.json</key>
-		<data>
-		Vwq5XkLRRMhgBZjUYTYw8eBjt+U=
-		</data>
-		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/SEARCH_COMPANY_TEMPLATE_DETAILS.xml</key>
-		<data>
-		+Besejjgg61DHPDJVuWdS2bVG+4=
-		</data>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		YAR7K4339MD2tnuT9qpxCtC9/7M=
+		yLQ9Ez0Se8eRAhCmKh6aLfXcbyc=
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/IDentityLivenessSDK.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		5qDltPSK4r3KD5rnVfu4gm1N5Gk=
+		Uk41HCaS2uXd3zXWf/kMZPUnotI=
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/IDentityLivenessSDK.framework.dSYM/Contents/Resources/DWARF/IDentityLivenessSDK</key>
 		<data>
-		GEyMi5KLpIIx4PfOlCMUVtBiKgw=
+		+n04GLdoyUxjsrPDp2x4lZS/5X8=
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/IDentityLivenessSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/IDentityLivenessSDK.yml</key>
 		<data>
-		VFQwSRsAKlF468GJfCEe40zQshg=
+		anak5iButZ5jOCHRfW7n6fGjNTY=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>ios-arm64/IDentityLivenessSDK.framework/FocusFaceTrainingModel_UNIQUE_KEY_ID_4005_20250806080627.tflite</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			nUuLEWJon6BjxE75DfKGOxufa3s=
-			</data>
-			<key>hash2</key>
-			<data>
-			RbS7EcJ6Hy8PDRuwJqExi6727VvwCu7Q6Pe+LW4FnSE=
-			</data>
-		</dict>
 		<key>ios-arm64/IDentityLivenessSDK.framework/GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<dict>
 			<key>hash</key>
@@ -559,11 +556,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			K0VArfQ5TgXTUtLCM6CxizMMmhg=
+			lZV92RW6tZXJUtWABheKS6EdIxA=
 			</data>
 			<key>hash2</key>
 			<data>
-			3w7kDkN0AFGfzI6i1ZWhuUAcpmNlD7AdONH3K+ar7MM=
+			G/nSbAERGg0yjuqUMegBGlgbQEFo/fdD3awwEKj70r4=
 			</data>
 		</dict>
 		<key>ios-arm64/IDentityLivenessSDK.framework/GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
@@ -669,33 +666,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			o18PPlkQAwYcF1ih1PYVUFPD7wo=
+			/Qrv3m02kfyuMUfedXzTx1rxbhs=
 			</data>
 			<key>hash2</key>
 			<data>
-			EllIUnP30G/gycDfDUoZr4Zdc7qL/QLj63NjKrtMgKk=
+			PtIzDcUVn/PUbRoR6K062o92F4fbfWv0LaJnDFI/SaE=
 			</data>
 		</dict>
 		<key>ios-arm64/IDentityLivenessSDK.framework/Headers/IDentityLivenessSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3X2C2Q6KIX4ca/PzFjiTp55iWKU=
+			EQceK7M52P0hcB3juQmC6smp/yM=
 			</data>
 			<key>hash2</key>
 			<data>
-			F8v3TSnmW48h/JvkcCG1Cw9X9ctsD7+boeXiguU6Z5g=
-			</data>
-		</dict>
-		<key>ios-arm64/IDentityLivenessSDK.framework/Headers/IDentityXSLT.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Kw5kU13Uro49wJDcrtNx0+l5TsY=
-			</data>
-			<key>hash2</key>
-			<data>
-			U/aNEdTvONPMBD9bsPi1CjDtOPX8RD9X/RlBcRVnIR4=
+			Bbg4Mxqc/mI08SP3aCVghZk24JuLDT9RxObAtGGBgWM=
 			</data>
 		</dict>
 		<key>ios-arm64/IDentityLivenessSDK.framework/Headers/UIImage+Rotation.h</key>
@@ -1032,77 +1018,143 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FI14VqmO6RrZFzw4flhJvS+/Jl8=
+			WoT+xrOBGXuZhTOEQ0uVwHDW1l8=
 			</data>
 			<key>hash2</key>
 			<data>
-			NcltmFVvC+bjEOkx4Kn5DMB1fixBf9cpifJ8yAU/3co=
+			SeQzJUZFKRTy8qcze1VAs7uvN907c0K8delMULDacXQ=
 			</data>
 		</dict>
 		<key>ios-arm64/IDentityLivenessSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3BImQ9Agx2/hOskLCCEI8mkkk5c=
+			qovN7mT5C0eZYVUhHiHLCaI2CK8=
 			</data>
 			<key>hash2</key>
 			<data>
-			/WweVxHKyttP6t695oiiA8HStyzvWMZ+z0WHU+q8Qrs=
+			HQvZeYJK62uzoH5nPPW6SpqetEn3hXvwXuZNNh6DCFY=
+			</data>
+		</dict>
+		<key>ios-arm64/IDentityLivenessSDK.framework/MLKitImageLabelingResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qniPmn2doRTBlNRn+jF44e8H2z8=
+			</data>
+			<key>hash2</key>
+			<data>
+			l8XN6yPs9ga8uiZ7MnBseBxG8MAtImNDzHF9HmYhk0s=
+			</data>
+		</dict>
+		<key>ios-arm64/IDentityLivenessSDK.framework/MLKitImageLabelingResources.bundle/mobile_ica_8bit_with_metadata.tflite</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Y6434zIKR82iA10WTDlfAdgRz0c=
+			</data>
+			<key>hash2</key>
+			<data>
+			Svo5cNPv1nJtFH1QXijH/x5P4cJL57zaa1Qp6wmXd6U=
+			</data>
+		</dict>
+		<key>ios-arm64/IDentityLivenessSDK.framework/MLKitObjectDetectionCommonResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/y8LVBTclL9Wol/kNyi/GsCEg0E=
+			</data>
+			<key>hash2</key>
+			<data>
+			3V/Y35nsATINakP3HkG5FcU/+3vOSWVL45lnTYr/PcQ=
+			</data>
+		</dict>
+		<key>ios-arm64/IDentityLivenessSDK.framework/MLKitObjectDetectionCommonResources.bundle/mobile_object_localizer_3_1_anchors.pb</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UQlVfpJHT3mpKw+zJjDXtIduup4=
+			</data>
+			<key>hash2</key>
+			<data>
+			mTKguCRx5Q3v8PkmIJsIR06G8CgauQ0HJ2t3juYGz0A=
+			</data>
+		</dict>
+		<key>ios-arm64/IDentityLivenessSDK.framework/MLKitObjectDetectionCommonResources.bundle/mobile_object_localizer_labelmap.binarypb</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Lvzl8sOvVQQ/KCFZlmSSafDw15w=
+			</data>
+			<key>hash2</key>
+			<data>
+			rn1PTC6Ync53nfca1gTKgeyTNNaCbu8WjqsO6RnwxDc=
+			</data>
+		</dict>
+		<key>ios-arm64/IDentityLivenessSDK.framework/MLKitObjectDetectionCommonResources.bundle/tflite_mobile_object_localizer_3_1.tflite</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			X/St4fXSxPand8U4CxGe23+VP7c=
+			</data>
+			<key>hash2</key>
+			<data>
+			M2eP5Mud1pzNw7lurfUhznLLHXkUl0pmkARt005EPhM=
 			</data>
 		</dict>
 		<key>ios-arm64/IDentityLivenessSDK.framework/Modules/IDentityLivenessSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OXkhBBHnV+4qYEKTrfXyBYAKb2g=
+			rqAL0W6ZJDe5AwC9DbneJxcZU9o=
 			</data>
 			<key>hash2</key>
 			<data>
-			QjU/TdiLixLHbnfNZVMobxrmOyFwWlSHOz9R8R2wJZY=
+			g1rGL+VEgHWU4uvhAdRW5DlG/GyfzIlBEFdZrvTXERs=
 			</data>
 		</dict>
 		<key>ios-arm64/IDentityLivenessSDK.framework/Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GqyT18aWI3tS7xovLzieNxCFaHY=
+			J4t5gZIKh3NtaGuXN/iJDzBkmSE=
 			</data>
 			<key>hash2</key>
 			<data>
-			WWVI8S+G4DFE63JyiUrn2I+tGX751CmQm9pjd25RJWU=
+			HVvuWoHiuZ/qGCy5aQ4tvMk4dZljki44wr9B2lPW60g=
 			</data>
 		</dict>
 		<key>ios-arm64/IDentityLivenessSDK.framework/Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rH9Rzr6ADax/l+Yt7ekeWz+bHxM=
+			wwF07Cl4gweBLx2TwRQfs5QLwDE=
 			</data>
 			<key>hash2</key>
 			<data>
-			wn3FkmT2BdHLD6W65Cr1FOAvj1MdaJhBdqxoQXvmApI=
+			cuWoZa5dK/swRQLhHjZJUsz9QcacrZIe8HfKhh+v/b4=
 			</data>
 		</dict>
 		<key>ios-arm64/IDentityLivenessSDK.framework/Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PENkRsKeXD5dj2oGE1PIDyg/Z/4=
+			ZXD0fhylPsSAdM/JK++CqcaZxhg=
 			</data>
 			<key>hash2</key>
 			<data>
-			wdCaDKAiJ6p7Q7FwEbZTTZ6ty7u9LssOxA7kxz5WaSo=
+			Z5AtnKawGDA/BHuXKeadpOpnIbpW2jPUxIOVe6390fs=
 			</data>
 		</dict>
 		<key>ios-arm64/IDentityLivenessSDK.framework/Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rH9Rzr6ADax/l+Yt7ekeWz+bHxM=
+			wwF07Cl4gweBLx2TwRQfs5QLwDE=
 			</data>
 			<key>hash2</key>
 			<data>
-			wn3FkmT2BdHLD6W65Cr1FOAvj1MdaJhBdqxoQXvmApI=
+			cuWoZa5dK/swRQLhHjZJUsz9QcacrZIe8HfKhh+v/b4=
 			</data>
 		</dict>
 		<key>ios-arm64/IDentityLivenessSDK.framework/Modules/module.modulemap</key>
@@ -1116,17 +1168,6 @@
 			YSGCZuA2m3rQ4DCEz2ZiIZ1s4lxrm8ht4kuYNhNd5aI=
 			</data>
 		</dict>
-		<key>ios-arm64/IDentityLivenessSDK.framework/PassiveFaceTrainingModel_UNIQUE_KEY_ID_4005_20250806080627.tflite</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1stA/w9js+h0n1q2yVGxNianjiM=
-			</data>
-			<key>hash2</key>
-			<data>
-			nY1eH3/57eUk+g96v08ovmcq/oXWL7w22dnT1t7l7Lw=
-			</data>
-		</dict>
 		<key>ios-arm64/IDentityLivenessSDK.framework/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
@@ -1138,81 +1179,48 @@
 			Zb6xrIw/HNFfwVeI0CR8K/h753+aoGym+SUOfZ8KG4w=
 			</data>
 		</dict>
-		<key>ios-arm64/IDentityLivenessSDK.framework/SEARCH_COMPANY_TEMPLATE_DETAILS.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Vwq5XkLRRMhgBZjUYTYw8eBjt+U=
-			</data>
-			<key>hash2</key>
-			<data>
-			TJj2RjX8fMzdFPD/MPRGFrvXrzLT4ta3/pLxbGAy7BU=
-			</data>
-		</dict>
-		<key>ios-arm64/IDentityLivenessSDK.framework/SEARCH_COMPANY_TEMPLATE_DETAILS.xml</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+Besejjgg61DHPDJVuWdS2bVG+4=
-			</data>
-			<key>hash2</key>
-			<data>
-			YmDHj0If28dVTXDtzPSypdca/hiBtCN6BVsPzlVqqnM=
-			</data>
-		</dict>
 		<key>ios-arm64/IDentityLivenessSDK.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gTem8BkAjj/T1bTX/W3qGaF1GsU=
+			w2p3enVomIa9TBqF89VGnMQI24Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			6qRXEk9rMRrJbQqZo8CVKg4i6NlRx1SbC25gglnkKSc=
+			xfVML04Yrq4gpya53d3ke9Y06XRUw/SUF3+KkWI8dlo=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/IDentityLivenessSDK.framework.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5qDltPSK4r3KD5rnVfu4gm1N5Gk=
+			Uk41HCaS2uXd3zXWf/kMZPUnotI=
 			</data>
 			<key>hash2</key>
 			<data>
-			bZdIwb9O+UOaR2/j/0SMH8r4FujPexlV7QoJhS8a6Mw=
+			srNYkWEHMuIkC3Q9T5ESZYLsUxKH+vJW5KIekkn/szk=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/IDentityLivenessSDK.framework.dSYM/Contents/Resources/DWARF/IDentityLivenessSDK</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K3aLOILYlI/UM0o+7sEG59eeV+k=
+			Bp4WuAQFxFfl0wsy4QY/Fv9XMiY=
 			</data>
 			<key>hash2</key>
 			<data>
-			sknrDGFg4IYER3a7Mu/7dQxqZ9tK7Qz151aUJvol9JE=
+			k+K3ys/NwhdG/JJ3Ips1Enve0mwvW7smlpODameFFco=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/IDentityLivenessSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/IDentityLivenessSDK.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			66oKXCv6087GtXwijwXBxlgAVWc=
+			6uo6rSTd8chYFZSG80iFPtRw5UA=
 			</data>
 			<key>hash2</key>
 			<data>
-			UfPEKEEfqFjGOymuSrRHQk1ENSf1kMTEV6Q0RdQpMoM=
-			</data>
-		</dict>
-		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/FocusFaceTrainingModel_UNIQUE_KEY_ID_4005_20250806080627.tflite</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			nUuLEWJon6BjxE75DfKGOxufa3s=
-			</data>
-			<key>hash2</key>
-			<data>
-			RbS7EcJ6Hy8PDRuwJqExi6727VvwCu7Q6Pe+LW4FnSE=
+			Y2BQbAT8PN+GUXywxaRE1HsIUm6Mfi2/26ZG39KN5mc=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
@@ -1252,11 +1260,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RyN/CMXzys/K0uSHuqht7d7YtmM=
+			XbL7t4UIl0GrT/4m60gpgUk3ef8=
 			</data>
 			<key>hash2</key>
 			<data>
-			/VfAJQq8Ei23+HfRcYyyQRLGp5TQm4OFKCjtTdZl5KE=
+			iRFzZEjpGJUqPEVTP3fFYe1IDMBJDw22qNyHZIOlNtM=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
@@ -1362,33 +1370,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aFkbD8KQGZimrQPnW3N+zQ7F/t8=
+			aBjmoxGoY/alPvEhuT8QigBX6mQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			HALgb7YfP3nZUDNcW+ebGhcPhlULxwqT/dTG3d48IhY=
+			OX06EESpjpR40O36hlmpaV/LwMAqENW+TU7oxXyZCIo=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/Headers/IDentityLivenessSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3X2C2Q6KIX4ca/PzFjiTp55iWKU=
+			EQceK7M52P0hcB3juQmC6smp/yM=
 			</data>
 			<key>hash2</key>
 			<data>
-			F8v3TSnmW48h/JvkcCG1Cw9X9ctsD7+boeXiguU6Z5g=
-			</data>
-		</dict>
-		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/Headers/IDentityXSLT.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Kw5kU13Uro49wJDcrtNx0+l5TsY=
-			</data>
-			<key>hash2</key>
-			<data>
-			U/aNEdTvONPMBD9bsPi1CjDtOPX8RD9X/RlBcRVnIR4=
+			Bbg4Mxqc/mI08SP3aCVghZk24JuLDT9RxObAtGGBgWM=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/Headers/UIImage+Rotation.h</key>
@@ -1725,77 +1722,143 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jHtc3PgjGhxwQNRksVuueqkWOWo=
+			LAw4AZ7d8iMT32PSp/iick+SODU=
 			</data>
 			<key>hash2</key>
 			<data>
-			mGVt7JNWRXCIT3T+rdLfK2dEgjLM7hZ9BAdnYa7E2ts=
+			p/6rTzxDQjrVqNAgua2ijFUNSYwVGtgP9LQAjIqmkEA=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XhB9E95Oialv3vA4BTonYpjfeHM=
+			PUzKzSb3oR88bfgwSLwbH2Q6Dx0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Unk7QM8jGXgKSOUI0zqeuW6Hkvgp4KPe28LUm5t1LBE=
+			7ctaUEytjgmbqdnHrHEJt54M1B5CSCrk89PhBYghDyM=
+			</data>
+		</dict>
+		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/MLKitImageLabelingResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			weMyNXMDr5IfAX9TTvm6gox69Fw=
+			</data>
+			<key>hash2</key>
+			<data>
+			lZAQhMfkIMdgiPwWXyGwYfoK0IrIw+7A2N7iC4K2sqc=
+			</data>
+		</dict>
+		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/MLKitImageLabelingResources.bundle/mobile_ica_8bit_with_metadata.tflite</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Y6434zIKR82iA10WTDlfAdgRz0c=
+			</data>
+			<key>hash2</key>
+			<data>
+			Svo5cNPv1nJtFH1QXijH/x5P4cJL57zaa1Qp6wmXd6U=
+			</data>
+		</dict>
+		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/MLKitObjectDetectionCommonResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Z5BGEhMv/idLHmCJV8XIlgKreKs=
+			</data>
+			<key>hash2</key>
+			<data>
+			1oHigd5w7ks1haiIQhP0hD3WJVxnCY5fh6z9HEVG7Lg=
+			</data>
+		</dict>
+		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/MLKitObjectDetectionCommonResources.bundle/mobile_object_localizer_3_1_anchors.pb</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UQlVfpJHT3mpKw+zJjDXtIduup4=
+			</data>
+			<key>hash2</key>
+			<data>
+			mTKguCRx5Q3v8PkmIJsIR06G8CgauQ0HJ2t3juYGz0A=
+			</data>
+		</dict>
+		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/MLKitObjectDetectionCommonResources.bundle/mobile_object_localizer_labelmap.binarypb</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Lvzl8sOvVQQ/KCFZlmSSafDw15w=
+			</data>
+			<key>hash2</key>
+			<data>
+			rn1PTC6Ync53nfca1gTKgeyTNNaCbu8WjqsO6RnwxDc=
+			</data>
+		</dict>
+		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/MLKitObjectDetectionCommonResources.bundle/tflite_mobile_object_localizer_3_1.tflite</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			X/St4fXSxPand8U4CxGe23+VP7c=
+			</data>
+			<key>hash2</key>
+			<data>
+			M2eP5Mud1pzNw7lurfUhznLLHXkUl0pmkARt005EPhM=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/Modules/IDentityLivenessSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FaDEbifnx4EOqWuw+rwHLucCyog=
+			L/1BEbgJnWcE3LytmkqD8otJxh0=
 			</data>
 			<key>hash2</key>
 			<data>
-			zQBZpXCYYqqy/SdZgiH5UDqGMbOkm7/ryK17k6gy6Lo=
+			ZoFhV3CmeYyqejX2w49Q50YlF991JARCb8/eNjSA3/Y=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GqyT18aWI3tS7xovLzieNxCFaHY=
+			J4t5gZIKh3NtaGuXN/iJDzBkmSE=
 			</data>
 			<key>hash2</key>
 			<data>
-			WWVI8S+G4DFE63JyiUrn2I+tGX751CmQm9pjd25RJWU=
+			HVvuWoHiuZ/qGCy5aQ4tvMk4dZljki44wr9B2lPW60g=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			swdNVpQ7zeZu6D8HZxmO+HouW1I=
+			wiY9GWjYtcBrGyYCZ+qCxrcV5h4=
 			</data>
 			<key>hash2</key>
 			<data>
-			wgvaJCNvZdySq+c7V9+9+iX6jEKQv4aLMDjs4y6yIMM=
+			ldfFYmqLWufNwSsBtMGG2+yu0aaU/4dhg4QLCwTFR7E=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			m5vYCB/3Tc6wo+le9ui9JL/MQBk=
+			1HZ21xhyYlWo9XB2YH2elDat2sg=
 			</data>
 			<key>hash2</key>
 			<data>
-			5hZF8Ovd5S4S9awNVhq1JlIqeBB/Micc0KH+ZPC8EqU=
+			dut7omJ1H7F3s49bvuah5pn8w36RCLjEB55Cv8skwuc=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			swdNVpQ7zeZu6D8HZxmO+HouW1I=
+			wiY9GWjYtcBrGyYCZ+qCxrcV5h4=
 			</data>
 			<key>hash2</key>
 			<data>
-			wgvaJCNvZdySq+c7V9+9+iX6jEKQv4aLMDjs4y6yIMM=
+			ldfFYmqLWufNwSsBtMGG2+yu0aaU/4dhg4QLCwTFR7E=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/Modules/module.modulemap</key>
@@ -1809,17 +1872,6 @@
 			YSGCZuA2m3rQ4DCEz2ZiIZ1s4lxrm8ht4kuYNhNd5aI=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/PassiveFaceTrainingModel_UNIQUE_KEY_ID_4005_20250806080627.tflite</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1stA/w9js+h0n1q2yVGxNianjiM=
-			</data>
-			<key>hash2</key>
-			<data>
-			nY1eH3/57eUk+g96v08ovmcq/oXWL7w22dnT1t7l7Lw=
-			</data>
-		</dict>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
@@ -1831,70 +1883,48 @@
 			Zb6xrIw/HNFfwVeI0CR8K/h753+aoGym+SUOfZ8KG4w=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/SEARCH_COMPANY_TEMPLATE_DETAILS.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Vwq5XkLRRMhgBZjUYTYw8eBjt+U=
-			</data>
-			<key>hash2</key>
-			<data>
-			TJj2RjX8fMzdFPD/MPRGFrvXrzLT4ta3/pLxbGAy7BU=
-			</data>
-		</dict>
-		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/SEARCH_COMPANY_TEMPLATE_DETAILS.xml</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+Besejjgg61DHPDJVuWdS2bVG+4=
-			</data>
-			<key>hash2</key>
-			<data>
-			YmDHj0If28dVTXDtzPSypdca/hiBtCN6BVsPzlVqqnM=
-			</data>
-		</dict>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YAR7K4339MD2tnuT9qpxCtC9/7M=
+			yLQ9Ez0Se8eRAhCmKh6aLfXcbyc=
 			</data>
 			<key>hash2</key>
 			<data>
-			nYYXu+C+GWHYevWXL5QTz+NL9TIL3ajcw4ZZ4Nubdu4=
+			C27cGIJmLAU5s1VzKp591V3vjRj2zGNerl7Erp0gtEk=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/dSYMs/IDentityLivenessSDK.framework.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5qDltPSK4r3KD5rnVfu4gm1N5Gk=
+			Uk41HCaS2uXd3zXWf/kMZPUnotI=
 			</data>
 			<key>hash2</key>
 			<data>
-			bZdIwb9O+UOaR2/j/0SMH8r4FujPexlV7QoJhS8a6Mw=
+			srNYkWEHMuIkC3Q9T5ESZYLsUxKH+vJW5KIekkn/szk=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/dSYMs/IDentityLivenessSDK.framework.dSYM/Contents/Resources/DWARF/IDentityLivenessSDK</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GEyMi5KLpIIx4PfOlCMUVtBiKgw=
+			+n04GLdoyUxjsrPDp2x4lZS/5X8=
 			</data>
 			<key>hash2</key>
 			<data>
-			VzN+JARHkZLGBCLFWcy+WQRe8cqwtkRV+K/kZeMhzrY=
+			cvY7ZMJ0xBfC3sohlatyZ6RAkD4vl/GZSmn0VV3fqtM=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/dSYMs/IDentityLivenessSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/IDentityLivenessSDK.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VFQwSRsAKlF468GJfCEe40zQshg=
+			anak5iButZ5jOCHRfW7n6fGjNTY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ojJr18k8vF70iO7swAA5meGLphSbCVfEKEa68GTnsJ4=
+			QweFNJRQdZkaef8wNOj9nb6cP/DRCK9Hn/5uZ0NfD+0=
 			</data>
 		</dict>
 	</dict>

@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>FocusFaceTrainingModel_UNIQUE_KEY_ID_4005_20250806080627.tflite</key>
-		<data>
-		nUuLEWJon6BjxE75DfKGOxufa3s=
-		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
 		96Uw5p4tLIiDbN11Du0p0c5xqE8=
@@ -22,7 +18,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
 		<data>
-		K0VArfQ5TgXTUtLCM6CxizMMmhg=
+		lZV92RW6tZXJUtWABheKS6EdIxA=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
 		<data>
@@ -62,15 +58,11 @@
 		</data>
 		<key>Headers/IDentityLivenessSDK-Swift.h</key>
 		<data>
-		o18PPlkQAwYcF1ih1PYVUFPD7wo=
+		/Qrv3m02kfyuMUfedXzTx1rxbhs=
 		</data>
 		<key>Headers/IDentityLivenessSDK.h</key>
 		<data>
-		3X2C2Q6KIX4ca/PzFjiTp55iWKU=
-		</data>
-		<key>Headers/IDentityXSLT.h</key>
-		<data>
-		Kw5kU13Uro49wJDcrtNx0+l5TsY=
+		EQceK7M52P0hcB3juQmC6smp/yM=
 		</data>
 		<key>Headers/UIImage+Rotation.h</key>
 		<data>
@@ -194,62 +186,67 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3BImQ9Agx2/hOskLCCEI8mkkk5c=
+		qovN7mT5C0eZYVUhHiHLCaI2CK8=
+		</data>
+		<key>MLKitImageLabelingResources.bundle/Info.plist</key>
+		<data>
+		qniPmn2doRTBlNRn+jF44e8H2z8=
+		</data>
+		<key>MLKitImageLabelingResources.bundle/mobile_ica_8bit_with_metadata.tflite</key>
+		<data>
+		Y6434zIKR82iA10WTDlfAdgRz0c=
+		</data>
+		<key>MLKitObjectDetectionCommonResources.bundle/Info.plist</key>
+		<data>
+		/y8LVBTclL9Wol/kNyi/GsCEg0E=
+		</data>
+		<key>MLKitObjectDetectionCommonResources.bundle/mobile_object_localizer_3_1_anchors.pb</key>
+		<data>
+		UQlVfpJHT3mpKw+zJjDXtIduup4=
+		</data>
+		<key>MLKitObjectDetectionCommonResources.bundle/mobile_object_localizer_labelmap.binarypb</key>
+		<data>
+		Lvzl8sOvVQQ/KCFZlmSSafDw15w=
+		</data>
+		<key>MLKitObjectDetectionCommonResources.bundle/tflite_mobile_object_localizer_3_1.tflite</key>
+		<data>
+		X/St4fXSxPand8U4CxGe23+VP7c=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		OXkhBBHnV+4qYEKTrfXyBYAKb2g=
+		rqAL0W6ZJDe5AwC9DbneJxcZU9o=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		GqyT18aWI3tS7xovLzieNxCFaHY=
+		J4t5gZIKh3NtaGuXN/iJDzBkmSE=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		rH9Rzr6ADax/l+Yt7ekeWz+bHxM=
+		wwF07Cl4gweBLx2TwRQfs5QLwDE=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		PENkRsKeXD5dj2oGE1PIDyg/Z/4=
+		ZXD0fhylPsSAdM/JK++CqcaZxhg=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		rH9Rzr6ADax/l+Yt7ekeWz+bHxM=
+		wwF07Cl4gweBLx2TwRQfs5QLwDE=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		EpnNJNtxys3xUl/gATZwrNfgMvg=
+		nJVjTn6ZqfHLl0ybpDwqR7k4oFA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		AcKeiEDNgOOZI8qudZo+Hah/vgU=
 		</data>
-		<key>PassiveFaceTrainingModel_UNIQUE_KEY_ID_4005_20250806080627.tflite</key>
-		<data>
-		1stA/w9js+h0n1q2yVGxNianjiM=
-		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
 		TaTyTcEd6lmQI305SwzT0DmhxSc=
 		</data>
-		<key>SEARCH_COMPANY_TEMPLATE_DETAILS.json</key>
-		<data>
-		Vwq5XkLRRMhgBZjUYTYw8eBjt+U=
-		</data>
-		<key>SEARCH_COMPANY_TEMPLATE_DETAILS.xml</key>
-		<data>
-		+Besejjgg61DHPDJVuWdS2bVG+4=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>FocusFaceTrainingModel_UNIQUE_KEY_ID_4005_20250806080627.tflite</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			RbS7EcJ6Hy8PDRuwJqExi6727VvwCu7Q6Pe+LW4FnSE=
-			</data>
-		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<dict>
 			<key>hash2</key>
@@ -275,7 +272,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3w7kDkN0AFGfzI6i1ZWhuUAcpmNlD7AdONH3K+ar7MM=
+			G/nSbAERGg0yjuqUMegBGlgbQEFo/fdD3awwEKj70r4=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
@@ -345,21 +342,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EllIUnP30G/gycDfDUoZr4Zdc7qL/QLj63NjKrtMgKk=
+			PtIzDcUVn/PUbRoR6K062o92F4fbfWv0LaJnDFI/SaE=
 			</data>
 		</dict>
 		<key>Headers/IDentityLivenessSDK.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			F8v3TSnmW48h/JvkcCG1Cw9X9ctsD7+boeXiguU6Z5g=
-			</data>
-		</dict>
-		<key>Headers/IDentityXSLT.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			U/aNEdTvONPMBD9bsPi1CjDtOPX8RD9X/RlBcRVnIR4=
+			Bbg4Mxqc/mI08SP3aCVghZk24JuLDT9RxObAtGGBgWM=
 			</data>
 		</dict>
 		<key>Headers/UIImage+Rotation.h</key>
@@ -572,46 +562,88 @@
 			aYNprLbIgDX45Q7oHJ1IwMY9px2AfQV2tO0IZF2Ssfc=
 			</data>
 		</dict>
+		<key>MLKitImageLabelingResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			l8XN6yPs9ga8uiZ7MnBseBxG8MAtImNDzHF9HmYhk0s=
+			</data>
+		</dict>
+		<key>MLKitImageLabelingResources.bundle/mobile_ica_8bit_with_metadata.tflite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Svo5cNPv1nJtFH1QXijH/x5P4cJL57zaa1Qp6wmXd6U=
+			</data>
+		</dict>
+		<key>MLKitObjectDetectionCommonResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3V/Y35nsATINakP3HkG5FcU/+3vOSWVL45lnTYr/PcQ=
+			</data>
+		</dict>
+		<key>MLKitObjectDetectionCommonResources.bundle/mobile_object_localizer_3_1_anchors.pb</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mTKguCRx5Q3v8PkmIJsIR06G8CgauQ0HJ2t3juYGz0A=
+			</data>
+		</dict>
+		<key>MLKitObjectDetectionCommonResources.bundle/mobile_object_localizer_labelmap.binarypb</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rn1PTC6Ync53nfca1gTKgeyTNNaCbu8WjqsO6RnwxDc=
+			</data>
+		</dict>
+		<key>MLKitObjectDetectionCommonResources.bundle/tflite_mobile_object_localizer_3_1.tflite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			M2eP5Mud1pzNw7lurfUhznLLHXkUl0pmkARt005EPhM=
+			</data>
+		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QjU/TdiLixLHbnfNZVMobxrmOyFwWlSHOz9R8R2wJZY=
+			g1rGL+VEgHWU4uvhAdRW5DlG/GyfzIlBEFdZrvTXERs=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WWVI8S+G4DFE63JyiUrn2I+tGX751CmQm9pjd25RJWU=
+			HVvuWoHiuZ/qGCy5aQ4tvMk4dZljki44wr9B2lPW60g=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wn3FkmT2BdHLD6W65Cr1FOAvj1MdaJhBdqxoQXvmApI=
+			cuWoZa5dK/swRQLhHjZJUsz9QcacrZIe8HfKhh+v/b4=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wdCaDKAiJ6p7Q7FwEbZTTZ6ty7u9LssOxA7kxz5WaSo=
+			Z5AtnKawGDA/BHuXKeadpOpnIbpW2jPUxIOVe6390fs=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wn3FkmT2BdHLD6W65Cr1FOAvj1MdaJhBdqxoQXvmApI=
+			cuWoZa5dK/swRQLhHjZJUsz9QcacrZIe8HfKhh+v/b4=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hTdgGA4xZyofnrI3umki1NP9GLFd0MraaebKTI9/HfM=
+			n+S/ZoKwVpfllZrrgRaoeR+6Y2CKKtfm8USOjg/YnMQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -621,32 +653,11 @@
 			YSGCZuA2m3rQ4DCEz2ZiIZ1s4lxrm8ht4kuYNhNd5aI=
 			</data>
 		</dict>
-		<key>PassiveFaceTrainingModel_UNIQUE_KEY_ID_4005_20250806080627.tflite</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nY1eH3/57eUk+g96v08ovmcq/oXWL7w22dnT1t7l7Lw=
-			</data>
-		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			Zb6xrIw/HNFfwVeI0CR8K/h753+aoGym+SUOfZ8KG4w=
-			</data>
-		</dict>
-		<key>SEARCH_COMPANY_TEMPLATE_DETAILS.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TJj2RjX8fMzdFPD/MPRGFrvXrzLT4ta3/pLxbGAy7BU=
-			</data>
-		</dict>
-		<key>SEARCH_COMPANY_TEMPLATE_DETAILS.xml</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YmDHj0If28dVTXDtzPSypdca/hiBtCN6BVsPzlVqqnM=
 			</data>
 		</dict>
 	</dict>
