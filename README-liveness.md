@@ -233,6 +233,9 @@ SelfieCapture.images.retryScreenImage = UIImage(named: "SelfieRetryImage")
 
 ## SDK Version History
 
+### **v 10.1.16.2.5 (22 September 2025)**
+- Updated liveness models to v81
+
 ### **v 10.1.16.2.3 (19 September 2025)**
 - Updated iOS SDK Minimum Deployment Target to iOS 13.0.
 - Ability to detect & throw error while ScreenRecording.
