@@ -255,9 +255,9 @@ relocations:
   - { offset: 0x1C29C7, size: 0x8, addend: 0x0, symName: _xsltLocalVariablePop, symObjAddr: 0x0, symBinAddr: 0x19D9C, symSize: 0x90 }
   - { offset: 0x1C29E1, size: 0x8, addend: 0x0, symName: _xsltMaxDepth, symObjAddr: 0x6E28, symBinAddr: 0x2B02258, symSize: 0x0 }
   - { offset: 0x1C29FE, size: 0x8, addend: 0x0, symName: _xsltMaxVars, symObjAddr: 0x6E2C, symBinAddr: 0x2B0225C, symSize: 0x0 }
-  - { offset: 0x1C2A23, size: 0x8, addend: 0x0, symName: _xsltDoXIncludeDefault, symObjAddr: 0x23D38, symBinAddr: 0x2BA08A4, symSize: 0x0 }
+  - { offset: 0x1C2A23, size: 0x8, addend: 0x0, symName: _xsltDoXIncludeDefault, symObjAddr: 0x23D30, symBinAddr: 0x2BA08A4, symSize: 0x0 }
   - { offset: 0x1C2A3A, size: 0x8, addend: 0x0, symName: _xsltDefaultTrace, symObjAddr: 0x6E30, symBinAddr: 0x2B02260, symSize: 0x0 }
-  - { offset: 0x1C2A58, size: 0x8, addend: 0x0, symName: _xsltHTMLVersions, symObjAddr: 0x8F30, symBinAddr: 0x293DEA0, symSize: 0x0 }
+  - { offset: 0x1C2A58, size: 0x8, addend: 0x0, symName: _xsltHTMLVersions, symObjAddr: 0x8F30, symBinAddr: 0x293DE90, symSize: 0x0 }
   - { offset: 0x1C3B07, size: 0x8, addend: 0x0, symName: _xsltLocalVariablePop, symObjAddr: 0x0, symBinAddr: 0x19D9C, symSize: 0x90 }
   - { offset: 0x1C3B7B, size: 0x8, addend: 0x0, symName: _xsltSetXIncludeDefault, symObjAddr: 0x90, symBinAddr: 0x19E2C, symSize: 0x14 }
   - { offset: 0x1C3BA2, size: 0x8, addend: 0x0, symName: _xsltGetXIncludeDefault, symObjAddr: 0xA4, symBinAddr: 0x19E40, symSize: 0xC }

@@ -186,7 +186,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PUzKzSb3oR88bfgwSLwbH2Q6Dx0=
+		zMjY2/z+2JP0PUMpY9Xkvg9HPyA=
 		</data>
 		<key>MLKitImageLabelingResources.bundle/Info.plist</key>
 		<data>
@@ -214,11 +214,11 @@
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		L/1BEbgJnWcE3LytmkqD8otJxh0=
+		muL+1OnivoZjQS85PCrguzFhbME=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		J4t5gZIKh3NtaGuXN/iJDzBkmSE=
+		8Sxg951g9NWecfgTaQXSjf0hLfk=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -234,7 +234,7 @@
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1XDwd/WzihFGfqXEmuRFYjGn3Y8=
+		onfF6nf4Dfa0ZnxnDiSKnwSse8Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -608,14 +608,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZoFhV3CmeYyqejX2w49Q50YlF991JARCb8/eNjSA3/Y=
+			cXzoqrcBQ08PjRWp/ytLHGxyFM7kFsYWwO0m3xvytLw=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HVvuWoHiuZ/qGCy5aQ4tvMk4dZljki44wr9B2lPW60g=
+			md1lJHFHDFoCLeB9r5MEeN6QTUpJFKreaANoPRxUPig=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -643,7 +643,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WKthrL5d4x1IsZjOOMtiTeC2dZNKUfN/khSrOrsgq7Y=
+			KQjUla81M+aAVTIrWVn/U0JnPlESaoyKeiL5O6AnrJs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
