@@ -15,4 +15,5 @@ FOUNDATION_EXPORT const unsigned char IDentityLivenessSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <IDentityLivenessSDK/PublicHeader.h>
 
+#import "IDentityXSLT.h"
 #import "UIImage+Rotation.h"

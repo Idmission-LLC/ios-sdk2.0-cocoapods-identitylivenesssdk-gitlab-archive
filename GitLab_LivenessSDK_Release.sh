@@ -23,9 +23,9 @@ cd "$(dirname "$0")"   # go to identitylivenesssdk2.0/
 
 # Update .podspec file version
 echo "🚀 livenessSDK: Updating All .podspec file vesions"
-for file in IDentitylivenessModels.podspec \
-            IDentitylivenessSDK2.0.podspec \
-            SelfieCaptureliveness.podspec
+for file in IDentityLivenessModels.podspec \
+            IDentityLivenessSDK2.0.podspec \
+            SelfieCaptureLiveness.podspec
 do
   echo "Updating ${file} …"
   sed -i '' -E "s/(spec\.version[[:space:]]*=[[:space:]]*\")[^\"]*(\")/\1${SDK_VERSION}\2/" "${file}"
