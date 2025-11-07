@@ -17,3 +17,4 @@ FOUNDATION_EXPORT const unsigned char IDentityLivenessSDKVersionString[];
 
 #import "IDentityXSLT.h"
 #import "UIImage+Rotation.h"
+#import "SSZipArchive.h"
