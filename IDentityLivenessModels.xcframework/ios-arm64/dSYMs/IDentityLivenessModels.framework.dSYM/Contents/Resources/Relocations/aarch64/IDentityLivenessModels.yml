@@ -2,8 +2,8 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/amold/Library/Developer/Xcode/DerivedData/idmissioniossdk-liveness/Build/Products/Release-iphoneos/IDentityLivenessModels.framework/IDentityLivenessModels'
 relocations:
-  - { offset: 0x323A4, size: 0x8, addend: 0x0, symName: _IDentityLivenessModelsVersionString, symObjAddr: 0x0, symBinAddr: 0x6190, symSize: 0x0 }
-  - { offset: 0x323D8, size: 0x8, addend: 0x0, symName: _IDentityLivenessModelsVersionNumber, symObjAddr: 0x40, symBinAddr: 0x61D0, symSize: 0x0 }
+  - { offset: 0x323A4, size: 0x8, addend: 0x0, symName: _IDentityLivenessModelsVersionString, symObjAddr: 0x0, symBinAddr: 0x5050, symSize: 0x0 }
+  - { offset: 0x323D8, size: 0x8, addend: 0x0, symName: _IDentityLivenessModelsVersionNumber, symObjAddr: 0x40, symBinAddr: 0x5090, symSize: 0x0 }
   - { offset: 0x32470, size: 0x8, addend: 0x0, symName: '_$sSo8NSBundleC22IDentityLivenessModelsE6modelsABvgZ', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x44 }
   - { offset: 0x324B0, size: 0x8, addend: 0x0, symName: '_$s22IDentityLivenessModels82IkoCWrYTdbukyaYMjRwQwualRc4KAGnKOWBikxB4uyi4XCDKrrkG2JO5ENdIqCzrFodddI0TFk2xYeBt0zCMa', symObjAddr: 0x44, symBinAddr: 0x4044, symSize: 0x20 }
   - { offset: 0x32560, size: 0x8, addend: 0x0, symName: '_$s22IDentityLivenessModels0C10EntryPointCMa', symObjAddr: 0x14C, symBinAddr: 0x414C, symSize: 0x20 }

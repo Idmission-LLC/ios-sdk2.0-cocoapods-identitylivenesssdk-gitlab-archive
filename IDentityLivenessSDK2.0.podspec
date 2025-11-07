@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name                   = "IDentityLivenessSDK2.0"
-  spec.version                = "10.1.22.2.1"
+  spec.version                = "10.1.22.2.2"
   spec.summary                = "IDentityLivenessSDK lets user add IDentityLivenessSDK in their project"
   spec.description            = <<-DESC 
                                 IDentityLivenessSDK helps user to add IDentityLivenessSDK in their project.
@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.author                  = { "Idmission LLC" => "amol.deshmukh@idmission.com" }
   spec.source                  = { :git => "https://cocoapods:NysuNLiX_JbZYV3H597E@gitlab.idmission.com/apps/sdk2.0/ios/cocoapods/identitylivenesssdk2.0.git", :tag => "#{spec.version}"}
   spec.platform                = :ios
-  spec.ios.deployment_target   = '13.0'
+  spec.ios.deployment_target   = '15.6'
   spec.swift_version           = "5"
   spec.pod_target_xcconfig     = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.user_target_xcconfig    = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
