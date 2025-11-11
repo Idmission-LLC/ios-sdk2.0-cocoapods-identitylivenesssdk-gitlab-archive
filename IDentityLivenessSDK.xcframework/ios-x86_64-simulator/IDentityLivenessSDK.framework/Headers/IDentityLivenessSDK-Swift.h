@@ -344,6 +344,8 @@ SWIFT_CLASS("_TtC19IDentityLivenessSDK28CaptureSessionViewController")
 
 
 
+
+
 /// :nodoc:
 SWIFT_CLASS("_TtC19IDentityLivenessSDK7IDError")
 @interface IDError : NSError

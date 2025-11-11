@@ -5,6 +5,8 @@
 import AVFoundation
 import Accelerate
 import CommonCrypto
+import Compression
+import CoreFoundation
 import CoreGraphics
 import CoreLocation
 import CoreMedia
@@ -24,6 +26,7 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+import zlib
 public struct InitializeResponse : Swift.Codable {
   public var status: IDentityLivenessSDK.StatusData?
   public var companyData: IDentityLivenessSDK.CompanyData?
@@ -61,6 +64,10 @@ extension IDentityLivenessSDK.SelfieCapture {
     public var bottomInfoImage: UIKit.UIImage?
     public var retryScreenImage: UIKit.UIImage?
   }
+}
+extension IDentityLivenessSDK.Archive {
+  final public func extract(_ entry: IDentityLivenessSDK.Entry, to url: Foundation.URL, bufferSize: Swift.Int = defaultReadChunkSize, skipCRC32: Swift.Bool = false, allowUncontainedSymlinks: Swift.Bool = false, progress: Foundation.Progress? = nil) throws -> IDentityLivenessSDK.CRC32
+  final public func extract(_ entry: IDentityLivenessSDK.Entry, bufferSize: Swift.Int = defaultReadChunkSize, skipCRC32: Swift.Bool = false, progress: Foundation.Progress? = nil, consumer: (_ data: Foundation.Data) throws -> Swift.Void) throws -> IDentityLivenessSDK.CRC32
 }
 public struct CriminalRecordResult : Swift.Codable {
   public var profiles: IDentityLivenessSDK.CriminalProfileResult?
@@ -685,6 +692,12 @@ public struct VideoIDDataResponse : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+extension IDentityLivenessSDK.Archive {
+  @available(*, deprecated, message: "Please use the throwing initializer.")
+  convenience public init?(url: Foundation.URL, accessMode mode: IDentityLivenessSDK.Archive.AccessMode, preferredEncoding: Swift.String.Encoding? = nil)
+  @available(*, deprecated, message: "Please use the throwing initializer.")
+  convenience public init?(data: Foundation.Data = Data(), accessMode mode: IDentityLivenessSDK.Archive.AccessMode, preferredEncoding: Swift.String.Encoding? = nil)
+}
 public struct CompanyTemplateMappingData : Swift.Codable {
   public var templateId: Swift.Int?
   public var templateType: Swift.String?
@@ -725,6 +738,55 @@ public struct TrainingModelDetails : Swift.Codable {
   public var trainingModel: IDentityLivenessSDK.TrainingModelResponse?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+public let defaultReadChunkSize: Swift.Int
+public let defaultWriteChunkSize: Swift.Int
+public let defaultFilePermissions: Swift.UInt16
+public let defaultDirectoryPermissions: Swift.UInt16
+final public class Archive : Swift.Sequence {
+  public enum ArchiveError : Swift.Error {
+    case unreadableArchive
+    case unwritableArchive
+    case invalidEntryPath
+    case invalidCompressionMethod
+    case invalidCRC32
+    case cancelledOperation
+    case invalidBufferSize
+    case invalidEntrySize
+    case invalidLocalHeaderDataOffset
+    case invalidLocalHeaderSize
+    case invalidCentralDirectoryOffset
+    case invalidCentralDirectorySize
+    case invalidCentralDirectoryEntryCount
+    case missingEndOfCentralDirectoryRecord
+    case uncontainedSymlink
+    public static func == (a: IDentityLivenessSDK.Archive.ArchiveError, b: IDentityLivenessSDK.Archive.ArchiveError) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum AccessMode : Swift.UInt {
+    case create
+    case read
+    case update
+    public init?(rawValue: Swift.UInt)
+    public typealias RawValue = Swift.UInt
+    public var rawValue: Swift.UInt {
+      get
+    }
+  }
+  final public let url: Foundation.URL
+  final public let accessMode: IDentityLivenessSDK.Archive.AccessMode
+  public init(url: Foundation.URL, accessMode mode: IDentityLivenessSDK.Archive.AccessMode, pathEncoding: Swift.String.Encoding? = nil) throws
+  public init(data: Foundation.Data = Data(), accessMode mode: IDentityLivenessSDK.Archive.AccessMode, pathEncoding: Swift.String.Encoding? = nil) throws
+  @objc deinit
+  final public func makeIterator() -> Swift.AnyIterator<IDentityLivenessSDK.Entry>
+  final public subscript(path: Swift.String) -> IDentityLivenessSDK.Entry? {
+    get
+  }
+  public typealias Element = IDentityLivenessSDK.Entry
+  public typealias Iterator = Swift.AnyIterator<IDentityLivenessSDK.Entry>
 }
 public struct StatusData : Swift.Codable {
   public var statusCode: Swift.String?
@@ -1087,6 +1149,21 @@ public struct CustomerValidateIdFaceMatchResponseV3 : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+extension IDentityLivenessSDK.Archive {
+  @available(*, deprecated, message: "Please use `Int` for `bufferSize`.")
+  final public func addEntry(with path: Swift.String, relativeTo baseURL: Foundation.URL, compressionMethod: IDentityLivenessSDK.CompressionMethod = .none, bufferSize: Swift.UInt32, progress: Foundation.Progress? = nil) throws
+  @available(*, deprecated, message: "Please use `Int` for `bufferSize`.")
+  final public func addEntry(with path: Swift.String, fileURL: Foundation.URL, compressionMethod: IDentityLivenessSDK.CompressionMethod = .none, bufferSize: Swift.UInt32, progress: Foundation.Progress? = nil) throws
+  @available(*, deprecated, message: "Please use `Int64` for `uncompressedSize` and provider `position`. `Int` for `bufferSize`.")
+  final public func addEntry(with path: Swift.String, type: IDentityLivenessSDK.Entry.EntryType, uncompressedSize: Swift.UInt32, modificationDate: Foundation.Date = Date(), permissions: Swift.UInt16? = nil, compressionMethod: IDentityLivenessSDK.CompressionMethod = .none, bufferSize: Swift.Int = defaultWriteChunkSize, progress: Foundation.Progress? = nil, provider: (_ position: Swift.Int, _ size: Swift.Int) throws -> Foundation.Data) throws
+  @available(*, deprecated, message: "Please use `Int` for `bufferSize`.")
+  final public func remove(_ entry: IDentityLivenessSDK.Entry, bufferSize: Swift.UInt32, progress: Foundation.Progress? = nil) throws
+}
+extension IDentityLivenessSDK.Archive {
+  final public func totalUnitCountForRemoving(_ entry: IDentityLivenessSDK.Entry) -> Swift.Int64
+  final public func totalUnitCountForReading(_ entry: IDentityLivenessSDK.Entry) -> Swift.Int64
+  final public func totalUnitCountForAddingItem(at url: Foundation.URL) -> Swift.Int64
+}
 public struct CustomerVerifyDataRequest : Swift.Encodable {
   public var customerId: Swift.String?
   public var idData: IDentityLivenessSDK.IdDataVerifyRequest
@@ -1236,8 +1313,8 @@ extension IDentityLivenessSDK.IDentitySDK {
   public class func getFingerprintJSONString(fingerPrintData: IDentityLivenessSDK.FingerPrintData?) -> Swift.String?
   public class func getVoiceJSONString(fileContent: Swift.String, formKey: Swift.String) -> Swift.String?
   public class func getLiveFaceImageDataNode(formKey: Swift.String, formID: Swift.String, request: IDentityLivenessSDK.GenericDataRequest, additionalData: [Swift.String : Any]?) -> Swift.String?
-  public class func getPrimaryIdImageDataNode(formKey: Swift.String, serviceId: Swift.String?, request: IDentityLivenessSDK.GenericDataRequest, idType: Swift.String?, countryCode: Swift.String?, stateCode: Swift.String?) -> Swift.String?
-  public class func getSecodaryIdImageDataNode(formKey: Swift.String, request: IDentityLivenessSDK.GenericDataRequest, idType_sec: Swift.String?, countryCode_sec: Swift.String?, stateCode_sec: Swift.String?) -> Swift.String?
+  public class func getPrimaryIdImageDataNode(formKey: Swift.String, serviceId: Swift.String?, request: IDentityLivenessSDK.GenericDataRequest) -> Swift.String?
+  public class func getSecodaryIdImageDataNode(formKey: Swift.String, request: IDentityLivenessSDK.GenericDataRequest) -> Swift.String?
   public class func getEmployeeInformationDataNode(request: IDentityLivenessSDK.GenericDataRequest, employeeInfoXMLString: Swift.String?, employeeCode: Swift.String?, serviceID: Swift.String?) -> Swift.String?
   public class func getSignatureCaptureNode(request: IDentityLivenessSDK.GenericDataRequest, isDigitalSignatureEnabled: Swift.Bool) -> Swift.String?
   public class func getFingerPrintXMLNode(request: IDentityLivenessSDK.GenericDataRequest, for process: Swift.String) -> Swift.String?
@@ -1363,9 +1440,6 @@ extension IDentityLivenessSDK.SelfieCapture {
     public var moveFaceUp: Swift.String
     public var sunglassesDetected: Swift.String
     public var removeHat: Swift.String
-    public var removeCap: Swift.String
-    public var removeHand: Swift.String
-    public var removeScarf: Swift.String
     public var fakeFace: Swift.String
     public var retryScreenText: Swift.String
     public var retryButtonText: Swift.String
@@ -1659,6 +1733,12 @@ extension IDentityLivenessSDK.XMLIndexer {
 extension IDentityLivenessSDK.XMLElement {
   public func attribute<N>(by name: N) -> IDentityLivenessSDK.XMLAttribute? where N : Swift.RawRepresentable, N.RawValue == Swift.String
 }
+extension IDentityLivenessSDK.Archive {
+  final public func addEntry(with path: Swift.String, relativeTo baseURL: Foundation.URL, compressionMethod: IDentityLivenessSDK.CompressionMethod = .none, bufferSize: Swift.Int = defaultWriteChunkSize, progress: Foundation.Progress? = nil) throws
+  final public func addEntry(with path: Swift.String, fileURL: Foundation.URL, compressionMethod: IDentityLivenessSDK.CompressionMethod = .none, bufferSize: Swift.Int = defaultWriteChunkSize, progress: Foundation.Progress? = nil) throws
+  final public func addEntry(with path: Swift.String, type: IDentityLivenessSDK.Entry.EntryType, uncompressedSize: Swift.Int64, modificationDate: Foundation.Date = Date(), permissions: Swift.UInt16? = nil, compressionMethod: IDentityLivenessSDK.CompressionMethod = .none, bufferSize: Swift.Int = defaultWriteChunkSize, progress: Foundation.Progress? = nil, provider: (_ position: Swift.Int64, _ size: Swift.Int) throws -> Foundation.Data) throws
+  final public func remove(_ entry: IDentityLivenessSDK.Entry, bufferSize: Swift.Int = defaultReadChunkSize, progress: Foundation.Progress? = nil) throws
+}
 public enum Gender : Swift.String, Swift.Encodable {
   case female
   case male
@@ -1819,6 +1899,12 @@ public struct BiometricEnrollData : Swift.Encodable {
   public var expectedAudioText: Swift.String?
   public init(selfie: Swift.String, fingerPrintData: IDentityLivenessSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil, videoData: Swift.String? = nil, voiceStartTime: Swift.Int? = nil, expectedAudioText: Swift.String? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
+}
+extension Foundation.Data {
+  @available(*, deprecated, message: "Please use `Int64` for `size` and provider `position`.")
+  public static func compress(size: Swift.Int, bufferSize: Swift.Int, provider: (_ position: Swift.Int, _ size: Swift.Int) throws -> Foundation.Data, consumer: (_ data: Foundation.Data) throws -> Swift.Void) throws -> IDentityLivenessSDK.CRC32
+  @available(*, deprecated, message: "Please use `Int64` for `size` and provider `position`.")
+  public static func decompress(size: Swift.Int, bufferSize: Swift.Int, skipCRC32: Swift.Bool, provider: (_ position: Swift.Int, _ size: Swift.Int) throws -> Foundation.Data, consumer: (_ data: Foundation.Data) throws -> Swift.Void) throws -> IDentityLivenessSDK.CRC32
 }
 public struct OrderWLSResult : Swift.Codable {
   public var orderUrlWLS: Swift.String?
@@ -2182,6 +2268,12 @@ public struct BiometricDataValidateId : Swift.Encodable {
   public init(fingerPrintData: IDentityLivenessSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil, videoData: Swift.String? = nil, voiceStartTime: Swift.Int? = nil, expectedAudioText: Swift.String? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
 }
+extension IDentityLivenessSDK.Archive {
+  @available(*, deprecated, message: "Please use `Int` for `bufferSize`.")
+  final public func extract(_ entry: IDentityLivenessSDK.Entry, to url: Foundation.URL, bufferSize: Swift.UInt32, skipCRC32: Swift.Bool = false, progress: Foundation.Progress? = nil) throws -> IDentityLivenessSDK.CRC32
+  @available(*, deprecated, message: "Please use `Int` for `bufferSize`.")
+  final public func extract(_ entry: IDentityLivenessSDK.Entry, bufferSize: Swift.UInt32, skipCRC32: Swift.Bool = false, progress: Foundation.Progress? = nil, consumer: (_ data: Foundation.Data) throws -> Swift.Void) throws -> IDentityLivenessSDK.CRC32
+}
 public struct PolicyAcceptanceData : Swift.Codable {
   public var BiometricTimestamp: Swift.String?
   public var BiometricURL: Swift.String?
@@ -2253,6 +2345,11 @@ public struct BiometricIdentifyData : Swift.Encodable {
   public init(selfie: Swift.String, fingerPrintData: IDentityLivenessSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil, videoData: Swift.String? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
 }
+extension IDentityLivenessSDK.Archive {
+  final public var data: Foundation.Data? {
+    get
+  }
+}
 @available(*, deprecated, renamed: "CustomerEnrollResponse", message: "This struct will no longer supported in future release please use the updated 'CustomerEnrollResponse' struct")
 public struct CustomerEnrollResponseV3 : Swift.Codable {
   public var status: IDentityLivenessSDK.StatusData?
@@ -2261,6 +2358,41 @@ public struct CustomerEnrollResponseV3 : Swift.Codable {
   public var responseCustomerData: IDentityLivenessSDK.CustomerEnrollDataResponseV3?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+public struct Entry : Swift.Equatable {
+  public enum EntryType : Swift.Int {
+    case file
+    case directory
+    case symlink
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public func path(using encoding: Swift.String.Encoding) -> Swift.String
+  public var path: Swift.String {
+    get
+  }
+  public var fileAttributes: [Foundation.FileAttributeKey : Any] {
+    get
+  }
+  public var checksum: IDentityLivenessSDK.CRC32 {
+    get
+  }
+  public var type: IDentityLivenessSDK.Entry.EntryType {
+    get
+  }
+  public var isCompressed: Swift.Bool {
+    get
+  }
+  public var compressedSize: Swift.UInt64 {
+    get
+  }
+  public var uncompressedSize: Swift.UInt64 {
+    get
+  }
+  public static func == (lhs: IDentityLivenessSDK.Entry, rhs: IDentityLivenessSDK.Entry) -> Swift.Bool
 }
 public struct GenericDataRequest : Swift.Encodable {
   public var idData: IDentityLivenessSDK.GenericIdData?
@@ -2331,6 +2463,13 @@ public struct CustomerValidateIdRequest : Swift.Encodable {
   public var additionalData: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData
   public init(customerData: IDentityLivenessSDK.CustomerValidateIdDataRequest, additionalData: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData)
   public func encode(to encoder: any Swift.Encoder) throws
+}
+extension Foundation.FileManager {
+  public func zipItem(at sourceURL: Foundation.URL, to destinationURL: Foundation.URL, shouldKeepParent: Swift.Bool = true, compressionMethod: IDentityLivenessSDK.CompressionMethod = .none, progress: Foundation.Progress? = nil) throws
+  public func unzipItem(at sourceURL: Foundation.URL, to destinationURL: Foundation.URL, skipCRC32: Swift.Bool = false, allowUncontainedSymlinks: Swift.Bool = false, progress: Foundation.Progress? = nil, pathEncoding: Swift.String.Encoding? = nil) throws
+}
+extension Foundation.URL {
+  public func isContained(in parentDirectoryURL: Foundation.URL) -> Swift.Bool
 }
 public struct FingerPrintMetadata : Swift.Encodable {
   public enum Format : Swift.String, Swift.Encodable {
@@ -2482,6 +2621,10 @@ public struct KeyInfo : Swift.Codable {
   public var previousPublicKeyId: Swift.String?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+extension Foundation.FileManager {
+  @available(*, deprecated, renamed: "unzipItem(at:to:skipCRC32:progress:pathEncoding:)")
+  public func unzipItem(at sourceURL: Foundation.URL, to destinationURL: Foundation.URL, skipCRC32: Swift.Bool = false, progress: Foundation.Progress? = nil, preferredEncoding: Swift.String.Encoding?) throws
 }
 public struct CustomerValidateIdFaceMatchResponse : Swift.Codable {
   public var status: IDentityLivenessSDK.StatusData?
@@ -2850,6 +2993,23 @@ public struct FormDetailResultResponseData : Swift.Codable {
   public var videoIDData: IDentityLivenessSDK.VideoIDDataResponse?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+public enum CompressionMethod : Swift.UInt16 {
+  case none
+  case deflate
+  public init?(rawValue: Swift.UInt16)
+  public typealias RawValue = Swift.UInt16
+  public var rawValue: Swift.UInt16 {
+    get
+  }
+}
+public typealias CRC32 = Swift.UInt32
+public typealias Consumer = (_ data: Foundation.Data) throws -> Swift.Void
+public typealias Provider = (_ position: Swift.Int64, _ size: Swift.Int) throws -> Foundation.Data
+extension Foundation.Data {
+  public func crc32(checksum: IDentityLivenessSDK.CRC32) -> IDentityLivenessSDK.CRC32
+  public static func compress(size: Swift.Int64, bufferSize: Swift.Int, provider: (_ position: Swift.Int64, _ size: Swift.Int) throws -> Foundation.Data, consumer: (_ data: Foundation.Data) throws -> Swift.Void) throws -> IDentityLivenessSDK.CRC32
+  public static func decompress(size: Swift.Int64, bufferSize: Swift.Int, skipCRC32: Swift.Bool, provider: (_ position: Swift.Int64, _ size: Swift.Int) throws -> Foundation.Data, consumer: (_ data: Foundation.Data) throws -> Swift.Void) throws -> IDentityLivenessSDK.CRC32
 }
 extension IDentityLivenessSDK.SelfieCapture {
   public struct Colors {
@@ -3309,6 +3469,18 @@ extension IDentityLivenessSDK.IDentitySDK {
     get
   }
 }
+public typealias FILEPointer = Swift.UnsafeMutablePointer<_stdio.FILE>
+extension Foundation.Data {
+  public enum DataError : Swift.Error {
+    case unreadableFile
+    case unwritableFile
+    public static func == (a: Foundation.Data.DataError, b: Foundation.Data.DataError) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
 @available(*, deprecated, renamed: "CustomerValidateIdResponse", message: "This struct will no longer supported in future release please use the updated 'CustomerValidateIdResponse' struct")
 public struct CustomerValidateIdResponseV3 : Swift.Codable {
   public var status: IDentityLivenessSDK.StatusData?
@@ -3477,6 +3649,11 @@ extension IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendSignatureFro
 extension IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendDocumentIdInResponse : Swift.Equatable {}
 extension IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendDocumentIdInResponse : Swift.Hashable {}
 extension IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendDocumentIdInResponse : Swift.RawRepresentable {}
+extension IDentityLivenessSDK.Archive.ArchiveError : Swift.Equatable {}
+extension IDentityLivenessSDK.Archive.ArchiveError : Swift.Hashable {}
+extension IDentityLivenessSDK.Archive.AccessMode : Swift.Equatable {}
+extension IDentityLivenessSDK.Archive.AccessMode : Swift.Hashable {}
+extension IDentityLivenessSDK.Archive.AccessMode : Swift.RawRepresentable {}
 extension IDentityLivenessSDK.SelfieCapture.LabelPosition : Swift.Equatable {}
 extension IDentityLivenessSDK.SelfieCapture.LabelPosition : Swift.Hashable {}
 extension IDentityLivenessSDK.AdditionalCustomerCommonData.PostDataAPIRequired : Swift.Equatable {}
@@ -3518,6 +3695,9 @@ extension IDentityLivenessSDK.Language : Swift.RawRepresentable {}
 extension IDentityLivenessSDK.IdDataRequest.IdType : Swift.Equatable {}
 extension IDentityLivenessSDK.IdDataRequest.IdType : Swift.Hashable {}
 extension IDentityLivenessSDK.IdDataRequest.IdType : Swift.RawRepresentable {}
+extension IDentityLivenessSDK.Entry.EntryType : Swift.Equatable {}
+extension IDentityLivenessSDK.Entry.EntryType : Swift.Hashable {}
+extension IDentityLivenessSDK.Entry.EntryType : Swift.RawRepresentable {}
 extension IDentityLivenessSDK.GenericIdData.IdType : Swift.Equatable {}
 extension IDentityLivenessSDK.GenericIdData.IdType : Swift.Hashable {}
 extension IDentityLivenessSDK.GenericIdData.IdType : Swift.RawRepresentable {}
@@ -3556,6 +3736,9 @@ extension IDentityLivenessSDK.AnalysePOA : Swift.RawRepresentable {}
 extension IDentityLivenessSDK.ExtensionType : Swift.Equatable {}
 extension IDentityLivenessSDK.ExtensionType : Swift.Hashable {}
 extension IDentityLivenessSDK.ExtensionType : Swift.RawRepresentable {}
+extension IDentityLivenessSDK.CompressionMethod : Swift.Equatable {}
+extension IDentityLivenessSDK.CompressionMethod : Swift.Hashable {}
+extension IDentityLivenessSDK.CompressionMethod : Swift.RawRepresentable {}
 extension IDentityLivenessSDK.IdDataEnrollRequest.IdType : Swift.Equatable {}
 extension IDentityLivenessSDK.IdDataEnrollRequest.IdType : Swift.Hashable {}
 extension IDentityLivenessSDK.IdDataEnrollRequest.IdType : Swift.RawRepresentable {}
@@ -3607,3 +3790,5 @@ extension IDentityLivenessSDK.InitializationState : Swift.RawRepresentable {}
 extension IDentityLivenessSDK.InitializationStage : Swift.Equatable {}
 extension IDentityLivenessSDK.InitializationStage : Swift.Hashable {}
 extension IDentityLivenessSDK.InitializationStage : Swift.RawRepresentable {}
+extension Foundation.Data.DataError : Swift.Equatable {}
+extension Foundation.Data.DataError : Swift.Hashable {}

@@ -154,7 +154,7 @@ SelfieCapture.options.maxRelativeNoseHeight = 0.67
 SelfieCapture.options.labelsConfidenceThreshold = 0.79
 SelfieCapture.options.faceMaskProbabilityThreshold = 0.98
 SelfieCapture.options.liveFaceProbabilityThreshold = 0.9
-SelfieCapture.options.consecutiveFakeFaceLimit = 15
+SelfieCapture.options.consecutiveFakeFaceLimit = 10
 SelfieCapture.options.lightIntensityThreshold = 0.05
 SelfieCapture.options.focusThreshold = 0.2
 SelfieCapture.options.isDebugMode = true
@@ -232,6 +232,9 @@ SelfieCapture.images.retryScreenImage = UIImage(named: "SelfieRetryImage")
 ```
 
 ## SDK Version History
+
+### **v 10.1.18.2.1 (11 November 2025)**
+- Updated the default maximum allowed fake face capture count from 15 to 10.
 
 ### **v 10.1.16.2.5 (22 September 2025)**
 - Updated liveness models to v81
