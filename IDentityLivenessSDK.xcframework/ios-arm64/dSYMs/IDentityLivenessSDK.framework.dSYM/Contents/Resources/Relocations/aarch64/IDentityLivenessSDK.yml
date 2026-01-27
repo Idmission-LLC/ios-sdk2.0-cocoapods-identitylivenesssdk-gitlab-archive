@@ -12,7 +12,7 @@ relocations:
   - { offset: 0x13A243, size: 0x8, addend: 0x0, symName: _xsltLocaleStrcmp, symObjAddr: 0x7AC, symBinAddr: 0x87AC, symSize: 0xC }
   - { offset: 0x13A360, size: 0x8, addend: 0x0, symName: '+[CommonClass deviceName]', symObjAddr: 0x0, symBinAddr: 0x87B8, symSize: 0x130 }
   - { offset: 0x13A36E, size: 0x8, addend: 0x0, symName: '+[CommonClass deviceName]', symObjAddr: 0x0, symBinAddr: 0x87B8, symSize: 0x130 }
-  - { offset: 0x13A398, size: 0x8, addend: 0x0, symName: _deviceName.deviceNamesByCode, symObjAddr: 0x4940, symBinAddr: 0x19C9F40, symSize: 0x0 }
+  - { offset: 0x13A398, size: 0x8, addend: 0x0, symName: _deviceName.deviceNamesByCode, symObjAddr: 0x4938, symBinAddr: 0x19C9F40, symSize: 0x0 }
   - { offset: 0x13A459, size: 0x8, addend: 0x0, symName: '+[CommonClass getAVCaptureDevice]', symObjAddr: 0x130, symBinAddr: 0x88E8, symSize: 0x130 }
   - { offset: 0x13A53C, size: 0x8, addend: 0x0, symName: _xsltEvalXPathPredicate, symObjAddr: 0x0, symBinAddr: 0x8A18, symSize: 0x148 }
   - { offset: 0x13A643, size: 0x8, addend: 0x0, symName: _xsltEvalXPathPredicate, symObjAddr: 0x0, symBinAddr: 0x8A18, symSize: 0x148 }
@@ -71,7 +71,7 @@ relocations:
   - { offset: 0x143444, size: 0x8, addend: 0x0, symName: '-[UIImage(Rotation) rotatingWithImageOrientation:]', symObjAddr: 0x0, symBinAddr: 0xCCD4, symSize: 0x37C }
   - { offset: 0x143453, size: 0x8, addend: 0x0, symName: '-[UIImage(Rotation) rotatingWithImageOrientation:]', symObjAddr: 0x0, symBinAddr: 0xCCD4, symSize: 0x37C }
   - { offset: 0x1439B8, size: 0x8, addend: 0x0, symName: _xsltNewSecurityPrefs, symObjAddr: 0x0, symBinAddr: 0xD050, symSize: 0x60 }
-  - { offset: 0x1439E0, size: 0x8, addend: 0x0, symName: _xsltDefaultSecurityPrefs, symObjAddr: 0x6248, symBinAddr: 0x19C9F58, symSize: 0x0 }
+  - { offset: 0x1439E0, size: 0x8, addend: 0x0, symName: _xsltDefaultSecurityPrefs, symObjAddr: 0x6250, symBinAddr: 0x19C9F58, symSize: 0x0 }
   - { offset: 0x144A7B, size: 0x8, addend: 0x0, symName: _xsltNewSecurityPrefs, symObjAddr: 0x0, symBinAddr: 0xD050, symSize: 0x60 }
   - { offset: 0x144B09, size: 0x8, addend: 0x0, symName: _xsltFreeSecurityPrefs, symObjAddr: 0x60, symBinAddr: 0xD0B0, symSize: 0x18 }
   - { offset: 0x144B3A, size: 0x8, addend: 0x0, symName: _xsltSetSecurityPrefs, symObjAddr: 0x78, symBinAddr: 0xD0C8, symSize: 0x84 }
