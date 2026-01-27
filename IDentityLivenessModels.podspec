@@ -15,10 +15,10 @@ Pod::Spec.new do |spec|
   spec.author                  = { "Idmission LLC" => "amol.deshmukh@idmission.com" }
   spec.source                  = { :git => "https://cocoapods:NysuNLiX_JbZYV3H597E@gitlab.idmission.com/apps/sdk2.0/ios/cocoapods/identitylivenesssdk2.0.git", :tag => "#{spec.version}"}
   spec.platform                = :ios
-  spec.ios.deployment_target   = '15.6'
+  spec.ios.deployment_target   = '15.5'
   spec.swift_version           = "5"
-  spec.pod_target_xcconfig     = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  spec.user_target_xcconfig    = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  # spec.pod_target_xcconfig     = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  # spec.user_target_xcconfig    = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.ios.vendored_frameworks = 'IDentityLivenessModels.xcframework'  
 
 end
