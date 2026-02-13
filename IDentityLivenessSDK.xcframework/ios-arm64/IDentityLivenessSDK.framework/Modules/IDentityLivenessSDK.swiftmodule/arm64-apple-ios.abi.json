@@ -16336,12 +16336,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[CoreLocation.CLLocation]",
+                "printedName": "[_LocationEssentials.CLLocation]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CLLocation",
-                    "printedName": "CoreLocation.CLLocation",
+                    "printedName": "_LocationEssentials.CLLocation",
                     "usr": "c:objc(cs)CLLocation"
                   }
                 ],
@@ -42168,30 +42168,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "IDentityLivenessSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "MLKitVision",
-        "printedName": "MLKitVision",
-        "declKind": "Import",
-        "moduleName": "IDentityLivenessSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "MLKitFaceDetection",
-        "printedName": "MLKitFaceDetection",
-        "declKind": "Import",
-        "moduleName": "IDentityLivenessSDK"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -66889,16 +66865,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "IDentityLivenessSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "CriminalOffensesResult",
         "printedName": "CriminalOffensesResult",
@@ -83927,6 +83893,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -84379,6 +84352,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -91234,6 +91214,26 @@
       },
       {
         "kind": "Import",
+        "name": "TensorFlowLite",
+        "printedName": "TensorFlowLite",
+        "declKind": "Import",
+        "moduleName": "IDentityLivenessSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDentityLivenessSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "CoreGraphics",
         "printedName": "CoreGraphics",
         "declKind": "Import",
@@ -91898,26 +91898,6 @@
             "usr": "s:SE",
             "mangledName": "$sSE"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "IDentityLivenessSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "TensorFlowLite",
-        "printedName": "TensorFlowLite",
-        "declKind": "Import",
-        "moduleName": "IDentityLivenessSDK",
-        "declAttributes": [
-          "AccessControl"
         ]
       },
       {
@@ -122327,16 +122307,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "IDentityLivenessSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "BiometricIdentifyData",
         "printedName": "BiometricIdentifyData",
@@ -128213,6 +128183,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -141139,6 +141116,30 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "IDentityLivenessSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "TensorFlowLite",
+        "printedName": "TensorFlowLite",
+        "declKind": "Import",
+        "moduleName": "IDentityLivenessSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDentityLivenessSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "IDentityLivenessSDK",
         "declAttributes": [
           "RawDocComment"
@@ -144064,10 +144065,7 @@
         "name": "GZIP",
         "printedName": "GZIP",
         "declKind": "Import",
-        "moduleName": "IDentityLivenessSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
+        "moduleName": "IDentityLivenessSDK"
       },
       {
         "kind": "Import",
@@ -161504,13 +161502,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "MLKitFaceDetection",
-        "printedName": "MLKitFaceDetection",
-        "declKind": "Import",
-        "moduleName": "IDentityLivenessSDK"
-      },
-      {
         "kind": "TypeDecl",
         "name": "SelfieCaptureDelegate",
         "printedName": "SelfieCaptureDelegate",
@@ -177250,6 +177241,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDentityLivenessSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "CustomerLiveCheckRequest",
         "printedName": "CustomerLiveCheckRequest",
@@ -187748,43 +187749,6 @@
           },
           {
             "kind": "Var",
-            "name": "searchCompanyTemplateDetails",
-            "printedName": "searchCompanyTemplateDetails",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(IDentityLivenessSDK.InitializationStage.Type) -> IDentityLivenessSDK.InitializationStage",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "InitializationStage",
-                    "printedName": "IDentityLivenessSDK.InitializationStage",
-                    "usr": "s:19IDentityLivenessSDK19InitializationStageO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "IDentityLivenessSDK.InitializationStage.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InitializationStage",
-                        "printedName": "IDentityLivenessSDK.InitializationStage",
-                        "usr": "s:19IDentityLivenessSDK19InitializationStageO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:19IDentityLivenessSDK19InitializationStageO28searchCompanyTemplateDetailsyA2CmF",
-            "mangledName": "$s19IDentityLivenessSDK19InitializationStageO28searchCompanyTemplateDetailsyA2CmF",
-            "moduleName": "IDentityLivenessSDK"
-          },
-          {
-            "kind": "Var",
             "name": "passiveFaceTrainingModelLabel",
             "printedName": "passiveFaceTrainingModelLabel",
             "children": [
@@ -187822,80 +187786,6 @@
           },
           {
             "kind": "Var",
-            "name": "idCaptureTrainingModelLabel",
-            "printedName": "idCaptureTrainingModelLabel",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(IDentityLivenessSDK.InitializationStage.Type) -> IDentityLivenessSDK.InitializationStage",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "InitializationStage",
-                    "printedName": "IDentityLivenessSDK.InitializationStage",
-                    "usr": "s:19IDentityLivenessSDK19InitializationStageO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "IDentityLivenessSDK.InitializationStage.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InitializationStage",
-                        "printedName": "IDentityLivenessSDK.InitializationStage",
-                        "usr": "s:19IDentityLivenessSDK19InitializationStageO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:19IDentityLivenessSDK19InitializationStageO27idCaptureTrainingModelLabelyA2CmF",
-            "mangledName": "$s19IDentityLivenessSDK19InitializationStageO27idCaptureTrainingModelLabelyA2CmF",
-            "moduleName": "IDentityLivenessSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "classifierTrainingModelLabel",
-            "printedName": "classifierTrainingModelLabel",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(IDentityLivenessSDK.InitializationStage.Type) -> IDentityLivenessSDK.InitializationStage",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "InitializationStage",
-                    "printedName": "IDentityLivenessSDK.InitializationStage",
-                    "usr": "s:19IDentityLivenessSDK19InitializationStageO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "IDentityLivenessSDK.InitializationStage.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InitializationStage",
-                        "printedName": "IDentityLivenessSDK.InitializationStage",
-                        "usr": "s:19IDentityLivenessSDK19InitializationStageO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:19IDentityLivenessSDK19InitializationStageO28classifierTrainingModelLabelyA2CmF",
-            "mangledName": "$s19IDentityLivenessSDK19InitializationStageO28classifierTrainingModelLabelyA2CmF",
-            "moduleName": "IDentityLivenessSDK"
-          },
-          {
-            "kind": "Var",
             "name": "faceMaskTrainingModelLabel",
             "printedName": "faceMaskTrainingModelLabel",
             "children": [
@@ -187929,117 +187819,6 @@
             "declKind": "EnumElement",
             "usr": "s:19IDentityLivenessSDK19InitializationStageO26faceMaskTrainingModelLabelyA2CmF",
             "mangledName": "$s19IDentityLivenessSDK19InitializationStageO26faceMaskTrainingModelLabelyA2CmF",
-            "moduleName": "IDentityLivenessSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "docDetectionTrainingModelLabel",
-            "printedName": "docDetectionTrainingModelLabel",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(IDentityLivenessSDK.InitializationStage.Type) -> IDentityLivenessSDK.InitializationStage",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "InitializationStage",
-                    "printedName": "IDentityLivenessSDK.InitializationStage",
-                    "usr": "s:19IDentityLivenessSDK19InitializationStageO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "IDentityLivenessSDK.InitializationStage.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InitializationStage",
-                        "printedName": "IDentityLivenessSDK.InitializationStage",
-                        "usr": "s:19IDentityLivenessSDK19InitializationStageO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:19IDentityLivenessSDK19InitializationStageO30docDetectionTrainingModelLabelyA2CmF",
-            "mangledName": "$s19IDentityLivenessSDK19InitializationStageO30docDetectionTrainingModelLabelyA2CmF",
-            "moduleName": "IDentityLivenessSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "fingerprintDetectionTrainingModelLabel",
-            "printedName": "fingerprintDetectionTrainingModelLabel",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(IDentityLivenessSDK.InitializationStage.Type) -> IDentityLivenessSDK.InitializationStage",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "InitializationStage",
-                    "printedName": "IDentityLivenessSDK.InitializationStage",
-                    "usr": "s:19IDentityLivenessSDK19InitializationStageO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "IDentityLivenessSDK.InitializationStage.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InitializationStage",
-                        "printedName": "IDentityLivenessSDK.InitializationStage",
-                        "usr": "s:19IDentityLivenessSDK19InitializationStageO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:19IDentityLivenessSDK19InitializationStageO38fingerprintDetectionTrainingModelLabelyA2CmF",
-            "mangledName": "$s19IDentityLivenessSDK19InitializationStageO38fingerprintDetectionTrainingModelLabelyA2CmF",
-            "moduleName": "IDentityLivenessSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "focusTrainingModelLabel",
-            "printedName": "focusTrainingModelLabel",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(IDentityLivenessSDK.InitializationStage.Type) -> IDentityLivenessSDK.InitializationStage",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "InitializationStage",
-                    "printedName": "IDentityLivenessSDK.InitializationStage",
-                    "usr": "s:19IDentityLivenessSDK19InitializationStageO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "IDentityLivenessSDK.InitializationStage.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InitializationStage",
-                        "printedName": "IDentityLivenessSDK.InitializationStage",
-                        "usr": "s:19IDentityLivenessSDK19InitializationStageO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:19IDentityLivenessSDK19InitializationStageO23focusTrainingModelLabelyA2CmF",
-            "mangledName": "$s19IDentityLivenessSDK19InitializationStageO23focusTrainingModelLabelyA2CmF",
             "moduleName": "IDentityLivenessSDK"
           },
           {
@@ -188763,6 +188542,742 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "post",
+            "printedName": "post(autofill:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CustomerAutofillRequest",
+                "printedName": "IDentityLivenessSDK.CustomerAutofillRequest",
+                "usr": "s:19IDentityLivenessSDK23CustomerAutofillRequestV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<IDentityLivenessSDK.CustomerAutofillResponse, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<IDentityLivenessSDK.CustomerAutofillResponse, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomerAutofillResponse",
+                        "printedName": "IDentityLivenessSDK.CustomerAutofillResponse",
+                        "usr": "s:19IDentityLivenessSDK24CustomerAutofillResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19IDentityLivenessSDK0aC0C4post8autofill10completionyAA23CustomerAutofillRequestV_ys6ResultOyAA0gH8ResponseVs5Error_pGctFZ",
+            "mangledName": "$s19IDentityLivenessSDK0aC0C4post8autofill10completionyAA23CustomerAutofillRequestV_ys6ResultOyAA0gH8ResponseVs5Error_pGctFZ",
+            "moduleName": "IDentityLivenessSDK",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "post",
+            "printedName": "post(validateId:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CustomerValidateIdRequest",
+                "printedName": "IDentityLivenessSDK.CustomerValidateIdRequest",
+                "usr": "s:19IDentityLivenessSDK25CustomerValidateIdRequestV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<IDentityLivenessSDK.CustomerValidateIdResponse, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<IDentityLivenessSDK.CustomerValidateIdResponse, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomerValidateIdResponse",
+                        "printedName": "IDentityLivenessSDK.CustomerValidateIdResponse",
+                        "usr": "s:19IDentityLivenessSDK26CustomerValidateIdResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19IDentityLivenessSDK0aC0C4post10validateId10completionyAA016CustomerValidateF7RequestV_ys6ResultOyAA0hiF8ResponseVs5Error_pGctFZ",
+            "mangledName": "$s19IDentityLivenessSDK0aC0C4post10validateId10completionyAA016CustomerValidateF7RequestV_ys6ResultOyAA0hiF8ResponseVs5Error_pGctFZ",
+            "moduleName": "IDentityLivenessSDK",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "post",
+            "printedName": "post(liveFaceCheck:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CustomerLiveCheckRequest",
+                "printedName": "IDentityLivenessSDK.CustomerLiveCheckRequest",
+                "usr": "s:19IDentityLivenessSDK24CustomerLiveCheckRequestV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<IDentityLivenessSDK.CustomerLiveCheckResponse, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<IDentityLivenessSDK.CustomerLiveCheckResponse, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomerLiveCheckResponse",
+                        "printedName": "IDentityLivenessSDK.CustomerLiveCheckResponse",
+                        "usr": "s:19IDentityLivenessSDK25CustomerLiveCheckResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19IDentityLivenessSDK0aC0C4post13liveFaceCheck10completionyAA012CustomerLiveG7RequestV_ys6ResultOyAA0ijG8ResponseVs5Error_pGctFZ",
+            "mangledName": "$s19IDentityLivenessSDK0aC0C4post13liveFaceCheck10completionyAA012CustomerLiveG7RequestV_ys6ResultOyAA0ijG8ResponseVs5Error_pGctFZ",
+            "moduleName": "IDentityLivenessSDK",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "post",
+            "printedName": "post(validateIdMatchFace:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CustomerValidateIdFaceMatchRequest",
+                "printedName": "IDentityLivenessSDK.CustomerValidateIdFaceMatchRequest",
+                "usr": "s:19IDentityLivenessSDK34CustomerValidateIdFaceMatchRequestV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<IDentityLivenessSDK.CustomerValidateIdFaceMatchResponse, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<IDentityLivenessSDK.CustomerValidateIdFaceMatchResponse, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomerValidateIdFaceMatchResponse",
+                        "printedName": "IDentityLivenessSDK.CustomerValidateIdFaceMatchResponse",
+                        "usr": "s:19IDentityLivenessSDK35CustomerValidateIdFaceMatchResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19IDentityLivenessSDK0aC0C4post19validateIdMatchFace10completionyAA016CustomerValidatefhG7RequestV_ys6ResultOyAA0jkfhG8ResponseVs5Error_pGctFZ",
+            "mangledName": "$s19IDentityLivenessSDK0aC0C4post19validateIdMatchFace10completionyAA016CustomerValidatefhG7RequestV_ys6ResultOyAA0jkfhG8ResponseVs5Error_pGctFZ",
+            "moduleName": "IDentityLivenessSDK",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "post",
+            "printedName": "post(enroll:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CustomerEnrollRequest",
+                "printedName": "IDentityLivenessSDK.CustomerEnrollRequest",
+                "usr": "s:19IDentityLivenessSDK21CustomerEnrollRequestV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<IDentityLivenessSDK.CustomerEnrollResponse, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<IDentityLivenessSDK.CustomerEnrollResponse, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomerEnrollResponse",
+                        "printedName": "IDentityLivenessSDK.CustomerEnrollResponse",
+                        "usr": "s:19IDentityLivenessSDK22CustomerEnrollResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19IDentityLivenessSDK0aC0C4post6enroll10completionyAA21CustomerEnrollRequestV_ys6ResultOyAA0gH8ResponseVs5Error_pGctFZ",
+            "mangledName": "$s19IDentityLivenessSDK0aC0C4post6enroll10completionyAA21CustomerEnrollRequestV_ys6ResultOyAA0gH8ResponseVs5Error_pGctFZ",
+            "moduleName": "IDentityLivenessSDK",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "post",
+            "printedName": "post(enrollBiometrics:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CustomerEnrollBiometricsRequest",
+                "printedName": "IDentityLivenessSDK.CustomerEnrollBiometricsRequest",
+                "usr": "s:19IDentityLivenessSDK31CustomerEnrollBiometricsRequestV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<IDentityLivenessSDK.CustomerEnrollBiometricResponse, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<IDentityLivenessSDK.CustomerEnrollBiometricResponse, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomerEnrollBiometricResponse",
+                        "printedName": "IDentityLivenessSDK.CustomerEnrollBiometricResponse",
+                        "usr": "s:19IDentityLivenessSDK31CustomerEnrollBiometricResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19IDentityLivenessSDK0aC0C4post16enrollBiometrics10completionyAA014CustomerEnrollF7RequestV_ys6ResultOyAA0hI17BiometricResponseVs5Error_pGctFZ",
+            "mangledName": "$s19IDentityLivenessSDK0aC0C4post16enrollBiometrics10completionyAA014CustomerEnrollF7RequestV_ys6ResultOyAA0hI17BiometricResponseVs5Error_pGctFZ",
+            "moduleName": "IDentityLivenessSDK",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "post",
+            "printedName": "post(verify:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CustomerVerifyRequest",
+                "printedName": "IDentityLivenessSDK.CustomerVerifyRequest",
+                "usr": "s:19IDentityLivenessSDK21CustomerVerifyRequestV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<IDentityLivenessSDK.CustomerVerifyResponse, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<IDentityLivenessSDK.CustomerVerifyResponse, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomerVerifyResponse",
+                        "printedName": "IDentityLivenessSDK.CustomerVerifyResponse",
+                        "usr": "s:19IDentityLivenessSDK22CustomerVerifyResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19IDentityLivenessSDK0aC0C4post6verify10completionyAA21CustomerVerifyRequestV_ys6ResultOyAA0gH8ResponseVs5Error_pGctFZ",
+            "mangledName": "$s19IDentityLivenessSDK0aC0C4post6verify10completionyAA21CustomerVerifyRequestV_ys6ResultOyAA0gH8ResponseVs5Error_pGctFZ",
+            "moduleName": "IDentityLivenessSDK",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "post",
+            "printedName": "post(identify:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CustomerIdentifyRequest",
+                "printedName": "IDentityLivenessSDK.CustomerIdentifyRequest",
+                "usr": "s:19IDentityLivenessSDK23CustomerIdentifyRequestV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<IDentityLivenessSDK.CustomerIdentifyResponse, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<IDentityLivenessSDK.CustomerIdentifyResponse, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomerIdentifyResponse",
+                        "printedName": "IDentityLivenessSDK.CustomerIdentifyResponse",
+                        "usr": "s:19IDentityLivenessSDK24CustomerIdentifyResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19IDentityLivenessSDK0aC0C4post8identify10completionyAA23CustomerIdentifyRequestV_ys6ResultOyAA0gH8ResponseVs5Error_pGctFZ",
+            "mangledName": "$s19IDentityLivenessSDK0aC0C4post8identify10completionyAA23CustomerIdentifyRequestV_ys6ResultOyAA0gH8ResponseVs5Error_pGctFZ",
+            "moduleName": "IDentityLivenessSDK",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "post",
+            "printedName": "post(xmlRequestString:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[Swift.String : Any], any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[Swift.String : Any], any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19IDentityLivenessSDK0aC0C4post16xmlRequestString10completionySS_ys6ResultOySDySSypGs5Error_pGctFZ",
+            "mangledName": "$s19IDentityLivenessSDK0aC0C4post16xmlRequestString10completionySS_ys6ResultOySDySSypGs5Error_pGctFZ",
+            "moduleName": "IDentityLivenessSDK",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "additionalDocuments",
+            "printedName": "additionalDocuments",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[IDentityLivenessSDK.AdditionalDocumentsRequest]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[IDentityLivenessSDK.AdditionalDocumentsRequest]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdditionalDocumentsRequest",
+                        "printedName": "IDentityLivenessSDK.AdditionalDocumentsRequest",
+                        "usr": "s:19IDentityLivenessSDK26AdditionalDocumentsRequestV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK0aC0C19additionalDocumentsSayAA010AdditionalE7RequestVGSgvpZ",
+            "mangledName": "$s19IDentityLivenessSDK0aC0C19additionalDocumentsSayAA010AdditionalE7RequestVGSgvpZ",
+            "moduleName": "IDentityLivenessSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[IDentityLivenessSDK.AdditionalDocumentsRequest]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[IDentityLivenessSDK.AdditionalDocumentsRequest]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AdditionalDocumentsRequest",
+                            "printedName": "IDentityLivenessSDK.AdditionalDocumentsRequest",
+                            "usr": "s:19IDentityLivenessSDK26AdditionalDocumentsRequestV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK0aC0C19additionalDocumentsSayAA010AdditionalE7RequestVGSgvgZ",
+                "mangledName": "$s19IDentityLivenessSDK0aC0C19additionalDocumentsSayAA010AdditionalE7RequestVGSgvgZ",
+                "moduleName": "IDentityLivenessSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[IDentityLivenessSDK.AdditionalDocumentsRequest]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[IDentityLivenessSDK.AdditionalDocumentsRequest]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AdditionalDocumentsRequest",
+                            "printedName": "IDentityLivenessSDK.AdditionalDocumentsRequest",
+                            "usr": "s:19IDentityLivenessSDK26AdditionalDocumentsRequestV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK0aC0C19additionalDocumentsSayAA010AdditionalE7RequestVGSgvsZ",
+                "mangledName": "$s19IDentityLivenessSDK0aC0C19additionalDocumentsSayAA010AdditionalE7RequestVGSgvsZ",
+                "moduleName": "IDentityLivenessSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK0aC0C19additionalDocumentsSayAA010AdditionalE7RequestVGSgvMZ",
+                "mangledName": "$s19IDentityLivenessSDK0aC0C19additionalDocumentsSayAA010AdditionalE7RequestVGSgvMZ",
+                "moduleName": "IDentityLivenessSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "add",
+            "printedName": "add(additionalDocument:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdditionalDocumentsRequest",
+                "printedName": "IDentityLivenessSDK.AdditionalDocumentsRequest",
+                "usr": "s:19IDentityLivenessSDK26AdditionalDocumentsRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19IDentityLivenessSDK0aC0C3add18additionalDocumentyAA26AdditionalDocumentsRequestV_tFZ",
+            "mangledName": "$s19IDentityLivenessSDK0aC0C3add18additionalDocumentyAA26AdditionalDocumentsRequestV_tFZ",
+            "moduleName": "IDentityLivenessSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -189525,742 +190040,6 @@
             "funcSelfKind": "NonMutating"
           },
           {
-            "kind": "Function",
-            "name": "post",
-            "printedName": "post(autofill:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CustomerAutofillRequest",
-                "printedName": "IDentityLivenessSDK.CustomerAutofillRequest",
-                "usr": "s:19IDentityLivenessSDK23CustomerAutofillRequestV"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<IDentityLivenessSDK.CustomerAutofillResponse, any Swift.Error>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<IDentityLivenessSDK.CustomerAutofillResponse, any Swift.Error>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CustomerAutofillResponse",
-                        "printedName": "IDentityLivenessSDK.CustomerAutofillResponse",
-                        "usr": "s:19IDentityLivenessSDK24CustomerAutofillResponseV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19IDentityLivenessSDK0aC0C4post8autofill10completionyAA23CustomerAutofillRequestV_ys6ResultOyAA0gH8ResponseVs5Error_pGctFZ",
-            "mangledName": "$s19IDentityLivenessSDK0aC0C4post8autofill10completionyAA23CustomerAutofillRequestV_ys6ResultOyAA0gH8ResponseVs5Error_pGctFZ",
-            "moduleName": "IDentityLivenessSDK",
-            "static": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "post",
-            "printedName": "post(validateId:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CustomerValidateIdRequest",
-                "printedName": "IDentityLivenessSDK.CustomerValidateIdRequest",
-                "usr": "s:19IDentityLivenessSDK25CustomerValidateIdRequestV"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<IDentityLivenessSDK.CustomerValidateIdResponse, any Swift.Error>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<IDentityLivenessSDK.CustomerValidateIdResponse, any Swift.Error>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CustomerValidateIdResponse",
-                        "printedName": "IDentityLivenessSDK.CustomerValidateIdResponse",
-                        "usr": "s:19IDentityLivenessSDK26CustomerValidateIdResponseV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19IDentityLivenessSDK0aC0C4post10validateId10completionyAA016CustomerValidateF7RequestV_ys6ResultOyAA0hiF8ResponseVs5Error_pGctFZ",
-            "mangledName": "$s19IDentityLivenessSDK0aC0C4post10validateId10completionyAA016CustomerValidateF7RequestV_ys6ResultOyAA0hiF8ResponseVs5Error_pGctFZ",
-            "moduleName": "IDentityLivenessSDK",
-            "static": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "post",
-            "printedName": "post(liveFaceCheck:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CustomerLiveCheckRequest",
-                "printedName": "IDentityLivenessSDK.CustomerLiveCheckRequest",
-                "usr": "s:19IDentityLivenessSDK24CustomerLiveCheckRequestV"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<IDentityLivenessSDK.CustomerLiveCheckResponse, any Swift.Error>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<IDentityLivenessSDK.CustomerLiveCheckResponse, any Swift.Error>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CustomerLiveCheckResponse",
-                        "printedName": "IDentityLivenessSDK.CustomerLiveCheckResponse",
-                        "usr": "s:19IDentityLivenessSDK25CustomerLiveCheckResponseV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19IDentityLivenessSDK0aC0C4post13liveFaceCheck10completionyAA012CustomerLiveG7RequestV_ys6ResultOyAA0ijG8ResponseVs5Error_pGctFZ",
-            "mangledName": "$s19IDentityLivenessSDK0aC0C4post13liveFaceCheck10completionyAA012CustomerLiveG7RequestV_ys6ResultOyAA0ijG8ResponseVs5Error_pGctFZ",
-            "moduleName": "IDentityLivenessSDK",
-            "static": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "post",
-            "printedName": "post(validateIdMatchFace:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CustomerValidateIdFaceMatchRequest",
-                "printedName": "IDentityLivenessSDK.CustomerValidateIdFaceMatchRequest",
-                "usr": "s:19IDentityLivenessSDK34CustomerValidateIdFaceMatchRequestV"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<IDentityLivenessSDK.CustomerValidateIdFaceMatchResponse, any Swift.Error>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<IDentityLivenessSDK.CustomerValidateIdFaceMatchResponse, any Swift.Error>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CustomerValidateIdFaceMatchResponse",
-                        "printedName": "IDentityLivenessSDK.CustomerValidateIdFaceMatchResponse",
-                        "usr": "s:19IDentityLivenessSDK35CustomerValidateIdFaceMatchResponseV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19IDentityLivenessSDK0aC0C4post19validateIdMatchFace10completionyAA016CustomerValidatefhG7RequestV_ys6ResultOyAA0jkfhG8ResponseVs5Error_pGctFZ",
-            "mangledName": "$s19IDentityLivenessSDK0aC0C4post19validateIdMatchFace10completionyAA016CustomerValidatefhG7RequestV_ys6ResultOyAA0jkfhG8ResponseVs5Error_pGctFZ",
-            "moduleName": "IDentityLivenessSDK",
-            "static": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "post",
-            "printedName": "post(enroll:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CustomerEnrollRequest",
-                "printedName": "IDentityLivenessSDK.CustomerEnrollRequest",
-                "usr": "s:19IDentityLivenessSDK21CustomerEnrollRequestV"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<IDentityLivenessSDK.CustomerEnrollResponse, any Swift.Error>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<IDentityLivenessSDK.CustomerEnrollResponse, any Swift.Error>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CustomerEnrollResponse",
-                        "printedName": "IDentityLivenessSDK.CustomerEnrollResponse",
-                        "usr": "s:19IDentityLivenessSDK22CustomerEnrollResponseV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19IDentityLivenessSDK0aC0C4post6enroll10completionyAA21CustomerEnrollRequestV_ys6ResultOyAA0gH8ResponseVs5Error_pGctFZ",
-            "mangledName": "$s19IDentityLivenessSDK0aC0C4post6enroll10completionyAA21CustomerEnrollRequestV_ys6ResultOyAA0gH8ResponseVs5Error_pGctFZ",
-            "moduleName": "IDentityLivenessSDK",
-            "static": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "post",
-            "printedName": "post(enrollBiometrics:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CustomerEnrollBiometricsRequest",
-                "printedName": "IDentityLivenessSDK.CustomerEnrollBiometricsRequest",
-                "usr": "s:19IDentityLivenessSDK31CustomerEnrollBiometricsRequestV"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<IDentityLivenessSDK.CustomerEnrollBiometricResponse, any Swift.Error>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<IDentityLivenessSDK.CustomerEnrollBiometricResponse, any Swift.Error>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CustomerEnrollBiometricResponse",
-                        "printedName": "IDentityLivenessSDK.CustomerEnrollBiometricResponse",
-                        "usr": "s:19IDentityLivenessSDK31CustomerEnrollBiometricResponseV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19IDentityLivenessSDK0aC0C4post16enrollBiometrics10completionyAA014CustomerEnrollF7RequestV_ys6ResultOyAA0hI17BiometricResponseVs5Error_pGctFZ",
-            "mangledName": "$s19IDentityLivenessSDK0aC0C4post16enrollBiometrics10completionyAA014CustomerEnrollF7RequestV_ys6ResultOyAA0hI17BiometricResponseVs5Error_pGctFZ",
-            "moduleName": "IDentityLivenessSDK",
-            "static": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "post",
-            "printedName": "post(verify:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CustomerVerifyRequest",
-                "printedName": "IDentityLivenessSDK.CustomerVerifyRequest",
-                "usr": "s:19IDentityLivenessSDK21CustomerVerifyRequestV"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<IDentityLivenessSDK.CustomerVerifyResponse, any Swift.Error>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<IDentityLivenessSDK.CustomerVerifyResponse, any Swift.Error>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CustomerVerifyResponse",
-                        "printedName": "IDentityLivenessSDK.CustomerVerifyResponse",
-                        "usr": "s:19IDentityLivenessSDK22CustomerVerifyResponseV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19IDentityLivenessSDK0aC0C4post6verify10completionyAA21CustomerVerifyRequestV_ys6ResultOyAA0gH8ResponseVs5Error_pGctFZ",
-            "mangledName": "$s19IDentityLivenessSDK0aC0C4post6verify10completionyAA21CustomerVerifyRequestV_ys6ResultOyAA0gH8ResponseVs5Error_pGctFZ",
-            "moduleName": "IDentityLivenessSDK",
-            "static": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "post",
-            "printedName": "post(identify:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CustomerIdentifyRequest",
-                "printedName": "IDentityLivenessSDK.CustomerIdentifyRequest",
-                "usr": "s:19IDentityLivenessSDK23CustomerIdentifyRequestV"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<IDentityLivenessSDK.CustomerIdentifyResponse, any Swift.Error>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<IDentityLivenessSDK.CustomerIdentifyResponse, any Swift.Error>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CustomerIdentifyResponse",
-                        "printedName": "IDentityLivenessSDK.CustomerIdentifyResponse",
-                        "usr": "s:19IDentityLivenessSDK24CustomerIdentifyResponseV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19IDentityLivenessSDK0aC0C4post8identify10completionyAA23CustomerIdentifyRequestV_ys6ResultOyAA0gH8ResponseVs5Error_pGctFZ",
-            "mangledName": "$s19IDentityLivenessSDK0aC0C4post8identify10completionyAA23CustomerIdentifyRequestV_ys6ResultOyAA0gH8ResponseVs5Error_pGctFZ",
-            "moduleName": "IDentityLivenessSDK",
-            "static": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "post",
-            "printedName": "post(xmlRequestString:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<[Swift.String : Any], any Swift.Error>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<[Swift.String : Any], any Swift.Error>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Dictionary",
-                        "printedName": "[Swift.String : Any]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ProtocolComposition",
-                            "printedName": "Any"
-                          }
-                        ],
-                        "usr": "s:SD"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19IDentityLivenessSDK0aC0C4post16xmlRequestString10completionySS_ys6ResultOySDySSypGs5Error_pGctFZ",
-            "mangledName": "$s19IDentityLivenessSDK0aC0C4post16xmlRequestString10completionySS_ys6ResultOySDySSypGs5Error_pGctFZ",
-            "moduleName": "IDentityLivenessSDK",
-            "static": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "additionalDocuments",
-            "printedName": "additionalDocuments",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[IDentityLivenessSDK.AdditionalDocumentsRequest]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[IDentityLivenessSDK.AdditionalDocumentsRequest]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AdditionalDocumentsRequest",
-                        "printedName": "IDentityLivenessSDK.AdditionalDocumentsRequest",
-                        "usr": "s:19IDentityLivenessSDK26AdditionalDocumentsRequestV"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19IDentityLivenessSDK0aC0C19additionalDocumentsSayAA010AdditionalE7RequestVGSgvpZ",
-            "mangledName": "$s19IDentityLivenessSDK0aC0C19additionalDocumentsSayAA010AdditionalE7RequestVGSgvpZ",
-            "moduleName": "IDentityLivenessSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[IDentityLivenessSDK.AdditionalDocumentsRequest]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[IDentityLivenessSDK.AdditionalDocumentsRequest]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "AdditionalDocumentsRequest",
-                            "printedName": "IDentityLivenessSDK.AdditionalDocumentsRequest",
-                            "usr": "s:19IDentityLivenessSDK26AdditionalDocumentsRequestV"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IDentityLivenessSDK0aC0C19additionalDocumentsSayAA010AdditionalE7RequestVGSgvgZ",
-                "mangledName": "$s19IDentityLivenessSDK0aC0C19additionalDocumentsSayAA010AdditionalE7RequestVGSgvgZ",
-                "moduleName": "IDentityLivenessSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[IDentityLivenessSDK.AdditionalDocumentsRequest]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[IDentityLivenessSDK.AdditionalDocumentsRequest]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "AdditionalDocumentsRequest",
-                            "printedName": "IDentityLivenessSDK.AdditionalDocumentsRequest",
-                            "usr": "s:19IDentityLivenessSDK26AdditionalDocumentsRequestV"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IDentityLivenessSDK0aC0C19additionalDocumentsSayAA010AdditionalE7RequestVGSgvsZ",
-                "mangledName": "$s19IDentityLivenessSDK0aC0C19additionalDocumentsSayAA010AdditionalE7RequestVGSgvsZ",
-                "moduleName": "IDentityLivenessSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IDentityLivenessSDK0aC0C19additionalDocumentsSayAA010AdditionalE7RequestVGSgvMZ",
-                "mangledName": "$s19IDentityLivenessSDK0aC0C19additionalDocumentsSayAA010AdditionalE7RequestVGSgvMZ",
-                "moduleName": "IDentityLivenessSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "add",
-            "printedName": "add(additionalDocument:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "AdditionalDocumentsRequest",
-                "printedName": "IDentityLivenessSDK.AdditionalDocumentsRequest",
-                "usr": "s:19IDentityLivenessSDK26AdditionalDocumentsRequestV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19IDentityLivenessSDK0aC0C3add18additionalDocumentyAA26AdditionalDocumentsRequestV_tFZ",
-            "mangledName": "$s19IDentityLivenessSDK0aC0C3add18additionalDocumentyAA26AdditionalDocumentsRequestV_tFZ",
-            "moduleName": "IDentityLivenessSDK",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
             "kind": "Var",
             "name": "livenessModelName",
             "printedName": "livenessModelName",
@@ -190328,7 +190107,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "accessors": [
@@ -190376,7 +190156,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "accessors": [
@@ -191788,6 +191569,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -192239,6 +192027,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Strideable",
             "printedName": "Strideable",
             "children": [
@@ -192419,6 +192214,57 @@
           },
           {
             "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18_FormatSpecifiableP",
+            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VectorArithmetic",
+            "printedName": "VectorArithmetic",
+            "usr": "s:7SwiftUI16VectorArithmeticP",
+            "mangledName": "$s7SwiftUI16VectorArithmeticP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Animatable",
+            "printedName": "Animatable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AnimatableData",
+                "printedName": "AnimatableData",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI10AnimatableP",
+            "mangledName": "$s7SwiftUI10AnimatableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "vDSP_FloatingPointConvertable",
             "printedName": "vDSP_FloatingPointConvertable",
             "usr": "s:10Accelerate29vDSP_FloatingPointConvertableP",
@@ -192496,6 +192342,28 @@
             "printedName": "vDSP_FloatingPointGeneratable",
             "usr": "s:10Accelerate29vDSP_FloatingPointGeneratableP",
             "mangledName": "$s10Accelerate29vDSP_FloatingPointGeneratableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AtomicRepresentable",
+            "printedName": "AtomicRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AtomicRepresentation",
+                "printedName": "AtomicRepresentation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_Atomic64BitStorage",
+                    "printedName": "Synchronization._Atomic64BitStorage",
+                    "usr": "s:15Synchronization19_Atomic64BitStorageV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:15Synchronization19AtomicRepresentableP",
+            "mangledName": "$s15Synchronization19AtomicRepresentableP"
           }
         ]
       },
@@ -192785,6 +192653,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_ExpressibleByImageLiteral",
             "printedName": "_ExpressibleByImageLiteral",
             "usr": "s:s26_ExpressibleByImageLiteralP",
@@ -192881,6 +192756,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -193102,13 +192984,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -193148,6 +193023,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -193417,6 +193299,7 @@
         "intro_tvOS": "9.0",
         "intro_watchOS": "2.0",
         "declAttributes": [
+          "AddressableForDependencies",
           "Frozen",
           "Available",
           "Available",
@@ -193782,6 +193665,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sequence",
             "printedName": "Sequence",
             "children": [
@@ -193831,6 +193721,41 @@
           },
           {
             "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
             "name": "ReferenceConvertible",
             "printedName": "ReferenceConvertible",
             "children": [
@@ -193875,38 +193800,32 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
           }
         ]
       },
@@ -194139,6 +194058,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -194207,6 +194133,70 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Animatable",
+            "printedName": "Animatable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AnimatableData",
+                "printedName": "AnimatableData",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimatablePair",
+                    "printedName": "SwiftUI.AnimatablePair<SwiftUI.AnimatablePair<CoreGraphics.CGFloat, CoreGraphics.CGFloat>, SwiftUI.AnimatablePair<CoreGraphics.CGFloat, CoreGraphics.CGFloat>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnimatablePair",
+                        "printedName": "SwiftUI.AnimatablePair<CoreGraphics.CGFloat, CoreGraphics.CGFloat>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGFloat",
+                            "printedName": "CoreGraphics.CGFloat",
+                            "usr": "s:14CoreFoundation7CGFloatV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGFloat",
+                            "printedName": "CoreGraphics.CGFloat",
+                            "usr": "s:14CoreFoundation7CGFloatV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI14AnimatablePairV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnimatablePair",
+                        "printedName": "SwiftUI.AnimatablePair<CoreGraphics.CGFloat, CoreGraphics.CGFloat>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGFloat",
+                            "printedName": "CoreGraphics.CGFloat",
+                            "usr": "s:14CoreFoundation7CGFloatV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGFloat",
+                            "printedName": "CoreGraphics.CGFloat",
+                            "usr": "s:14CoreFoundation7CGFloatV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI14AnimatablePairV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI14AnimatablePairV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI10AnimatableP",
+            "mangledName": "$s7SwiftUI10AnimatableP"
           }
         ]
       },
@@ -194655,6 +194645,13 @@
             "printedName": "_HasCustomAnyHashableRepresentation",
             "usr": "s:s35_HasCustomAnyHashableRepresentationP",
             "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -195893,77 +195890,77 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 392,
-      "length": 35,
-      "value": "\"idCaptureTrainingModelUniqueKeyId\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
-      "kind": "StringLiteral",
-      "offset": 770,
+      "offset": 380,
       "length": 37,
       "value": "\"passiveFaceTrainingModelUniqueKeyId\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 1147,
-      "length": 35,
-      "value": "\"focusFaceTrainingModelUniqueKeyId\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
-      "kind": "StringLiteral",
-      "offset": 1515,
+      "offset": 756,
       "length": 34,
       "value": "\"faceMaskTrainingModelUniqueKeyId\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 3516,
-      "length": 33,
-      "value": "\"idCaptureTrainingModelPublicKey\""
+      "offset": 1121,
+      "length": 35,
+      "value": "\"focusFaceTrainingModelUniqueKeyId\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 3897,
+      "offset": 1504,
+      "length": 35,
+      "value": "\"idCaptureTrainingModelUniqueKeyId\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 3505,
       "length": 35,
       "value": "\"passiveFaceTrainingModelPublicKey\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 4284,
+      "offset": 3887,
       "length": 33,
       "value": "\"focusFaceTrainingModelPublicKey\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 4656,
+      "offset": 4258,
       "length": 32,
       "value": "\"faceMaskTrainingModelPublicKey\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 6661,
+      "offset": 4639,
+      "length": 33,
+      "value": "\"idCaptureTrainingModelPublicKey\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 6657,
       "length": 30,
       "value": "\"passiveFaceTrainingModelName\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 7019,
+      "offset": 7015,
       "length": 28,
       "value": "\"focusFaceTrainingModelName\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 7366,
+      "offset": 7362,
       "length": 27,
       "value": "\"faceMaskTrainingModelName\""
     },
@@ -196880,7 +196877,7 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader.swift",
       "kind": "BooleanLiteral",
-      "offset": 1294,
+      "offset": 1328,
       "length": 5,
       "value": "false"
     },
@@ -197004,13 +197001,6 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/TemplateDownloader.swift",
-      "kind": "StringLiteral",
-      "offset": 314,
-      "length": 11,
-      "value": "\"XSLT.json\""
-    },
-    {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Codable\/Request\/FingerPrintMetadata.swift",
       "kind": "StringLiteral",
       "offset": 342,
@@ -197100,6 +197090,62 @@
       "offset": 737,
       "length": 16,
       "value": "\"StateList.json\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/MediaPipeFaceDetection\/MediaPipeFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1233,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/MediaPipeFaceDetection\/MediaPipeFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1267,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/MediaPipeFaceDetection\/MediaPipeFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1308,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/MediaPipeFaceDetection\/MediaPipeFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1350,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/MediaPipeFaceDetection\/MediaPipeFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1846,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/MediaPipeFaceDetection\/MediaPipeFaceDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 1970,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/MediaPipeFaceDetection\/MediaPipeFaceDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 3369,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/MediaPipeFaceDetection\/MediaPipeFaceDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 4101,
+      "length": 3,
+      "value": "0.5"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Codable\/Request\/LiveCheck Request\/AdditionalCustomerLiveCheckData.swift",
@@ -197195,7 +197241,7 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/APIManager.swift",
       "kind": "StringLiteral",
-      "offset": 768,
+      "offset": 759,
       "length": 28,
       "value": "\"https:\/\/api.idmission.com\/\""
     },
@@ -197314,217 +197360,210 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "Array",
-      "offset": 3697,
+      "offset": 3763,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "StringLiteral",
-      "offset": 4132,
+      "offset": 4198,
       "length": 34,
       "value": "\"SelfieCapture.selfieCaptureQueue\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 4200,
+      "offset": 4266,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "Array",
-      "offset": 4348,
+      "offset": 4414,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 4603,
+      "offset": 4669,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 4899,
+      "offset": 4967,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 4991,
+      "offset": 5059,
       "length": 3,
       "value": "600"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 5044,
+      "offset": 5112,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 5381,
+      "offset": 5449,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 6572,
+      "offset": 6785,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 6887,
+      "offset": 7100,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 7063,
+      "offset": 7276,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 7510,
+      "offset": 7723,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 7589,
+      "offset": 7802,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 7775,
+      "offset": 7988,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 8024,
+      "offset": 8237,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 8223,
+      "offset": 8436,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 9355,
+      "offset": 9567,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 9916,
+      "offset": 10128,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 10859,
+      "offset": 11071,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 11759,
+      "offset": 11971,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "Array",
-      "offset": 12922,
+      "offset": 13425,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "Dictionary",
-      "offset": 13966,
+      "offset": 14469,
       "length": 43,
       "value": "[(\"eventDescription\", \"Eye Close Detected\")]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "Dictionary",
-      "offset": 14237,
+      "offset": 14740,
       "length": 42,
       "value": "[(\"eventDescription\", \"Eye Open Detected\")]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 14875,
+      "offset": 15378,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "Dictionary",
-      "offset": 15135,
+      "offset": 15638,
       "length": 37,
       "value": "[(\"eventDescription\", \"Face inFocus\")]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "Dictionary",
-      "offset": 15545,
+      "offset": 16048,
       "length": 39,
       "value": "[(\"eventDescription\", \"Glare Detected\")]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16156,
-      "length": 1,
-      "value": "1"
+      "kind": "FloatLiteral",
+      "offset": 16940,
+      "length": 4,
+      "value": "15.0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 16213,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
-      "kind": "IntegerLiteral",
-      "offset": 24482,
+      "offset": 25101,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "StringLiteral",
-      "offset": 25758,
+      "offset": 26377,
       "length": 24,
       "value": "\"selfieCaptureDebugData\""
     },
@@ -198028,63 +198067,21 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 636,
-      "length": 33,
-      "value": "\"SEARCH_COMPANY_TEMPLATE_DETAILS\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
-      "kind": "StringLiteral",
-      "offset": 711,
+      "offset": 552,
       "length": 26,
       "value": "\"PassiveFaceTrainingModel\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 777,
-      "length": 24,
-      "value": "\"IDCaptureTrainingModel\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
-      "kind": "StringLiteral",
-      "offset": 842,
-      "length": 25,
-      "value": "\"ClassifierTrainingModel\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
-      "kind": "StringLiteral",
-      "offset": 906,
+      "offset": 617,
       "length": 23,
       "value": "\"FaceMaskTrainingModel\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 972,
-      "length": 27,
-      "value": "\"DocDetectionTrainingModel\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
-      "kind": "StringLiteral",
-      "offset": 1050,
-      "length": 26,
-      "value": "\"FPDetectionTrainingModel\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
-      "kind": "StringLiteral",
-      "offset": 1112,
-      "length": 24,
-      "value": "\"FocusTrainingModel_448\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
-      "kind": "StringLiteral",
-      "offset": 1176,
+      "offset": 680,
       "length": 24,
       "value": "\"FocusFaceTrainingModel\""
     },
@@ -198140,7 +198137,7 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 20893,
+      "offset": 20855,
       "length": 2,
       "value": "\"\""
     },

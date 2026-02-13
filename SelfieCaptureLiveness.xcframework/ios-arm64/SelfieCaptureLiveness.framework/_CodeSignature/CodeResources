@@ -6,35 +6,35 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		zRjB/Re9n4Ue/OHKL+2eKDjDeJ4=
+		HJBieWULrwjohTJZbJ8p1TcCmwU=
 		</data>
 		<key>Headers/SelfieCaptureLiveness-Swift.h</key>
 		<data>
-		YiN0+4PwthSoUhAKwd2Gxt/0e5I=
+		S8JWC4gsR6frAj8RRuQJJFw9m9w=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		AVd++BvQyPXUW0n75ewj//3lvYg=
+		4ipj/i0XPHMfkTX0ksJST0ayOQc=
 		</data>
 		<key>Modules/SelfieCaptureLiveness.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		xMAmReDb/XhJXCxokUy6wMS6fRA=
+		gnA9afoZoX6vI3Uzp1mPCkD8hlY=
 		</data>
 		<key>Modules/SelfieCaptureLiveness.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		mZrIQhMwe3ne/zPDYJUAYg0gulo=
+		2WhpNytPEPGNuALbXl33LSgRPZg=
 		</data>
 		<key>Modules/SelfieCaptureLiveness.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		i0EBOsoyX7SFyFfwJgu9XoNmUOU=
+		2iVtR1vooGp/HK6nSQlD56rh9QE=
 		</data>
 		<key>Modules/SelfieCaptureLiveness.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		mZrIQhMwe3ne/zPDYJUAYg0gulo=
+		2WhpNytPEPGNuALbXl33LSgRPZg=
 		</data>
 		<key>Modules/SelfieCaptureLiveness.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		AjMyBrPz9eSup4nhjkrU+/w1w2o=
+		b0sc/fhuHKbvWZko3WzOGqLzRAk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>SelfieCapture.storyboardc/D83-0d-1aa-view-MLu-Po-Y2J.nib</key>
 		<data>
-		11TCvWUe2TDMKAKhMZVttLXoVeg=
+		T4UPm1qJdE5Z26FjIHW9v4tWhsk=
 		</data>
 		<key>SelfieCapture.storyboardc/Info.plist</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>SelfieCapture.storyboardc/etj-lQ-qHg-view-K5c-kA-PpU.nib</key>
 		<data>
-		TgoIDhFvovVYPzL/fxvH/4sJZ+0=
+		z+gLBQWW1DMgWajaQcWHWNU7jhU=
 		</data>
 		<key>SelfieCapture.storyboardc/hWk-eV-qnL-view-KES-jY-WvT.nib</key>
 		<data>
-		aRDO1qewxqRQVycZviMQ/EyX2gE=
+		bOV5eZZYs9Vt9hdGBUm4b1ACX5I=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -75,49 +75,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cKdVeKwpVMUPnKaxK/mKpKnVjCGg2ip42KHR8bnfGV8=
+			0IlDl/YNrwW7EkTRBDf3dZvl4+nW2EqT/3oeb07qzSQ=
 			</data>
 		</dict>
 		<key>Headers/SelfieCaptureLiveness-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			p7Sz0y4Hj0KUD3WqwHwAitcN8Jx7QV/nm4fAtNS18yQ=
+			HSMFcwiIB1DwcOzUvHU8bqkHD16B2hJJgY4PQfSrtnI=
 			</data>
 		</dict>
 		<key>Modules/SelfieCaptureLiveness.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LBr/kwphNYuD2VzRqHChq+TEJFJQeQdkoNUPuLrRwW8=
+			8iRcAY3gCOPPSz20Q8g45NPWSYgxBGpUC09QaQTc0yU=
 			</data>
 		</dict>
 		<key>Modules/SelfieCaptureLiveness.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TEY21Brkmv3gu8Iob5ahkEKw/ATCiEBxJBDeDwR3Hds=
+			X5jWLuxPH7voinsSnq/B1uSrrQg7GSAhIeQ45cF+SX4=
 			</data>
 		</dict>
 		<key>Modules/SelfieCaptureLiveness.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C0opJH3+hTKipjqMlcvlfFxgKjucBs2m5yo2Ny7v0+Y=
+			A76HnudDobsBZoKRt+vOXCNbEU8RrIfBFw/xkCUp7ws=
 			</data>
 		</dict>
 		<key>Modules/SelfieCaptureLiveness.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TEY21Brkmv3gu8Iob5ahkEKw/ATCiEBxJBDeDwR3Hds=
+			X5jWLuxPH7voinsSnq/B1uSrrQg7GSAhIeQ45cF+SX4=
 			</data>
 		</dict>
 		<key>Modules/SelfieCaptureLiveness.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NK7Vky+nZGARrXaucqBzEEh6sl/0R3W5Pvg+y0avoxA=
+			WIJzrL8tSXO+tjety1kooCDaKJIMH6SQRNqCaHELzK8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -131,7 +131,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CCObFsqJw4o9D8koiTA1/RT+k7flJfVuFLjzZrPNwIo=
+			sSzdbwulXaP1nLDkrgjx/YYDPYy9RPwFFhlDlGMD4Xo=
 			</data>
 		</dict>
 		<key>SelfieCapture.storyboardc/Info.plist</key>
@@ -166,14 +166,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			65m/K1wYySm3Ru5zSpflhKX1x+KNkjGSLUR3zVz9+Ng=
+			De1zUa8io7rHhvsxO8R3Xgrhv7WH8LdFWc2CRELqQWU=
 			</data>
 		</dict>
 		<key>SelfieCapture.storyboardc/hWk-eV-qnL-view-KES-jY-WvT.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M2oTFyrC+6D0P6VaxpNdBgUvXbHjHUuHADmxR0VQ4jU=
+			kJCpke8f0dzX4b81U3UtxAPZtHylNGP4A3BPqkhWEZA=
 			</data>
 		</dict>
 	</dict>

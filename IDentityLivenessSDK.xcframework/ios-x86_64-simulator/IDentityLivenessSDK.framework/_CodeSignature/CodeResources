@@ -4,61 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
-		<data>
-		96Uw5p4tLIiDbN11Du0p0c5xqE8=
-		</data>
-		<key>GoogleMVFaceDetectorResources.bundle/BCLlefteyeclosed_200.emd</key>
-		<data>
-		KBTvwnLXsoe2PIlGUwZzMUOp5k8=
-		</data>
-		<key>GoogleMVFaceDetectorResources.bundle/BCLrighteyeclosed_200.emd</key>
-		<data>
-		fW6O7h6Je5DNmNrbOeCGmAixyLI=
-		</data>
-		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
-		<data>
-		jeHPPM3CEGwMoDAIZbtzVh27Jm0=
-		</data>
-		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
-		<data>
-		trY9XrpS4DxHzs3eHljZHIJNHrI=
-		</data>
-		<key>GoogleMVFaceDetectorResources.bundle/MFT_fssd_accgray.pb</key>
-		<data>
-		tq7fRawRQ359i/c0FEVvpQ6Oee0=
-		</data>
-		<key>GoogleMVFaceDetectorResources.bundle/MFT_fssd_fastgray.pb</key>
-		<data>
-		DP+qJf0czliL6znGLVx90ASNzCY=
-		</data>
-		<key>GoogleMVFaceDetectorResources.bundle/blazeface.tfl</key>
-		<data>
-		oseYQ/EQxo7JsNpdNgo4YVLh7a4=
-		</data>
-		<key>GoogleMVFaceDetectorResources.bundle/contours.tfl</key>
-		<data>
-		PaAh9+zFw3Is4fLMn5iQsLG5M34=
-		</data>
-		<key>GoogleMVFaceDetectorResources.bundle/fssd_100_8bit_gray_v1.tflite</key>
-		<data>
-		VCp0NyrYJWQnYbGaxVv0Vzy0IeA=
-		</data>
-		<key>GoogleMVFaceDetectorResources.bundle/fssd_100_8bit_v1.tflite</key>
-		<data>
-		AHaxev+fV4YGoIDboAUFlxfISmY=
-		</data>
-		<key>GoogleMVFaceDetectorResources.bundle/fssd_25_8bit_gray_v1.tflite</key>
-		<data>
-		Rd53RFFpKHZNvbiDaE2p4XxjbY0=
-		</data>
-		<key>GoogleMVFaceDetectorResources.bundle/fssd_25_8bit_v1.tflite</key>
-		<data>
-		RxtbTN3LjpFChp3tmniX3KD+dsE=
-		</data>
 		<key>Headers/IDentityLivenessSDK-Swift.h</key>
 		<data>
-		QiBEzxPpRgQmBDAYyHIzAKqwHwI=
+		hw/KdV+58N/gzgpF4pKmHfrhRSk=
 		</data>
 		<key>Headers/IDentityLivenessSDK.h</key>
 		<data>
@@ -202,7 +150,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nC/b1ZZc3e8Ji36c0U64W6ElTt4=
+		JuAboQkAJGwGi4Mxu9WvdClHI2g=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -210,23 +158,23 @@
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		XYgtvpQfgiI/ZY2F5njsq0zyEJ4=
+		kzLnx21qQyFH9nytV8+t0lqRwFo=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		UxjClyzX912WGU1zQE2jK8slfvc=
+		DDjCQApsFKFFYlkMftPCfZ88lX4=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		j8bvzYH+HZtIY1GHdZRQcCwLleY=
+		K8e1Drz4KaZq7achQjbxeaJ3b7c=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		UxjClyzX912WGU1zQE2jK8slfvc=
+		DDjCQApsFKFFYlkMftPCfZ88lX4=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wqUQz8Ip5MFeqkcktG3nCs59N0w=
+		qAsbEb/bJGrVzvx9uLqUzKb1XDM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -236,105 +184,26 @@
 		<data>
 		TaTyTcEd6lmQI305SwzT0DmhxSc=
 		</data>
+		<key>face_blendshapes.tflite</key>
+		<data>
+		6vJ990q7bhEvPtvXsG6z1GT9Asw=
+		</data>
+		<key>face_detector.tflite</key>
+		<data>
+		jIbaiblMJcOgX5XWSF0bPQ5p25A=
+		</data>
+		<key>face_landmarks_detector.tflite</key>
+		<data>
+		wIUFWwkLE+M5BwrWKLcCf9adB0I=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8A8lZEpijnOMFV9JPQcq8UPyU8v5nwi/SCnL5dT0NRw=
-			</data>
-		</dict>
-		<key>GoogleMVFaceDetectorResources.bundle/BCLlefteyeclosed_200.emd</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0xIT5PJf+LIXgeeG/YnO3lkX75s/vlC99V1IOvE27e0=
-			</data>
-		</dict>
-		<key>GoogleMVFaceDetectorResources.bundle/BCLrighteyeclosed_200.emd</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Y8oL2DjlGXdImtrbgKC+AWxaoLe2kPvDiaBkWqzP5P8=
-			</data>
-		</dict>
-		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zzKTvK911h77FCXrqXjfHNsX1cnZY15ZG+NcLsVTlYI=
-			</data>
-		</dict>
-		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DtXIUoL5QNFKVyOmwK8F+cKr1Okww8TwvloHI203QRE=
-			</data>
-		</dict>
-		<key>GoogleMVFaceDetectorResources.bundle/MFT_fssd_accgray.pb</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8K2wTXshtNmImTKmLw7/En7tsn0vhTQqkBRBU8oLgbE=
-			</data>
-		</dict>
-		<key>GoogleMVFaceDetectorResources.bundle/MFT_fssd_fastgray.pb</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CUNCXfGzUODFinvmaL4flC6sM4wZjhpPFoWco+Eif0U=
-			</data>
-		</dict>
-		<key>GoogleMVFaceDetectorResources.bundle/blazeface.tfl</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TyXMFC6WtfIbMjbSFmwuZikgaB8dI5QtJRDpjIr27Nw=
-			</data>
-		</dict>
-		<key>GoogleMVFaceDetectorResources.bundle/contours.tfl</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hBYLwMSnSVF+Yvk8ssaKuP9J3lcfcOttFgJUypoHicA=
-			</data>
-		</dict>
-		<key>GoogleMVFaceDetectorResources.bundle/fssd_100_8bit_gray_v1.tflite</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ekzwnGrkp1gUTUK/NbmiapWYfjxYQdDcORCVaYKZ2as=
-			</data>
-		</dict>
-		<key>GoogleMVFaceDetectorResources.bundle/fssd_100_8bit_v1.tflite</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OvuTDu3I0dQENEgCgdO16M7EwwTlLTT9/IqVCDQLtxk=
-			</data>
-		</dict>
-		<key>GoogleMVFaceDetectorResources.bundle/fssd_25_8bit_gray_v1.tflite</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			IVEbvtJxoKkri5ORjg+I9u+70RWjbRVV8GHO4TH2qzw=
-			</data>
-		</dict>
-		<key>GoogleMVFaceDetectorResources.bundle/fssd_25_8bit_v1.tflite</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2pAlL0mzu5QuX4gBgKFFYfZpKW5/s+3s3quqi2u3gio=
-			</data>
-		</dict>
 		<key>Headers/IDentityLivenessSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jy/OLpasECAn9z7wgtww3FfybSFYc01zuJk81pf/e/Y=
+			wmTMXufQ4Q/V7Ar8YW1sYVx2y2Cs9EM6m7T4j8gff/M=
 			</data>
 		</dict>
 		<key>Headers/IDentityLivenessSDK.h</key>
@@ -593,35 +462,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uTpxDfseukw0iKhbPg/oBhQzrw5Y09QIJtDBVpXCTrw=
+			faIUl4lVxOJ/Antu/FpX61Xbevx+FU1KRoecIF/TPgQ=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hZgmXSQy9XYZ2Y6ey10439OeWsSGu7goqQvgLcLx8rI=
+			lQGBALXKAY6tNaxrnBuJjmA7ILKgQJgXwd1kiWeTAJA=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BmgytO8Gs3DeWD45ZoA3ygNq4IGKauPKWRpBAaZ3gnc=
+			dR4Mm2/tbVyo9H5C97us4Ult3d8/6WhHSz0XwvnrHGM=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hZgmXSQy9XYZ2Y6ey10439OeWsSGu7goqQvgLcLx8rI=
+			lQGBALXKAY6tNaxrnBuJjmA7ILKgQJgXwd1kiWeTAJA=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AM1GSSErVDollpoHgAmfARAYbvBcGxBq3HCMe0YUROk=
+			mZAFgDYQYZTH9e0etTIG8rO8/2RtbY6TgH40CL142zs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -636,6 +505,27 @@
 			<key>hash2</key>
 			<data>
 			Zb6xrIw/HNFfwVeI0CR8K/h753+aoGym+SUOfZ8KG4w=
+			</data>
+		</dict>
+		<key>face_blendshapes.tflite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Tzbd7QSdsY12BIVnQ5sqf1jx2qvADXi/6POtOWotIII=
+			</data>
+		</dict>
+		<key>face_detector.tflite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tFePNZQL9aGmVSFKHM5cqxPrpzwSl8144aBMI4CwFS8=
+			</data>
+		</dict>
+		<key>face_landmarks_detector.tflite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			x9VCBM4ESEdMfz+pr0lHh8CWXL3W8g/HKGfkMEa9Q9U=
 			</data>
 		</dict>
 	</dict>
