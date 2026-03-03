@@ -192,10 +192,6 @@
 		<data>
 		hsKkdvGLjsqJX5GuBM729oLj/os=
 		</data>
-		<key>face_detector.tflite</key>
-		<data>
-		jIbaiblMJcOgX5XWSF0bPQ5p25A=
-		</data>
 		<key>face_landmarks_detector.tflite</key>
 		<data>
 		wIUFWwkLE+M5BwrWKLcCf9adB0I=
@@ -523,13 +519,6 @@
 			<key>hash2</key>
 			<data>
 			LDco5tpW8h4hoyBDM5b7BtQNkIjyJHwF5WNaaI1F3+E=
-			</data>
-		</dict>
-		<key>face_detector.tflite</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tFePNZQL9aGmVSFKHM5cqxPrpzwSl8144aBMI4CwFS8=
 			</data>
 		</dict>
 		<key>face_landmarks_detector.tflite</key>

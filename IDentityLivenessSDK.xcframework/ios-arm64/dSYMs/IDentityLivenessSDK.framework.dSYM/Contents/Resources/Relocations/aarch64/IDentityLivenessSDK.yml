@@ -12,7 +12,7 @@ relocations:
   - { offset: 0x19A2B1, size: 0x8, addend: 0x0, symName: _xsltLocaleStrcmp, symObjAddr: 0x794, symBinAddr: 0x4794, symSize: 0xC }
   - { offset: 0x19A3CE, size: 0x8, addend: 0x0, symName: '+[CommonClass deviceName]', symObjAddr: 0x0, symBinAddr: 0x47A0, symSize: 0x130 }
   - { offset: 0x19A3DC, size: 0x8, addend: 0x0, symName: '+[CommonClass deviceName]', symObjAddr: 0x0, symBinAddr: 0x47A0, symSize: 0x130 }
-  - { offset: 0x19A406, size: 0x8, addend: 0x0, symName: _deviceName.deviceNamesByCode, symObjAddr: 0x4950, symBinAddr: 0x5C7D10, symSize: 0x0 }
+  - { offset: 0x19A406, size: 0x8, addend: 0x0, symName: _deviceName.deviceNamesByCode, symObjAddr: 0x4948, symBinAddr: 0x5C7D10, symSize: 0x0 }
   - { offset: 0x19A4C7, size: 0x8, addend: 0x0, symName: '+[CommonClass getAVCaptureDevice]', symObjAddr: 0x130, symBinAddr: 0x48D0, symSize: 0x130 }
   - { offset: 0x19A5AA, size: 0x8, addend: 0x0, symName: _xsltEvalXPathPredicate, symObjAddr: 0x0, symBinAddr: 0x4A00, symSize: 0x148 }
   - { offset: 0x19A6B1, size: 0x8, addend: 0x0, symName: _xsltEvalXPathPredicate, symObjAddr: 0x0, symBinAddr: 0x4A00, symSize: 0x148 }
@@ -774,19 +774,19 @@ relocations:
   - { offset: 0x1DDC2E, size: 0x8, addend: 0x0, symName: _exsltStrXpathCtxtRegister, symObjAddr: 0x13EC, symBinAddr: 0x2BCFC, symSize: 0xEC }
   - { offset: 0x1DDDC7, size: 0x8, addend: 0x0, symName: _xsltGetCNsProp, symObjAddr: 0x0, symBinAddr: 0x2BED8, symSize: 0x1B0 }
   - { offset: 0x1DDDF0, size: 0x8, addend: 0x0, symName: _xsltGenericError, symObjAddr: 0x3290, symBinAddr: 0x5B9AE0, symSize: 0x0 }
-  - { offset: 0x1DDE12, size: 0x8, addend: 0x0, symName: _xsltGenericErrorContext, symObjAddr: 0x11790, symBinAddr: 0x5F27F8, symSize: 0x0 }
+  - { offset: 0x1DDE12, size: 0x8, addend: 0x0, symName: _xsltGenericErrorContext, symObjAddr: 0x11798, symBinAddr: 0x5F27F8, symSize: 0x0 }
   - { offset: 0x1DDE29, size: 0x8, addend: 0x0, symName: _xsltGenericDebug, symObjAddr: 0x3298, symBinAddr: 0x5B9AE8, symSize: 0x0 }
-  - { offset: 0x1DDE40, size: 0x8, addend: 0x0, symName: _xsltGenericDebugContext, symObjAddr: 0x11798, symBinAddr: 0x5F2800, symSize: 0x0 }
+  - { offset: 0x1DDE40, size: 0x8, addend: 0x0, symName: _xsltGenericDebugContext, symObjAddr: 0x117A0, symBinAddr: 0x5F2800, symSize: 0x0 }
   - { offset: 0x1DDE4A, size: 0x8, addend: 0x0, symName: _xsltTimestamp, symObjAddr: 0x1F80, symBinAddr: 0x2DE58, symSize: 0xE4 }
-  - { offset: 0x1DDE72, size: 0x8, addend: 0x0, symName: _xsltTimestamp.startup, symObjAddr: 0x117A8, symBinAddr: 0x5C7D48, symSize: 0x0 }
-  - { offset: 0x1DDF3A, size: 0x8, addend: 0x0, symName: _xslDebugStatus, symObjAddr: 0x117A0, symBinAddr: 0x5F2808, symSize: 0x0 }
+  - { offset: 0x1DDE72, size: 0x8, addend: 0x0, symName: _xsltTimestamp.startup, symObjAddr: 0x117B0, symBinAddr: 0x5C7D48, symSize: 0x0 }
+  - { offset: 0x1DDF3A, size: 0x8, addend: 0x0, symName: _xslDebugStatus, symObjAddr: 0x117A8, symBinAddr: 0x5F2808, symSize: 0x0 }
   - { offset: 0x1DDF58, size: 0x8, addend: 0x0, symName: _xsltSortFunction, symObjAddr: 0x32A0, symBinAddr: 0x5B9AF0, symSize: 0x0 }
   - { offset: 0x1DEF3D, size: 0x8, addend: 0x0, symName: _calibration, symObjAddr: 0x32A8, symBinAddr: 0x5B9AF8, symSize: 0x0 }
   - { offset: 0x1DEF47, size: 0x8, addend: 0x0, symName: _pretty_templ_match, symObjAddr: 0x28FC, symBinAddr: 0x2E7D4, symSize: 0xC0 }
-  - { offset: 0x1DEF70, size: 0x8, addend: 0x0, symName: _pretty_templ_match.dst, symObjAddr: 0x117D0, symBinAddr: 0x5C7D70, symSize: 0x0 }
-  - { offset: 0x1DEFD7, size: 0x8, addend: 0x0, symName: _xsltDebuggerCurrentCallbacks.0, symObjAddr: 0x117B8, symBinAddr: 0x5C7D58, symSize: 0x0 }
-  - { offset: 0x1DEFE2, size: 0x8, addend: 0x0, symName: _xsltDebuggerCurrentCallbacks.1, symObjAddr: 0x117C0, symBinAddr: 0x5C7D60, symSize: 0x0 }
-  - { offset: 0x1DEFED, size: 0x8, addend: 0x0, symName: _xsltDebuggerCurrentCallbacks.2, symObjAddr: 0x117C8, symBinAddr: 0x5C7D68, symSize: 0x0 }
+  - { offset: 0x1DEF70, size: 0x8, addend: 0x0, symName: _pretty_templ_match.dst, symObjAddr: 0x117D8, symBinAddr: 0x5C7D70, symSize: 0x0 }
+  - { offset: 0x1DEFD7, size: 0x8, addend: 0x0, symName: _xsltDebuggerCurrentCallbacks.0, symObjAddr: 0x117C0, symBinAddr: 0x5C7D58, symSize: 0x0 }
+  - { offset: 0x1DEFE2, size: 0x8, addend: 0x0, symName: _xsltDebuggerCurrentCallbacks.1, symObjAddr: 0x117C8, symBinAddr: 0x5C7D60, symSize: 0x0 }
+  - { offset: 0x1DEFED, size: 0x8, addend: 0x0, symName: _xsltDebuggerCurrentCallbacks.2, symObjAddr: 0x117D0, symBinAddr: 0x5C7D68, symSize: 0x0 }
   - { offset: 0x1DF0BB, size: 0x8, addend: 0x0, symName: _xsltGetCNsProp, symObjAddr: 0x0, symBinAddr: 0x2BED8, symSize: 0x1B0 }
   - { offset: 0x1DF33D, size: 0x8, addend: 0x0, symName: _xsltGetNsProp, symObjAddr: 0x1B0, symBinAddr: 0x2C088, symSize: 0x170 }
   - { offset: 0x1DF4D2, size: 0x8, addend: 0x0, symName: _xsltGetUTF8Char, symObjAddr: 0x320, symBinAddr: 0x2C1F8, symSize: 0x11C }
@@ -1000,14 +1000,14 @@ relocations:
   - { offset: 0x1F3F7C, size: 0x8, addend: 0x0, symName: _xsltCopyNamespace, symObjAddr: 0x764, symBinAddr: 0x36DE0, symSize: 0x3C }
   - { offset: 0x1F3FD9, size: 0x8, addend: 0x0, symName: _xsltFreeNamespaceAliasHashes, symObjAddr: 0x7A0, symBinAddr: 0x36E1C, symSize: 0x30 }
   - { offset: 0x1F40C5, size: 0x8, addend: 0x0, symName: _xsltFreeExts, symObjAddr: 0x0, symBinAddr: 0x36E4C, symSize: 0x48 }
-  - { offset: 0x1F40ED, size: 0x8, addend: 0x0, symName: _xsltExtensionsHash, symObjAddr: 0xFAE8, symBinAddr: 0x5C8160, symSize: 0x0 }
-  - { offset: 0x1F4103, size: 0x8, addend: 0x0, symName: _xsltExtMutex, symObjAddr: 0xFAF0, symBinAddr: 0x5C8168, symSize: 0x0 }
-  - { offset: 0x1F4119, size: 0x8, addend: 0x0, symName: _xsltFunctionsHash, symObjAddr: 0xFAF8, symBinAddr: 0x5C8170, symSize: 0x0 }
-  - { offset: 0x1F412F, size: 0x8, addend: 0x0, symName: _xsltElementsHash, symObjAddr: 0xFB00, symBinAddr: 0x5C8178, symSize: 0x0 }
-  - { offset: 0x1F4145, size: 0x8, addend: 0x0, symName: _xsltTopLevelsHash, symObjAddr: 0xFB08, symBinAddr: 0x5C8180, symSize: 0x0 }
-  - { offset: 0x1F415C, size: 0x8, addend: 0x0, symName: _testStyleData, symObjAddr: 0xFB18, symBinAddr: 0x5C8190, symSize: 0x0 }
-  - { offset: 0x1F417F, size: 0x8, addend: 0x0, symName: _testData, symObjAddr: 0xFB20, symBinAddr: 0x5C8198, symSize: 0x0 }
-  - { offset: 0x1F4195, size: 0x8, addend: 0x0, symName: _xsltModuleHash, symObjAddr: 0xFB10, symBinAddr: 0x5C8188, symSize: 0x0 }
+  - { offset: 0x1F40ED, size: 0x8, addend: 0x0, symName: _xsltExtensionsHash, symObjAddr: 0xFAF0, symBinAddr: 0x5C8160, symSize: 0x0 }
+  - { offset: 0x1F4103, size: 0x8, addend: 0x0, symName: _xsltExtMutex, symObjAddr: 0xFAF8, symBinAddr: 0x5C8168, symSize: 0x0 }
+  - { offset: 0x1F4119, size: 0x8, addend: 0x0, symName: _xsltFunctionsHash, symObjAddr: 0xFB00, symBinAddr: 0x5C8170, symSize: 0x0 }
+  - { offset: 0x1F412F, size: 0x8, addend: 0x0, symName: _xsltElementsHash, symObjAddr: 0xFB08, symBinAddr: 0x5C8178, symSize: 0x0 }
+  - { offset: 0x1F4145, size: 0x8, addend: 0x0, symName: _xsltTopLevelsHash, symObjAddr: 0xFB10, symBinAddr: 0x5C8180, symSize: 0x0 }
+  - { offset: 0x1F415C, size: 0x8, addend: 0x0, symName: _testStyleData, symObjAddr: 0xFB20, symBinAddr: 0x5C8190, symSize: 0x0 }
+  - { offset: 0x1F417F, size: 0x8, addend: 0x0, symName: _testData, symObjAddr: 0xFB28, symBinAddr: 0x5C8198, symSize: 0x0 }
+  - { offset: 0x1F4195, size: 0x8, addend: 0x0, symName: _xsltModuleHash, symObjAddr: 0xFB18, symBinAddr: 0x5C8188, symSize: 0x0 }
   - { offset: 0x1F53B1, size: 0x8, addend: 0x0, symName: _xsltFreeExts, symObjAddr: 0x0, symBinAddr: 0x36E4C, symSize: 0x48 }
   - { offset: 0x1F5495, size: 0x8, addend: 0x0, symName: _xsltRegisterExtPrefix, symObjAddr: 0x48, symBinAddr: 0x36E94, symSize: 0x168 }
   - { offset: 0x1F56A7, size: 0x8, addend: 0x0, symName: _xsltStyleGetExtData, symObjAddr: 0x474, symBinAddr: 0x372C0, symSize: 0x1CC }
