@@ -4,15 +4,18 @@
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import AVFoundation
 import Accelerate
+import Darwin.C
 import CommonCrypto
 import CoreGraphics
 import CoreLocation
 import CoreMedia
 import CryptoKit
+import Darwin
 import Foundation
 import GZIP
 @_exported import IDentityLivenessSDK
 import ImageIO
+import MachO
 import MetalPerformanceShaders
 import MobileCoreServices
 import Network
@@ -982,6 +985,8 @@ extension IDentityLivenessSDK.SelfieCapture {
     public var capture4K: Swift.Bool
     public var uploadFaceData: Swift.Bool
     public var enableInstructionScreen: Swift.Bool
+    public var instructionScreenBackButtonIsHidden: Swift.Bool
+    public var cameraScreenBackButtonIsHidden: Swift.Bool
     public var ovalScaleMultiplier: Swift.Float {
       get
       set
@@ -1392,6 +1397,42 @@ public struct CustomerDataResponse : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+extension IDentityLivenessSDK.IDentitySDK {
+  public class func getXMLString(request: IDentityLivenessSDK.GenericDataRequest, genericDataDictionary: [Swift.String : Any]) -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
+  public class func getJSONString(dictionary: [Swift.String : Any]) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public class func getImageJSONString(for fileBase64: Swift.String, formKey: Swift.String, ifForFace: Swift.Bool? = nil, pdfDocumentName: Swift.String? = nil, extensionType: IDentityLivenessSDK.ExtensionType? = nil) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public class func getFingerprintJSONString(fingerPrintData: IDentityLivenessSDK.FingerPrintData?) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public class func getVoiceJSONString(fileContent: Swift.String, formKey: Swift.String) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public class func getLiveFaceImageDataNode(formKey: Swift.String, formID: Swift.String, request: IDentityLivenessSDK.GenericDataRequest, additionalData: [Swift.String : Any]?) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public class func getPrimaryIdImageDataNode(formKey: Swift.String, serviceId: Swift.String?, request: IDentityLivenessSDK.GenericDataRequest, idType: Swift.String?, countryCode: Swift.String?, stateCode: Swift.String?) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public class func getSecodaryIdImageDataNode(formKey: Swift.String, request: IDentityLivenessSDK.GenericDataRequest, idType_sec: Swift.String?, countryCode_sec: Swift.String?, stateCode_sec: Swift.String?) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public class func getEmployeeInformationDataNode(request: IDentityLivenessSDK.GenericDataRequest, employeeInfoXMLString: Swift.String?, employeeCode: Swift.String?, serviceID: Swift.String?) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public class func getSignatureCaptureNode(request: IDentityLivenessSDK.GenericDataRequest) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public class func getFingerPrintXMLNode(request: IDentityLivenessSDK.GenericDataRequest, for process: Swift.String) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public class func getAdditionalDataXMLNode(loginId: Swift.String, merchantId: Swift.String, CompanyId: Swift.String, companyName: Swift.String, formKey: Swift.String, request: IDentityLivenessSDK.GenericDataRequest, additionalDictionary: [Swift.String : Any]?) -> Swift.String?
+  #endif
+}
 public struct CriminalOffensesResult : Swift.Codable {
   public var title: Swift.String?
   public var code: Swift.String?
@@ -1693,7 +1734,7 @@ extension IDentityLivenessSDK.CaptureSession {
   public func authorizationStatus(completion: @escaping IDentityLivenessSDK.BoolCompletion)
 }
 extension UIKit.UIImage {
-  public func getExifBase64String(for capturedImageType: Swift.String, compressionQuality: CoreFoundation.CGFloat) -> Swift.String
+  public func getFinalExifImageBase64String(imageType: Swift.String, timeStamp: Swift.String, compressionQuality: CoreFoundation.CGFloat) -> Swift.String
 }
 @_hasMissingDesignatedInitializers public class XMLHashOptions {
   public var shouldProcessLazily: Swift.Bool
@@ -2896,7 +2937,7 @@ extension UIKit.UIImage {
   public func scaledDownToFit(height newHeight: CoreFoundation.CGFloat) -> UIKit.UIImage?
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public func scaledRGBData(using scaler: IDentityLivenessSDK.MetalBilinearScaler, size: CoreFoundation.CGSize, isQuantized: Swift.Bool) -> Foundation.Data?
+  public func scaledRGBData(using scaler: IDentityLivenessSDK.MetalBilinearScaler, size: CoreFoundation.CGSize, normalization: IDentityLivenessSDK.MetalBilinearScaler.NormalizationType) -> Foundation.Data?
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   public func cropping(to rect: CoreFoundation.CGRect) -> UIKit.UIImage?
@@ -3020,7 +3061,34 @@ extension UIKit.UIViewController {
   }
 }
 public class MetalBilinearScaler {
+  public enum NormalizationType {
+    case quantized
+    case minusOneToOne
+    case zeroToOne
+    public static func == (a: IDentityLivenessSDK.MetalBilinearScaler.NormalizationType, b: IDentityLivenessSDK.MetalBilinearScaler.NormalizationType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
   public init()
+  @objc deinit
+}
+public protocol ScreenSecurityDelegate : AnyObject {
+  func didDetectScreenshot()
+  func didChangeScreenRecordingStatus(isRecording: Swift.Bool)
+}
+@_hasMissingDesignatedInitializers final public class ScreenSecurityManager {
+  public static let shared: IDentityLivenessSDK.ScreenSecurityManager
+  weak final public var delegate: (any IDentityLivenessSDK.ScreenSecurityDelegate)?
+  final public var isBlurProtectionEnabled: Swift.Bool
+  public static let didDetectScreenshotNotification: Foundation.Notification.Name
+  public static let didChangeRecordingStatusNotification: Foundation.Notification.Name
+  final public func startMonitoring()
+  final public func stopMonitoring()
+  final public var isScreenCaptured: Swift.Bool {
+    get
+  }
   @objc deinit
 }
 public struct FormDetailResultResponseData : Swift.Codable {
@@ -3126,6 +3194,7 @@ public enum SelfieCaptureState {
 public struct Selfie {
   public let image: UIKit.UIImage
   public let faceImage: UIKit.UIImage
+  public let finalExifFaceImageBase64String: Swift.String?
   public let averageLiveness: Swift.Float
   public let faceFocusScore: Swift.Float?
   public let faceMaskScore: Swift.Float?
@@ -3194,42 +3263,6 @@ public struct IneQRResponse : Swift.Codable {
   public var qrValidation_ocr: Swift.String?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
-}
-extension IDentityLivenessSDK.IDentitySDK {
-  public class func getXMLString(request: IDentityLivenessSDK.GenericDataRequest, genericDataDictionary: [Swift.String : Any]) -> Swift.String
-  #if compiler(>=5.3) && $NonescapableTypes
-  public class func getJSONString(dictionary: [Swift.String : Any]) -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  public class func getImageJSONString(for fileBase64: Swift.String, formKey: Swift.String, ifForFace: Swift.Bool? = nil, pdfDocumentName: Swift.String? = nil, extensionType: IDentityLivenessSDK.ExtensionType? = nil) -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  public class func getFingerprintJSONString(fingerPrintData: IDentityLivenessSDK.FingerPrintData?) -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  public class func getVoiceJSONString(fileContent: Swift.String, formKey: Swift.String) -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  public class func getLiveFaceImageDataNode(formKey: Swift.String, formID: Swift.String, request: IDentityLivenessSDK.GenericDataRequest, additionalData: [Swift.String : Any]?) -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  public class func getPrimaryIdImageDataNode(formKey: Swift.String, serviceId: Swift.String?, request: IDentityLivenessSDK.GenericDataRequest, idType: Swift.String?, countryCode: Swift.String?, stateCode: Swift.String?) -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  public class func getSecodaryIdImageDataNode(formKey: Swift.String, request: IDentityLivenessSDK.GenericDataRequest, idType_sec: Swift.String?, countryCode_sec: Swift.String?, stateCode_sec: Swift.String?) -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  public class func getEmployeeInformationDataNode(request: IDentityLivenessSDK.GenericDataRequest, employeeInfoXMLString: Swift.String?, employeeCode: Swift.String?, serviceID: Swift.String?) -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  public class func getSignatureCaptureNode(request: IDentityLivenessSDK.GenericDataRequest) -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  public class func getFingerPrintXMLNode(request: IDentityLivenessSDK.GenericDataRequest, for process: Swift.String) -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  public class func getAdditionalDataXMLNode(loginId: Swift.String, merchantId: Swift.String, CompanyId: Swift.String, companyName: Swift.String, formKey: Swift.String, request: IDentityLivenessSDK.GenericDataRequest, additionalDictionary: [Swift.String : Any]?) -> Swift.String?
-  #endif
 }
 public struct CustomerLiveCheckRequest : Swift.Encodable {
   public var customerData: IDentityLivenessSDK.CustomerLiveCheckDataRequest
@@ -3535,6 +3568,8 @@ public typealias ErrorCompletion = ((any Swift.Error)?) -> Swift.Void
     get
   }
   weak public static var delegate: (any IDentityLivenessSDK.InitializationDelegate)?
+  public class func setScreenSecurityEnabled(_ enabled: Swift.Bool)
+  public class func setScreenRecordingBlurEnabled(_ enabled: Swift.Bool)
   public class func initializeSDK(language: IDentityLivenessSDK.Language = .en, isGPSEnabled: Swift.Bool = true, isUpdateModelsData: Swift.Bool = true, accessToken: Swift.String, completion: @escaping IDentityLivenessSDK.ErrorCompletion)
   @objc deinit
 }
@@ -3797,6 +3832,8 @@ extension IDentityLivenessSDK.AnalysePOA : Swift.RawRepresentable {}
 extension IDentityLivenessSDK.ExtensionType : Swift.Equatable {}
 extension IDentityLivenessSDK.ExtensionType : Swift.Hashable {}
 extension IDentityLivenessSDK.ExtensionType : Swift.RawRepresentable {}
+extension IDentityLivenessSDK.MetalBilinearScaler.NormalizationType : Swift.Equatable {}
+extension IDentityLivenessSDK.MetalBilinearScaler.NormalizationType : Swift.Hashable {}
 extension IDentityLivenessSDK.IdDataEnrollRequest.IdType : Swift.Equatable {}
 extension IDentityLivenessSDK.IdDataEnrollRequest.IdType : Swift.Hashable {}
 extension IDentityLivenessSDK.IdDataEnrollRequest.IdType : Swift.RawRepresentable {}
