@@ -2315,6 +2315,120 @@
           },
           {
             "kind": "Var",
+            "name": "modelDownloadFaceFullRangeSparseEvent",
+            "printedName": "modelDownloadFaceFullRangeSparseEvent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDentityLivenessSDK.EventName.Type) -> IDentityLivenessSDK.EventName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventName",
+                    "printedName": "IDentityLivenessSDK.EventName",
+                    "usr": "s:19IDentityLivenessSDK9EventNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDentityLivenessSDK.EventName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventName",
+                        "printedName": "IDentityLivenessSDK.EventName",
+                        "usr": "s:19IDentityLivenessSDK9EventNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19IDentityLivenessSDK9EventNameO032modelDownloadFaceFullRangeSparseD0yA2CmF",
+            "mangledName": "$s19IDentityLivenessSDK9EventNameO032modelDownloadFaceFullRangeSparseD0yA2CmF",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "modelDownloadFaceLandmarksDetectorEvent",
+            "printedName": "modelDownloadFaceLandmarksDetectorEvent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDentityLivenessSDK.EventName.Type) -> IDentityLivenessSDK.EventName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventName",
+                    "printedName": "IDentityLivenessSDK.EventName",
+                    "usr": "s:19IDentityLivenessSDK9EventNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDentityLivenessSDK.EventName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventName",
+                        "printedName": "IDentityLivenessSDK.EventName",
+                        "usr": "s:19IDentityLivenessSDK9EventNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19IDentityLivenessSDK9EventNameO034modelDownloadFaceLandmarksDetectorD0yA2CmF",
+            "mangledName": "$s19IDentityLivenessSDK9EventNameO034modelDownloadFaceLandmarksDetectorD0yA2CmF",
+            "moduleName": "IDentityLivenessSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "modelDownloadFaceBlendshapesDetectorEvent",
+            "printedName": "modelDownloadFaceBlendshapesDetectorEvent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDentityLivenessSDK.EventName.Type) -> IDentityLivenessSDK.EventName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventName",
+                    "printedName": "IDentityLivenessSDK.EventName",
+                    "usr": "s:19IDentityLivenessSDK9EventNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDentityLivenessSDK.EventName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventName",
+                        "printedName": "IDentityLivenessSDK.EventName",
+                        "usr": "s:19IDentityLivenessSDK9EventNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19IDentityLivenessSDK9EventNameO036modelDownloadFaceBlendshapesDetectorD0yA2CmF",
+            "mangledName": "$s19IDentityLivenessSDK9EventNameO036modelDownloadFaceBlendshapesDetectorD0yA2CmF",
+            "moduleName": "IDentityLivenessSDK"
+          },
+          {
+            "kind": "Var",
             "name": "modelDownloadFaceLivenessEvent",
             "printedName": "modelDownloadFaceLivenessEvent",
             "children": [
@@ -2348,10 +2462,7 @@
             "declKind": "EnumElement",
             "usr": "s:19IDentityLivenessSDK9EventNameO017modelDownloadFacebD0yA2CmF",
             "mangledName": "$s19IDentityLivenessSDK9EventNameO017modelDownloadFacebD0yA2CmF",
-            "moduleName": "IDentityLivenessSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
+            "moduleName": "IDentityLivenessSDK"
           },
           {
             "kind": "Var",
@@ -188831,6 +188942,117 @@
           },
           {
             "kind": "Var",
+            "name": "faceFullRangeSparseTrainingModelLabel",
+            "printedName": "faceFullRangeSparseTrainingModelLabel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDentityLivenessSDK.InitializationStage.Type) -> IDentityLivenessSDK.InitializationStage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InitializationStage",
+                    "printedName": "IDentityLivenessSDK.InitializationStage",
+                    "usr": "s:19IDentityLivenessSDK19InitializationStageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDentityLivenessSDK.InitializationStage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InitializationStage",
+                        "printedName": "IDentityLivenessSDK.InitializationStage",
+                        "usr": "s:19IDentityLivenessSDK19InitializationStageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19IDentityLivenessSDK19InitializationStageO37faceFullRangeSparseTrainingModelLabelyA2CmF",
+            "mangledName": "$s19IDentityLivenessSDK19InitializationStageO37faceFullRangeSparseTrainingModelLabelyA2CmF",
+            "moduleName": "IDentityLivenessSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "faceLandmarksDetectorTrainingModelLabel",
+            "printedName": "faceLandmarksDetectorTrainingModelLabel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDentityLivenessSDK.InitializationStage.Type) -> IDentityLivenessSDK.InitializationStage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InitializationStage",
+                    "printedName": "IDentityLivenessSDK.InitializationStage",
+                    "usr": "s:19IDentityLivenessSDK19InitializationStageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDentityLivenessSDK.InitializationStage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InitializationStage",
+                        "printedName": "IDentityLivenessSDK.InitializationStage",
+                        "usr": "s:19IDentityLivenessSDK19InitializationStageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19IDentityLivenessSDK19InitializationStageO39faceLandmarksDetectorTrainingModelLabelyA2CmF",
+            "mangledName": "$s19IDentityLivenessSDK19InitializationStageO39faceLandmarksDetectorTrainingModelLabelyA2CmF",
+            "moduleName": "IDentityLivenessSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "faceBlendshapesDetectorTrainingModelLabel",
+            "printedName": "faceBlendshapesDetectorTrainingModelLabel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDentityLivenessSDK.InitializationStage.Type) -> IDentityLivenessSDK.InitializationStage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InitializationStage",
+                    "printedName": "IDentityLivenessSDK.InitializationStage",
+                    "usr": "s:19IDentityLivenessSDK19InitializationStageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDentityLivenessSDK.InitializationStage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InitializationStage",
+                        "printedName": "IDentityLivenessSDK.InitializationStage",
+                        "usr": "s:19IDentityLivenessSDK19InitializationStageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19IDentityLivenessSDK19InitializationStageO41faceBlendshapesDetectorTrainingModelLabelyA2CmF",
+            "mangledName": "$s19IDentityLivenessSDK19InitializationStageO41faceBlendshapesDetectorTrainingModelLabelyA2CmF",
+            "moduleName": "IDentityLivenessSDK"
+          },
+          {
+            "kind": "Var",
             "name": "passiveFaceTrainingModelLabel",
             "printedName": "passiveFaceTrainingModelLabel",
             "children": [
@@ -189450,6 +189672,34 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "setDevelopmentRelaxationSecret",
+            "printedName": "setDevelopmentRelaxationSecret(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19IDentityLivenessSDK0aC0C30setDevelopmentRelaxationSecretyySiFZ",
+            "mangledName": "$s19IDentityLivenessSDK0aC0C30setDevelopmentRelaxationSecretyySiFZ",
+            "moduleName": "IDentityLivenessSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -191176,6 +191426,153 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "faceDetectorModelName",
+            "printedName": "faceDetectorModelName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK0aC0C21faceDetectorModelNameSSvpZ",
+            "mangledName": "$s19IDentityLivenessSDK0aC0C21faceDetectorModelNameSSvpZ",
+            "moduleName": "IDentityLivenessSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK0aC0C21faceDetectorModelNameSSvgZ",
+                "mangledName": "$s19IDentityLivenessSDK0aC0C21faceDetectorModelNameSSvgZ",
+                "moduleName": "IDentityLivenessSDK",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faceLandmarkModelName",
+            "printedName": "faceLandmarkModelName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK0aC0C21faceLandmarkModelNameSSvpZ",
+            "mangledName": "$s19IDentityLivenessSDK0aC0C21faceLandmarkModelNameSSvpZ",
+            "moduleName": "IDentityLivenessSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK0aC0C21faceLandmarkModelNameSSvgZ",
+                "mangledName": "$s19IDentityLivenessSDK0aC0C21faceLandmarkModelNameSSvgZ",
+                "moduleName": "IDentityLivenessSDK",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faceBlendedShapesModelName",
+            "printedName": "faceBlendedShapesModelName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK0aC0C26faceBlendedShapesModelNameSSvpZ",
+            "mangledName": "$s19IDentityLivenessSDK0aC0C26faceBlendedShapesModelNameSSvpZ",
+            "moduleName": "IDentityLivenessSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK0aC0C26faceBlendedShapesModelNameSSvgZ",
+                "mangledName": "$s19IDentityLivenessSDK0aC0C26faceBlendedShapesModelNameSSvgZ",
+                "moduleName": "IDentityLivenessSDK",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           },
           {
             "kind": "Var",
@@ -196019,231 +196416,252 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 469,
+      "offset": 476,
+      "length": 39,
+      "value": "\"modelDownloadFaceFullRangeSparseEvent\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 567,
+      "length": 41,
+      "value": "\"modelDownloadFaceLandmarksDetectorEvent\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 662,
+      "length": 43,
+      "value": "\"modelDownloadFaceBlendshapesDetectorEvent\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 748,
       "length": 32,
       "value": "\"modelDownloadFaceLivenessEvent\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 541,
+      "offset": 820,
       "length": 29,
       "value": "\"modellDownloadFaceMaskEvent\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 610,
+      "offset": 889,
       "length": 29,
       "value": "\"modelDownloadFaceFocusEvent\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 680,
+      "offset": 959,
       "length": 30,
       "value": "\"modelDownloadIdRealnessEvent\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 755,
+      "offset": 1034,
       "length": 34,
       "value": "\"modelDownloadIdDocDetectionEvent\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 827,
+      "offset": 1106,
       "length": 27,
       "value": "\"modelDownloadIdFocusEvent\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 899,
+      "offset": 1178,
       "length": 34,
       "value": "\"modelDownloadClassificationEvent\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 975,
+      "offset": 1254,
       "length": 31,
       "value": "\"modelDownloadFingerPrintEvent\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1074,
+      "offset": 1353,
       "length": 15,
       "value": "\"SelfieCapture\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1116,
+      "offset": 1395,
       "length": 11,
       "value": "\"IDCapture\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1163,
+      "offset": 1442,
       "length": 20,
       "value": "\"IDtoSelfieMatching\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1235,
+      "offset": 1514,
       "length": 15,
       "value": "\"LiveFaceCheck\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1280,
+      "offset": 1559,
       "length": 14,
       "value": "\"IdValidation\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1336,
+      "offset": 1615,
       "length": 26,
       "value": "\"IdValidationAndMatchFace\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1409,
+      "offset": 1688,
       "length": 31,
       "value": "\"IdValidationAndCustomerEnroll\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1482,
+      "offset": 1761,
       "length": 26,
       "value": "\"CustomerEnrollBiometrics\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1546,
+      "offset": 1825,
       "length": 22,
       "value": "\"CustomerVerification\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1602,
+      "offset": 1881,
       "length": 18,
       "value": "\"IdentifyCustomer\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1673,
+      "offset": 1952,
       "length": 13,
       "value": "\"FinalSubmit\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2323,
+      "offset": 2602,
       "length": 18,
       "value": "\"SignatureCapture\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2374,
+      "offset": 2653,
       "length": 17,
       "value": "\"DocumentCapture\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2421,
+      "offset": 2700,
       "length": 14,
       "value": "\"VoiceCapture\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2471,
+      "offset": 2750,
       "length": 20,
       "value": "\"FingerPrintCapture\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2560,
+      "offset": 2839,
       "length": 11,
       "value": "\"Initiated\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2594,
+      "offset": 2873,
       "length": 12,
       "value": "\"InProgress\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2625,
+      "offset": 2904,
       "length": 8,
       "value": "\"Cancel\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2653,
+      "offset": 2932,
       "length": 9,
       "value": "\"Timeout\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2682,
+      "offset": 2961,
       "length": 9,
       "value": "\"Success\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2713,
+      "offset": 2992,
       "length": 11,
       "value": "\"Completed\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2743,
+      "offset": 3022,
       "length": 8,
       "value": "\"Failed\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2769,
+      "offset": 3048,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3398,
+      "offset": 3677,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3403,
+      "offset": 3682,
       "length": 2,
       "value": "\"\""
     },
@@ -197055,77 +197473,140 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 380,
+      "offset": 388,
+      "length": 45,
+      "value": "\"faceFullRangeSparseTrainingModelUniqueKeyId\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 809,
+      "length": 47,
+      "value": "\"faceLandmarksDetectorTrainingModelUniqueKeyId\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1240,
+      "length": 49,
+      "value": "\"faceBlendshapesDetectorTrainingModelUniqueKeyId\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1667,
       "length": 37,
       "value": "\"passiveFaceTrainingModelUniqueKeyId\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 756,
+      "offset": 2043,
       "length": 34,
       "value": "\"faceMaskTrainingModelUniqueKeyId\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 1121,
+      "offset": 2408,
       "length": 35,
       "value": "\"focusFaceTrainingModelUniqueKeyId\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 1504,
+      "offset": 2791,
       "length": 35,
       "value": "\"idCaptureTrainingModelUniqueKeyId\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 3505,
+      "offset": 4802,
+      "length": 43,
+      "value": "\"faceFullRangeSparseTrainingModelPublicKey\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 5242,
+      "length": 45,
+      "value": "\"faceLandmarksDetectorTrainingModelPublicKey\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 5694,
+      "length": 47,
+      "value": "\"faceBlendshapesDetectorTrainingModelPublicKey\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 6142,
       "length": 35,
       "value": "\"passiveFaceTrainingModelPublicKey\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 3887,
+      "offset": 6524,
       "length": 33,
       "value": "\"focusFaceTrainingModelPublicKey\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 4258,
+      "offset": 6895,
       "length": 32,
       "value": "\"faceMaskTrainingModelPublicKey\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 4639,
+      "offset": 7276,
       "length": 33,
       "value": "\"idCaptureTrainingModelPublicKey\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 6657,
+      "offset": 9302,
+      "length": 38,
+      "value": "\"faceFullRangeSparseTrainingModelName\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 9712,
+      "length": 40,
+      "value": "\"faceLandmarksDetectorTrainingModelName\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 10134,
+      "length": 42,
+      "value": "\"faceBlendshapesDetectorTrainingModelName\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 10554,
       "length": 30,
       "value": "\"passiveFaceTrainingModelName\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 7015,
+      "offset": 10912,
       "length": 28,
       "value": "\"focusFaceTrainingModelName\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 7362,
+      "offset": 11259,
       "length": 27,
       "value": "\"faceMaskTrainingModelName\""
     },
@@ -197162,7 +197643,7 @@
       "kind": "FloatLiteral",
       "offset": 825,
       "length": 4,
-      "value": "0.60"
+      "value": "0.50"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/SelfieCapture.Options.swift",
@@ -197307,126 +197788,126 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "StringLiteral",
-      "offset": 9867,
+      "offset": 10047,
       "length": 67,
       "value": "\"⚠️ Checks To Prevents debuggers from attaching to the process\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "StringLiteral",
-      "offset": 9955,
+      "offset": 10135,
       "length": 8,
       "value": "\"ptrace\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "IntegerLiteral",
-      "offset": 10339,
+      "offset": 10519,
       "length": 2,
       "value": "31"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "IntegerLiteral",
-      "offset": 10390,
+      "offset": 10570,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "IntegerLiteral",
-      "offset": 10393,
+      "offset": 10573,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "IntegerLiteral",
-      "offset": 10396,
+      "offset": 10576,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "IntegerLiteral",
-      "offset": 10424,
+      "offset": 10604,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "StringLiteral",
-      "offset": 10450,
+      "offset": 10630,
       "length": 29,
       "value": "\"⚠️ ptrace denial failed\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "Array",
-      "offset": 12978,
+      "offset": 13158,
       "length": 20,
       "value": "[102, 111, 114, 107]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "IntegerLiteral",
-      "offset": 13302,
+      "offset": 13482,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "IntegerLiteral",
-      "offset": 13423,
+      "offset": 13603,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "IntegerLiteral",
-      "offset": 13465,
+      "offset": 13645,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "BooleanLiteral",
-      "offset": 13509,
+      "offset": 13689,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "StringLiteral",
-      "offset": 13635,
+      "offset": 13815,
       "length": 11,
       "value": "\"\/private\/\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "StringLiteral",
-      "offset": 13698,
+      "offset": 13878,
       "length": 16,
       "value": "\"integrity_test\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "BooleanLiteral",
-      "offset": 13747,
+      "offset": 13927,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "BooleanLiteral",
-      "offset": 13850,
+      "offset": 14030,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "BooleanLiteral",
-      "offset": 13892,
+      "offset": 14072,
       "length": 5,
       "value": "false"
     },
@@ -198182,7 +198663,7 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader.swift",
       "kind": "BooleanLiteral",
-      "offset": 1328,
+      "offset": 1544,
       "length": 5,
       "value": "false"
     },
@@ -198196,84 +198677,126 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 540,
+      "offset": 550,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 604,
+      "offset": 624,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 667,
+      "offset": 700,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 728,
+      "offset": 762,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 793,
+      "offset": 826,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 866,
+      "offset": 889,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 924,
+      "offset": 950,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 986,
+      "offset": 1015,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1042,
+      "offset": 1088,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1146,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1208,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1300,
+      "length": 41,
+      "value": "\"face_detection_full_range_sparse.tflite\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1405,
+      "length": 32,
+      "value": "\"face_landmarks_detector.tflite\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1503,
+      "length": 25,
+      "value": "\"face_blendshapes.tflite\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1582,
       "length": 50,
       "value": "\"liveness-mobile-production_2025-12-10_V88.tflite\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1144,
+      "offset": 1684,
       "length": 40,
       "value": "\"facedetect-focus_2024-09-23_V12.tflite\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1235,
+      "offset": 1775,
       "length": 42,
       "value": "\"facemask-production_2025-02-26_V9.tflite\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1486,
+      "offset": 2026,
       "length": 52,
       "value": "\"docdetect-realness-two-input_2025-10-08_V74.tflite\""
     },
@@ -198426,43 +198949,22 @@
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/MediaPipeFaceDetection\/MediaPipeFaceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 1869,
-      "length": 34,
-      "value": "\"face_detection_full_range_sparse\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/MediaPipeFaceDetection\/MediaPipeFaceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 1946,
-      "length": 25,
-      "value": "\"face_landmarks_detector\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/MediaPipeFaceDetection\/MediaPipeFaceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 1998,
-      "length": 18,
-      "value": "\"face_blendshapes\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/MediaPipeFaceDetection\/MediaPipeFaceDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 2474,
+      "offset": 2126,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/MediaPipeFaceDetection\/MediaPipeFaceDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 3229,
+      "offset": 3216,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/MediaPipeFaceDetection\/MediaPipeFaceDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 3514,
+      "offset": 3501,
       "length": 3,
       "value": "0.4"
     },
@@ -198651,21 +199153,42 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/Training Model\/TrainingModel.swift",
       "kind": "StringLiteral",
-      "offset": 160,
+      "offset": 168,
+      "length": 21,
+      "value": "\"FaceFullRangeSparse\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/Training Model\/TrainingModel.swift",
+      "kind": "StringLiteral",
+      "offset": 223,
+      "length": 23,
+      "value": "\"FaceLandmarksDetector\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/Training Model\/TrainingModel.swift",
+      "kind": "StringLiteral",
+      "offset": 282,
+      "length": 25,
+      "value": "\"FaceBlendshapesDetector\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/Training Model\/TrainingModel.swift",
+      "kind": "StringLiteral",
+      "offset": 331,
       "length": 26,
       "value": "\"PassiveFaceTrainingModel\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/Training Model\/TrainingModel.swift",
       "kind": "StringLiteral",
-      "offset": 208,
+      "offset": 379,
       "length": 24,
       "value": "\"FocusFaceTrainingModel\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/Training Model\/TrainingModel.swift",
       "kind": "StringLiteral",
-      "offset": 253,
+      "offset": 424,
       "length": 23,
       "value": "\"FaceMaskTrainingModel\""
     },
@@ -198853,57 +199376,71 @@
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
+      "kind": "FloatLiteral",
+      "offset": 14373,
+      "length": 4,
+      "value": "18.0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14424,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
+      "kind": "FloatLiteral",
+      "offset": 14877,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "Dictionary",
-      "offset": 14561,
+      "offset": 16364,
       "length": 43,
       "value": "[(\"eventDescription\", \"Eye Close Detected\")]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "Dictionary",
-      "offset": 14832,
+      "offset": 16635,
       "length": 42,
       "value": "[(\"eventDescription\", \"Eye Open Detected\")]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 15470,
+      "offset": 17273,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "Dictionary",
-      "offset": 15730,
+      "offset": 17533,
       "length": 37,
       "value": "[(\"eventDescription\", \"Face inFocus\")]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "Dictionary",
-      "offset": 16140,
+      "offset": 17943,
       "length": 39,
       "value": "[(\"eventDescription\", \"Glare Detected\")]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
-      "kind": "FloatLiteral",
-      "offset": 17052,
-      "length": 4,
-      "value": "15.0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 26000,
+      "offset": 26163,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "StringLiteral",
-      "offset": 27276,
+      "offset": 27439,
       "length": 24,
       "value": "\"selfieCaptureDebugData\""
     },
@@ -199407,77 +199944,105 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 565,
+      "offset": 573,
+      "length": 34,
+      "value": "\"FaceFullRangeSparseTrainingModel\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 659,
+      "length": 36,
+      "value": "\"FaceLandmarksDetectorTrainingModel\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 749,
+      "length": 38,
+      "value": "\"FaceBlendshapesDetectorTrainingModel\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 829,
       "length": 26,
       "value": "\"PassiveFaceTrainingModel\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 630,
+      "offset": 894,
       "length": 23,
       "value": "\"FaceMaskTrainingModel\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 693,
+      "offset": 957,
       "length": 24,
       "value": "\"FocusFaceTrainingModel\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 2525,
+      "offset": 2789,
       "length": 5,
       "value": "\"SDK\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 2572,
+      "offset": 2836,
       "length": 152,
       "value": "\"10,20,25,30,50,55,60,65,70,75,77,78,80,100,105,155,160,165,175,180,185,186,190,191,200,300,305,310,320,330,360,361,400,401,410,500,505,510,515,620,660\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 2749,
+      "offset": 3013,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3216,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 4078,
+      "offset": 4719,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 4147,
+      "offset": 4788,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 4624,
+      "offset": 5265,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 4688,
+      "offset": 5329,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 21737,
+      "offset": 23411,
       "length": 2,
       "value": "\"\""
     },

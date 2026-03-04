@@ -4,6 +4,18 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>FaceBlendshapesDetectorTrainingModel_UNIQUE_KEY_ID_8054_20260108014503.tflite</key>
+		<data>
+		tkpKHXYode3WHN32p9qL6tQ6WT0=
+		</data>
+		<key>FaceFullRangeSparseTrainingModel_UNIQUE_KEY_ID_8054_20260108014503.tflite</key>
+		<data>
+		byEQvTsTae6lLBKvN5RGUA0vE5A=
+		</data>
+		<key>FaceLandmarksDetectorTrainingModel_UNIQUE_KEY_ID_8054_20260108014503.tflite</key>
+		<data>
+		keSXrP7NJxJis7l7HisNk+EEU6o=
+		</data>
 		<key>FaceMaskTrainingModel_UNIQUE_KEY_ID_8054_20260108014503.tflite</key>
 		<data>
 		+pVyT3xiSaWarHUbh4v23iQ5fPk=
@@ -18,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zcCIzUT21dLb5Mh98lbRKSTZzQo=
+		A5tdINBngBXYnvAiKNwoWOHYwZ4=
 		</data>
 		<key>Modules/IDentityLivenessModels.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -47,6 +59,27 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>FaceBlendshapesDetectorTrainingModel_UNIQUE_KEY_ID_8054_20260108014503.tflite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ynTWnvXdgC3oUJ4UdLu89NJ+Yv86tbusqjYBo79EuXc=
+			</data>
+		</dict>
+		<key>FaceFullRangeSparseTrainingModel_UNIQUE_KEY_ID_8054_20260108014503.tflite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jCi6Lb8KL47f41l+l0fS4wBHC9azdWzpDc9VBOfAYek=
+			</data>
+		</dict>
+		<key>FaceLandmarksDetectorTrainingModel_UNIQUE_KEY_ID_8054_20260108014503.tflite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Z4Inw1XfUYxs1yMbV1f21gUzgMEsurn+s7cHBjM4kdQ=
+			</data>
+		</dict>
 		<key>FaceMaskTrainingModel_UNIQUE_KEY_ID_8054_20260108014503.tflite</key>
 		<dict>
 			<key>hash2</key>
