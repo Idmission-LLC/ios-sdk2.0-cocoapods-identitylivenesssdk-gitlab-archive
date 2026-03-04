@@ -197307,119 +197307,126 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "StringLiteral",
-      "offset": 9346,
+      "offset": 9867,
+      "length": 67,
+      "value": "\"⚠️ Checks To Prevents debuggers from attaching to the process\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
+      "kind": "StringLiteral",
+      "offset": 9955,
       "length": 8,
       "value": "\"ptrace\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "IntegerLiteral",
-      "offset": 9730,
+      "offset": 10339,
       "length": 2,
       "value": "31"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "IntegerLiteral",
-      "offset": 9781,
+      "offset": 10390,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "IntegerLiteral",
-      "offset": 9784,
+      "offset": 10393,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "IntegerLiteral",
-      "offset": 9787,
+      "offset": 10396,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "IntegerLiteral",
-      "offset": 9815,
+      "offset": 10424,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "StringLiteral",
-      "offset": 9841,
+      "offset": 10450,
       "length": 29,
       "value": "\"⚠️ ptrace denial failed\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "Array",
-      "offset": 12369,
+      "offset": 12978,
       "length": 20,
       "value": "[102, 111, 114, 107]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "IntegerLiteral",
-      "offset": 12693,
+      "offset": 13302,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "IntegerLiteral",
-      "offset": 12814,
+      "offset": 13423,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "IntegerLiteral",
-      "offset": 12856,
+      "offset": 13465,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "BooleanLiteral",
-      "offset": 12900,
+      "offset": 13509,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "StringLiteral",
-      "offset": 13026,
+      "offset": 13635,
       "length": 11,
       "value": "\"\/private\/\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "StringLiteral",
-      "offset": 13089,
+      "offset": 13698,
       "length": 16,
       "value": "\"integrity_test\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "BooleanLiteral",
-      "offset": 13138,
+      "offset": 13747,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "BooleanLiteral",
-      "offset": 13241,
+      "offset": 13850,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UIDevice+Jailbroken.swift",
       "kind": "BooleanLiteral",
-      "offset": 13283,
+      "offset": 13892,
       "length": 5,
       "value": "false"
     },
