@@ -189731,8 +189731,8 @@
           },
           {
             "kind": "Function",
-            "name": "setScreenRecordingBlurEnabled",
-            "printedName": "setScreenRecordingBlurEnabled(_:)",
+            "name": "enabledScreenRecording",
+            "printedName": "enabledScreenRecording(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -189747,8 +189747,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19IDentityLivenessSDK0aC0C29setScreenRecordingBlurEnabledyySbFZ",
-            "mangledName": "$s19IDentityLivenessSDK0aC0C29setScreenRecordingBlurEnabledyySbFZ",
+            "usr": "s:19IDentityLivenessSDK0aC0C22enabledScreenRecordingyySbFZ",
+            "mangledName": "$s19IDentityLivenessSDK0aC0C22enabledScreenRecordingyySbFZ",
             "moduleName": "IDentityLivenessSDK",
             "static": true,
             "declAttributes": [
@@ -198672,7 +198672,7 @@
       "kind": "StringLiteral",
       "offset": 277,
       "length": 35,
-      "value": "\"UNIQUE_KEY_ID_8054_20260108014503\""
+      "value": "\"UNIQUE_KEY_ID_5024_20260305020917\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
@@ -198777,7 +198777,7 @@
       "kind": "StringLiteral",
       "offset": 1582,
       "length": 50,
-      "value": "\"liveness-mobile-production_2025-12-10_V88.tflite\""
+      "value": "\"liveness-mobile-production_2026-03-01_V93.tflite\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
@@ -198797,8 +198797,8 @@
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
       "kind": "StringLiteral",
       "offset": 2026,
-      "length": 52,
-      "value": "\"docdetect-realness-two-input_2025-10-08_V74.tflite\""
+      "length": 59,
+      "value": "\"docdetect-realness-two-input-mobile_2026-02-22_V75.tflite\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/XMLParser\/ComplexXMLParser.swift",
@@ -199379,7 +199379,7 @@
       "kind": "FloatLiteral",
       "offset": 14373,
       "length": 4,
-      "value": "18.0"
+      "value": "20.0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
@@ -200014,35 +200014,35 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 4719,
+      "offset": 4712,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 4788,
+      "offset": 4781,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 5265,
+      "offset": 5258,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 5329,
+      "offset": 5322,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 23411,
+      "offset": 23605,
       "length": 2,
       "value": "\"\""
     },

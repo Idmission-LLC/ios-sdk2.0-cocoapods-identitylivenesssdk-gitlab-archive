@@ -3576,7 +3576,7 @@ public typealias ErrorCompletion = ((any Swift.Error)?) -> Swift.Void
   weak public static var delegate: (any IDentityLivenessSDK.InitializationDelegate)?
   public class func setDevelopmentRelaxationSecret(_ secret: Swift.Int)
   public class func setScreenSecurityEnabled(_ enabled: Swift.Bool)
-  public class func setScreenRecordingBlurEnabled(_ enabled: Swift.Bool)
+  public class func enabledScreenRecording(_ enabled: Swift.Bool)
   public class func initializeSDK(language: IDentityLivenessSDK.Language = .en, isGPSEnabled: Swift.Bool = true, isUpdateModelsData: Swift.Bool = true, accessToken: Swift.String, completion: @escaping IDentityLivenessSDK.ErrorCompletion)
   @objc deinit
 }
