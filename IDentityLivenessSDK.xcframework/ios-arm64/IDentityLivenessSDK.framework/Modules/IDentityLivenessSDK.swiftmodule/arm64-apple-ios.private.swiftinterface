@@ -2536,6 +2536,8 @@ public struct CardData : Swift.Codable {
 extension IDentityLivenessSDK.IDError {
   public enum Strings {
     case jailbrokenDeviceDetected
+    case hookingFrameworkDetected
+    case debuggerAttachedDetected
     case errorDownloadingSearchCompanyTemplateDetails
     case errorDownloadingGetXsltData
     case invalidURL
