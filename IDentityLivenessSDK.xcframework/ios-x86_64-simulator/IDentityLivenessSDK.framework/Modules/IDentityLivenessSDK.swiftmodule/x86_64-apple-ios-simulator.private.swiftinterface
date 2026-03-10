@@ -1021,6 +1021,22 @@ public struct ProfilesResult : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+extension UIKit.UIDevice {
+  public enum IntegritySignal : Swift.Int {
+    case healthy
+    case jailbreakCompromised
+    case debuggerCompromised
+    case hookingCompromised
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(rawValue: Swift.Int)
+    #endif
+    @available(iOS 2.0, *)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+}
 public struct PersonalCustomerEnrollBiometricsRequestData : Swift.Encodable {
   public var uniqueNumber: Swift.String
   public var name: Swift.String?
@@ -3771,6 +3787,9 @@ extension IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendSignatureFro
 extension IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendDocumentIdInResponse : Swift.Equatable {}
 extension IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendDocumentIdInResponse : Swift.Hashable {}
 extension IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendDocumentIdInResponse : Swift.RawRepresentable {}
+extension UIKit.UIDevice.IntegritySignal : Swift.Equatable {}
+extension UIKit.UIDevice.IntegritySignal : Swift.Hashable {}
+extension UIKit.UIDevice.IntegritySignal : Swift.RawRepresentable {}
 extension IDentityLivenessSDK.SelfieCapture.LabelPosition : Swift.Equatable {}
 extension IDentityLivenessSDK.SelfieCapture.LabelPosition : Swift.Hashable {}
 extension IDentityLivenessSDK.AdditionalCustomerCommonData.PostDataAPIRequired : Swift.Equatable {}

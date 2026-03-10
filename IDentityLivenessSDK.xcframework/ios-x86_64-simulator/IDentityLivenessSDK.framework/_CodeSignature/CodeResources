@@ -158,11 +158,11 @@
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		BZZw38S0EdXq6RQ9Ysbh7ni1y2I=
+		l6bLqnZE88GymsEH+7txtWrdbVE=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		CUWyb7evOq/1Ktsm9I07Ck4ye/Y=
+		3HAGDRc9KbEgua7+JNYvjkW+Emg=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -170,11 +170,11 @@
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		CUWyb7evOq/1Ktsm9I07Ck4ye/Y=
+		3HAGDRc9KbEgua7+JNYvjkW+Emg=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ARelaNPRaVYta7YPSdxPXRM9GXg=
+		vs96y7fR7NQu+v5AkxtuucKCv9k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -450,14 +450,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q4cT4S/rm/rXJpNGiAO+nxIgCDCrVwd0VRrJYSos6hk=
+			ZeXlAIzR/UkwUi2u1f2F9wYM/zfmGd6NXi3VbpVTvjI=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eU9CrpbEqsMYHcPtDT81IdGf75ks9FmiOmP1+MjKdro=
+			60JRYdWZ+KP8AZpjgpGkHo0WYygGA0wvO2ynBc/vG/w=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -471,14 +471,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eU9CrpbEqsMYHcPtDT81IdGf75ks9FmiOmP1+MjKdro=
+			60JRYdWZ+KP8AZpjgpGkHo0WYygGA0wvO2ynBc/vG/w=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NjeyRhHA2jFIuJaAUF5omV0z11o9Sq7MzZMPg3tIEYM=
+			EbCZ8px2I5izpDrH7zp8V+xlukRkRd3js7XcmR17MLA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
