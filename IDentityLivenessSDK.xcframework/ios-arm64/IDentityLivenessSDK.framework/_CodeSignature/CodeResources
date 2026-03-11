@@ -150,7 +150,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		GbnNhmT3O+aGCqSUccSsFdDefT8=
+		QXEx3sOtouciQUxqNeZiSRwbzEc=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		l6bLqnZE88GymsEH+7txtWrdbVE=
+		Fxi/C1qL6l95ObUvirwtGRAj690=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -174,7 +174,7 @@
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		b8apJCfleOGUaIyDdN0VViU6eG4=
+		M7pl+FaLOVGaLpswUH6o/MaElm0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -450,7 +450,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZeXlAIzR/UkwUi2u1f2F9wYM/zfmGd6NXi3VbpVTvjI=
+			fF7kPSjHDNK9s1ZB91GRklIrit18iL+/0clmtpzxlxk=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -478,7 +478,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GBea3NrMqnrK7ySvePHhFhas91IX/WDVDyRnXcwf1rA=
+			Sh2ElZmTllrrmBapZa8l5D2OLRA16fj2U2rs003o38c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

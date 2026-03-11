@@ -198098,7 +198098,7 @@
       "kind": "FloatLiteral",
       "offset": 825,
       "length": 4,
-      "value": "0.50"
+      "value": "0.60"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/SelfieCapture.Options.swift",
@@ -199391,51 +199391,65 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/MediaPipeFaceDetection\/MediaPipeFaceDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 1500,
+      "offset": 1499,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/MediaPipeFaceDetection\/MediaPipeFaceDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 1534,
+      "offset": 1533,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/MediaPipeFaceDetection\/MediaPipeFaceDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 1575,
+      "offset": 1574,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/MediaPipeFaceDetection\/MediaPipeFaceDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 1617,
+      "offset": 1616,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/MediaPipeFaceDetection\/MediaPipeFaceDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 2126,
+      "offset": 2125,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/MediaPipeFaceDetection\/MediaPipeFaceDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 3216,
+      "offset": 3215,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/MediaPipeFaceDetection\/MediaPipeFaceDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 3501,
+      "offset": 3500,
       "length": 3,
       "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/MediaPipeFaceDetection\/MediaPipeFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18121,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/MediaPipeFaceDetection\/MediaPipeFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23688,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Codable\/Request\/LiveCheck Request\/AdditionalCustomerLiveCheckData.swift",
@@ -199845,71 +199859,50 @@
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
-      "kind": "FloatLiteral",
-      "offset": 14373,
-      "length": 4,
-      "value": "20.0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14424,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
-      "kind": "FloatLiteral",
-      "offset": 14877,
-      "length": 3,
-      "value": "5.0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "Dictionary",
-      "offset": 16364,
+      "offset": 16277,
       "length": 43,
       "value": "[(\"eventDescription\", \"Eye Close Detected\")]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "Dictionary",
-      "offset": 16635,
+      "offset": 16548,
       "length": 42,
       "value": "[(\"eventDescription\", \"Eye Open Detected\")]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 17273,
+      "offset": 17186,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "Dictionary",
-      "offset": 17533,
+      "offset": 17446,
       "length": 37,
       "value": "[(\"eventDescription\", \"Face inFocus\")]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "Dictionary",
-      "offset": 17943,
+      "offset": 17856,
       "length": 39,
       "value": "[(\"eventDescription\", \"Glare Detected\")]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 26163,
+      "offset": 26076,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "StringLiteral",
-      "offset": 27439,
+      "offset": 27352,
       "length": 24,
       "value": "\"selfieCaptureDebugData\""
     },
