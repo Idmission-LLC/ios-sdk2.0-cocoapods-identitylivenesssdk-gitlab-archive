@@ -198161,7 +198161,7 @@
       "kind": "FloatLiteral",
       "offset": 3544,
       "length": 4,
-      "value": "0.05"
+      "value": "0.30"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/SelfieCapture.Options.swift",
@@ -199769,140 +199769,140 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 6850,
+      "offset": 6853,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 7165,
+      "offset": 7141,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 7341,
+      "offset": 7317,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 7815,
+      "offset": 7792,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 7894,
+      "offset": 7871,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 8080,
+      "offset": 8057,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 8329,
+      "offset": 8306,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 8528,
+      "offset": 8505,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 9659,
+      "offset": 9664,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 10220,
+      "offset": 10259,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 11163,
+      "offset": 11202,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 12063,
+      "offset": 12102,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "Array",
-      "offset": 13517,
+      "offset": 13556,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "Dictionary",
-      "offset": 16277,
+      "offset": 16337,
       "length": 43,
       "value": "[(\"eventDescription\", \"Eye Close Detected\")]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "Dictionary",
-      "offset": 16548,
+      "offset": 16608,
       "length": 42,
       "value": "[(\"eventDescription\", \"Eye Open Detected\")]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 17186,
+      "offset": 17266,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "Dictionary",
-      "offset": 17446,
+      "offset": 17526,
       "length": 37,
       "value": "[(\"eventDescription\", \"Face inFocus\")]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "Dictionary",
-      "offset": 17856,
+      "offset": 17937,
       "length": 39,
       "value": "[(\"eventDescription\", \"Glare Detected\")]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 26076,
+      "offset": 26156,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "StringLiteral",
-      "offset": 27352,
+      "offset": 27432,
       "length": 24,
       "value": "\"selfieCaptureDebugData\""
     },
