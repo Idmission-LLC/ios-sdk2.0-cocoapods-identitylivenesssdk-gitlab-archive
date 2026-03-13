@@ -16447,12 +16447,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[_LocationEssentials.CLLocation]",
+                "printedName": "[CoreLocation.CLLocation]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CLLocation",
-                    "printedName": "_LocationEssentials.CLLocation",
+                    "printedName": "CoreLocation.CLLocation",
                     "usr": "c:objc(cs)CLLocation"
                   }
                 ],
@@ -84035,13 +84035,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -84494,13 +84487,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -128399,13 +128385,6 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -193178,13 +193157,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -193636,13 +193608,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Strideable",
             "printedName": "Strideable",
             "children": [
@@ -193823,57 +193788,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "_FormatSpecifiable",
-            "printedName": "_FormatSpecifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "_Arg",
-                "printedName": "_Arg",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI18_FormatSpecifiableP",
-            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "VectorArithmetic",
-            "printedName": "VectorArithmetic",
-            "usr": "s:7SwiftUI16VectorArithmeticP",
-            "mangledName": "$s7SwiftUI16VectorArithmeticP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Animatable",
-            "printedName": "Animatable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "AnimatableData",
-                "printedName": "AnimatableData",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI10AnimatableP",
-            "mangledName": "$s7SwiftUI10AnimatableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "vDSP_FloatingPointConvertable",
             "printedName": "vDSP_FloatingPointConvertable",
             "usr": "s:10Accelerate29vDSP_FloatingPointConvertableP",
@@ -193951,28 +193865,6 @@
             "printedName": "vDSP_FloatingPointGeneratable",
             "usr": "s:10Accelerate29vDSP_FloatingPointGeneratableP",
             "mangledName": "$s10Accelerate29vDSP_FloatingPointGeneratableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AtomicRepresentable",
-            "printedName": "AtomicRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "AtomicRepresentation",
-                "printedName": "AtomicRepresentation",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "_Atomic64BitStorage",
-                    "printedName": "Synchronization._Atomic64BitStorage",
-                    "usr": "s:15Synchronization19_Atomic64BitStorageV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:15Synchronization19AtomicRepresentableP",
-            "mangledName": "$s15Synchronization19AtomicRepresentableP"
           }
         ]
       },
@@ -194268,13 +194160,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
             "name": "_ExpressibleByImageLiteral",
             "printedName": "_ExpressibleByImageLiteral",
             "usr": "s:s26_ExpressibleByImageLiteralP",
@@ -194371,13 +194256,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -194599,6 +194477,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -194638,13 +194523,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -194914,7 +194792,6 @@
         "intro_tvOS": "9.0",
         "intro_watchOS": "2.0",
         "declAttributes": [
-          "AddressableForDependencies",
           "Frozen",
           "Available",
           "Available",
@@ -195280,13 +195157,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sequence",
             "printedName": "Sequence",
             "children": [
@@ -195336,41 +195206,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
             "name": "ReferenceConvertible",
             "printedName": "ReferenceConvertible",
             "children": [
@@ -195415,32 +195250,38 @@
           },
           {
             "kind": "Conformance",
-            "name": "Transferable",
-            "printedName": "Transferable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Representation",
-                "printedName": "Representation",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some CoreTransferable.TransferRepresentation",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TransferRepresentation",
-                        "printedName": "CoreTransferable.TransferRepresentation",
-                        "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:16CoreTransferable0B0P",
-            "mangledName": "$s16CoreTransferable0B0P"
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           }
         ]
       },
@@ -196129,70 +195970,6 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Animatable",
-            "printedName": "Animatable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "AnimatableData",
-                "printedName": "AnimatableData",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnimatablePair",
-                    "printedName": "SwiftUI.AnimatablePair<SwiftUI.AnimatablePair<CoreGraphics.CGFloat, CoreGraphics.CGFloat>, SwiftUI.AnimatablePair<CoreGraphics.CGFloat, CoreGraphics.CGFloat>>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AnimatablePair",
-                        "printedName": "SwiftUI.AnimatablePair<CoreGraphics.CGFloat, CoreGraphics.CGFloat>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "CGFloat",
-                            "printedName": "CoreGraphics.CGFloat",
-                            "usr": "s:14CoreFoundation7CGFloatV"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "CGFloat",
-                            "printedName": "CoreGraphics.CGFloat",
-                            "usr": "s:14CoreFoundation7CGFloatV"
-                          }
-                        ],
-                        "usr": "s:7SwiftUI14AnimatablePairV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AnimatablePair",
-                        "printedName": "SwiftUI.AnimatablePair<CoreGraphics.CGFloat, CoreGraphics.CGFloat>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "CGFloat",
-                            "printedName": "CoreGraphics.CGFloat",
-                            "usr": "s:14CoreFoundation7CGFloatV"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "CGFloat",
-                            "printedName": "CoreGraphics.CGFloat",
-                            "usr": "s:14CoreFoundation7CGFloatV"
-                          }
-                        ],
-                        "usr": "s:7SwiftUI14AnimatablePairV"
-                      }
-                    ],
-                    "usr": "s:7SwiftUI14AnimatablePairV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI10AnimatableP",
-            "mangledName": "$s7SwiftUI10AnimatableP"
           }
         ]
       },
@@ -196641,13 +196418,6 @@
             "printedName": "_HasCustomAnyHashableRepresentation",
             "usr": "s:s35_HasCustomAnyHashableRepresentationP",
             "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
