@@ -125,8 +125,8 @@ relocations:
   - { offset: 0x14DEBA, size: 0x8, addend: 0x0, symName: '+[SSZipArchive isFilePasswordProtectedAtPath:]', symObjAddr: 0x0, symBinAddr: 0xA159, symSize: 0x12D }
   - { offset: 0x14DED4, size: 0x8, addend: 0x0, symName: _SSZipArchiveErrorDomain, symObjAddr: 0x5F70, symBinAddr: 0x5D7C20, symSize: 0x0 }
   - { offset: 0x14DEF6, size: 0x8, addend: 0x0, symName: '+[SSZipArchive _gregorian]', symObjAddr: 0x504F, symBinAddr: 0xF1A8, symSize: 0x30 }
-  - { offset: 0x14DF22, size: 0x8, addend: 0x0, symName: __gregorian.gregorian, symObjAddr: 0x1ADA8, symBinAddr: 0x602AA0, symSize: 0x0 }
-  - { offset: 0x14DF39, size: 0x8, addend: 0x0, symName: __gregorian.onceToken, symObjAddr: 0x1ADB0, symBinAddr: 0x602AA8, symSize: 0x0 }
+  - { offset: 0x14DF22, size: 0x8, addend: 0x0, symName: __gregorian.gregorian, symObjAddr: 0x1ADA0, symBinAddr: 0x602AA0, symSize: 0x0 }
+  - { offset: 0x14DF39, size: 0x8, addend: 0x0, symName: __gregorian.onceToken, symObjAddr: 0x1ADA8, symBinAddr: 0x602AA8, symSize: 0x0 }
   - { offset: 0x14DF80, size: 0x8, addend: 0x0, symName: '+[SSZipArchive _dateWithMSDOSFormat:]', symObjAddr: 0x50BE, symBinAddr: 0xF217, symSize: 0x105 }
   - { offset: 0x14E156, size: 0x8, addend: 0x0, symName: '+[SSZipArchive isFilePasswordProtectedAtPath:]', symObjAddr: 0x0, symBinAddr: 0xA159, symSize: 0x12D }
   - { offset: 0x14E467, size: 0x8, addend: 0x0, symName: '+[SSZipArchive isPasswordValidForArchiveAtPath:password:error:]', symObjAddr: 0x12D, symBinAddr: 0xA286, symSize: 0x622 }
@@ -7177,9 +7177,9 @@ relocations:
   - { offset: 0x263632, size: 0x8, addend: 0x0, symName: '_$s19IDentityLivenessSDK21ScreenSecurityManagerC8delegateAA0dE8Delegate_pSgvs', symObjAddr: 0x5B0, symBinAddr: 0x259930, symSize: 0x50 }
   - { offset: 0x263665, size: 0x8, addend: 0x0, symName: '_$s19IDentityLivenessSDK21ScreenSecurityManagerC8delegateAA0dE8Delegate_pSgvM', symObjAddr: 0x600, symBinAddr: 0x259980, symSize: 0x70 }
   - { offset: 0x263688, size: 0x8, addend: 0x0, symName: '_$s19IDentityLivenessSDK21ScreenSecurityManagerC8delegateAA0dE8Delegate_pSgvM.resume.0', symObjAddr: 0x670, symBinAddr: 0x2599F0, symSize: 0x70 }
-  - { offset: 0x2636A9, size: 0x8, addend: 0x0, symName: '_$s19IDentityLivenessSDK21ScreenSecurityManagerC23isBlurProtectionEnabledSbvg', symObjAddr: 0x6E0, symBinAddr: 0x259A60, symSize: 0x30 }
-  - { offset: 0x2636CC, size: 0x8, addend: 0x0, symName: '_$s19IDentityLivenessSDK21ScreenSecurityManagerC23isBlurProtectionEnabledSbvs', symObjAddr: 0x710, symBinAddr: 0x259A90, symSize: 0x30 }
-  - { offset: 0x2636FF, size: 0x8, addend: 0x0, symName: '_$s19IDentityLivenessSDK21ScreenSecurityManagerC23isBlurProtectionEnabledSbvM', symObjAddr: 0x740, symBinAddr: 0x259AC0, symSize: 0x30 }
+  - { offset: 0x2636A9, size: 0x8, addend: 0x0, symName: '_$s19IDentityLivenessSDK21ScreenSecurityManagerC02isD16RecordingEnabledSbvg', symObjAddr: 0x6E0, symBinAddr: 0x259A60, symSize: 0x30 }
+  - { offset: 0x2636CC, size: 0x8, addend: 0x0, symName: '_$s19IDentityLivenessSDK21ScreenSecurityManagerC02isD16RecordingEnabledSbvs', symObjAddr: 0x710, symBinAddr: 0x259A90, symSize: 0x30 }
+  - { offset: 0x2636FF, size: 0x8, addend: 0x0, symName: '_$s19IDentityLivenessSDK21ScreenSecurityManagerC02isD16RecordingEnabledSbvM', symObjAddr: 0x740, symBinAddr: 0x259AC0, symSize: 0x30 }
   - { offset: 0x26372E, size: 0x8, addend: 0x0, symName: '_$s19IDentityLivenessSDK21ScreenSecurityManagerC15startMonitoringyyF', symObjAddr: 0x850, symBinAddr: 0x259BC0, symSize: 0x310 }
   - { offset: 0x2637A4, size: 0x8, addend: 0x0, symName: '_$s19IDentityLivenessSDK21ScreenSecurityManagerC15startMonitoringyyFy10Foundation12NotificationVYbcfU_', symObjAddr: 0xC70, symBinAddr: 0x259FE0, symSize: 0x190 }
   - { offset: 0x263840, size: 0x8, addend: 0x0, symName: '_$s19IDentityLivenessSDK21ScreenSecurityManagerC15startMonitoringyyFy10Foundation12NotificationVYbcfU0_', symObjAddr: 0xED0, symBinAddr: 0x25A240, symSize: 0x380 }
@@ -7870,7 +7870,7 @@ relocations:
   - { offset: 0x279BA3, size: 0x8, addend: 0x0, symName: '_$s19IDentityLivenessSDK0aC0C8delegateAA22InitializationDelegate_pSgvMZ.resume.0', symObjAddr: 0xAA0, symBinAddr: 0x2851D0, symSize: 0x70 }
   - { offset: 0x279BC4, size: 0x8, addend: 0x0, symName: '_$s19IDentityLivenessSDK0aC0C30setDevelopmentRelaxationSecretyySiFZ', symObjAddr: 0xB10, symBinAddr: 0x285240, symSize: 0x10 }
   - { offset: 0x279BF3, size: 0x8, addend: 0x0, symName: '_$s19IDentityLivenessSDK0aC0C24setScreenSecurityEnabledyySbFZ', symObjAddr: 0xB20, symBinAddr: 0x285250, symSize: 0x70 }
-  - { offset: 0x279C4A, size: 0x8, addend: 0x0, symName: '_$s19IDentityLivenessSDK0aC0C22enabledScreenRecordingyySbFZ', symObjAddr: 0xB90, symBinAddr: 0x2852C0, symSize: 0x60 }
+  - { offset: 0x279C4A, size: 0x8, addend: 0x0, symName: '_$s19IDentityLivenessSDK0aC0C24isScreenRecordingEnabledyySbFZ', symObjAddr: 0xB90, symBinAddr: 0x2852C0, symSize: 0x60 }
   - { offset: 0x279C94, size: 0x8, addend: 0x0, symName: '_$s19IDentityLivenessSDK0aC0C010initializeC08language12isGPSEnabled0F16UpdateModelsData11accessToken10completionyAA8LanguageO_S2bSSys5Error_pSgctFZ', symObjAddr: 0xBF0, symBinAddr: 0x285320, symSize: 0x30 }
   - { offset: 0x279DBA, size: 0x8, addend: 0x0, symName: '_$s19IDentityLivenessSDK0aC0C04initC033_8C9A925B88C6F8280CE83EDB390215C4LL8language12isGPSEnabled0N16UpdateModelsData11accessToken10completionyAA8LanguageO_S2bSSSgys5Error_pSgctFZ', symObjAddr: 0xC20, symBinAddr: 0x285350, symSize: 0x850 }
   - { offset: 0x27A2E8, size: 0x8, addend: 0x0, symName: '_$s19IDentityLivenessSDK0aC0C04initC033_8C9A925B88C6F8280CE83EDB390215C4LL8language12isGPSEnabled0N16UpdateModelsData11accessToken10completionyAA8LanguageO_S2bSSSgys5Error_pSgctFZys6ResultOyAA18InitializeResponseVsAN_pGcfU_', symObjAddr: 0x1470, symBinAddr: 0x285BA0, symSize: 0xCE0 }

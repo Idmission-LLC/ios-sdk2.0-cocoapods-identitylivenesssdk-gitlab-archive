@@ -158124,8 +158124,8 @@
           },
           {
             "kind": "Var",
-            "name": "isBlurProtectionEnabled",
-            "printedName": "isBlurProtectionEnabled",
+            "name": "isScreenRecordingEnabled",
+            "printedName": "isScreenRecordingEnabled",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -158135,8 +158135,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:19IDentityLivenessSDK21ScreenSecurityManagerC23isBlurProtectionEnabledSbvp",
-            "mangledName": "$s19IDentityLivenessSDK21ScreenSecurityManagerC23isBlurProtectionEnabledSbvp",
+            "usr": "s:19IDentityLivenessSDK21ScreenSecurityManagerC02isD16RecordingEnabledSbvp",
+            "mangledName": "$s19IDentityLivenessSDK21ScreenSecurityManagerC02isD16RecordingEnabledSbvp",
             "moduleName": "IDentityLivenessSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -158160,8 +158160,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19IDentityLivenessSDK21ScreenSecurityManagerC23isBlurProtectionEnabledSbvg",
-                "mangledName": "$s19IDentityLivenessSDK21ScreenSecurityManagerC23isBlurProtectionEnabledSbvg",
+                "usr": "s:19IDentityLivenessSDK21ScreenSecurityManagerC02isD16RecordingEnabledSbvg",
+                "mangledName": "$s19IDentityLivenessSDK21ScreenSecurityManagerC02isD16RecordingEnabledSbvg",
                 "moduleName": "IDentityLivenessSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -158187,8 +158187,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19IDentityLivenessSDK21ScreenSecurityManagerC23isBlurProtectionEnabledSbvs",
-                "mangledName": "$s19IDentityLivenessSDK21ScreenSecurityManagerC23isBlurProtectionEnabledSbvs",
+                "usr": "s:19IDentityLivenessSDK21ScreenSecurityManagerC02isD16RecordingEnabledSbvs",
+                "mangledName": "$s19IDentityLivenessSDK21ScreenSecurityManagerC02isD16RecordingEnabledSbvs",
                 "moduleName": "IDentityLivenessSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -158208,8 +158208,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19IDentityLivenessSDK21ScreenSecurityManagerC23isBlurProtectionEnabledSbvM",
-                "mangledName": "$s19IDentityLivenessSDK21ScreenSecurityManagerC23isBlurProtectionEnabledSbvM",
+                "usr": "s:19IDentityLivenessSDK21ScreenSecurityManagerC02isD16RecordingEnabledSbvM",
+                "mangledName": "$s19IDentityLivenessSDK21ScreenSecurityManagerC02isD16RecordingEnabledSbvM",
                 "moduleName": "IDentityLivenessSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -189784,8 +189784,8 @@
           },
           {
             "kind": "Function",
-            "name": "enabledScreenRecording",
-            "printedName": "enabledScreenRecording(_:)",
+            "name": "isScreenRecordingEnabled",
+            "printedName": "isScreenRecordingEnabled(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -189800,8 +189800,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19IDentityLivenessSDK0aC0C22enabledScreenRecordingyySbFZ",
-            "mangledName": "$s19IDentityLivenessSDK0aC0C22enabledScreenRecordingyySbFZ",
+            "usr": "s:19IDentityLivenessSDK0aC0C24isScreenRecordingEnabledyySbFZ",
+            "mangledName": "$s19IDentityLivenessSDK0aC0C24isScreenRecordingEnabledyySbFZ",
             "moduleName": "IDentityLivenessSDK",
             "static": true,
             "declAttributes": [
@@ -199448,21 +199448,21 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Security\/ScreenSecurityManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 736,
-      "length": 4,
-      "value": "true"
+      "offset": 738,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Security\/ScreenSecurityManager.swift",
       "kind": "StringLiteral",
-      "offset": 929,
+      "offset": 932,
       "length": 38,
       "value": "\"IDMScreenSecurityDidDetectScreenshot\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Security\/ScreenSecurityManager.swift",
       "kind": "StringLiteral",
-      "offset": 1169,
+      "offset": 1172,
       "length": 43,
       "value": "\"IDMScreenSecurityDidChangeRecordingStatus\""
     },
@@ -200246,35 +200246,35 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 4712,
+      "offset": 4715,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 4781,
+      "offset": 4784,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 5258,
+      "offset": 5261,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 5322,
+      "offset": 5325,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 23964,
+      "offset": 23967,
       "length": 2,
       "value": "\"\""
     },
