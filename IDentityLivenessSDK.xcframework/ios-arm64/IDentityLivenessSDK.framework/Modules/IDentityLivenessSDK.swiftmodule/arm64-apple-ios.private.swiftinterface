@@ -147,7 +147,7 @@ public struct AnyCodable : Swift.Codable {
 public struct FormDetailValidateIdResponseData : Swift.Codable {
   public var uniqueRequestId: Swift.String?
   public var verificationResultId: Swift.Int?
-  public var verificationResultDetails: [Swift.String : Any]?
+  public var verificationResultDetails: [Swift.String : IDentityLivenessSDK.JSONValue]?
   public var verificationResult: Swift.String?
   public var verificationResultCode: Swift.String?
   public var videoIDData: IDentityLivenessSDK.VideoIDDataValidateIdResponse?
@@ -701,7 +701,7 @@ public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
   public var sendInputImagesInResponse: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendInputImagesInResponse?
   public var metadata: IDentityLivenessSDK.Metadata?
   public var ocrMetadata: Swift.String?
-  public init(idToken: Swift.String? = "", uniqueRequestId: Swift.String = IDentitySDK.requestID, clientTraceId: Swift.String? = nil, clientRequestID: Swift.String? = nil, manualReviewRequired: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.ManualReviewRequired? = .no, bypassAgeValidation: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.BypassAgeValidation? = .no, deDuplicationRequired: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.DeDuplicationRequired? = .no, bypassNameMatching: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.BypassNameMatching? = .yes, postDataAPIRequired: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.PostDataAPIRequired? = .no, postDataAPIURL: Swift.String? = nil, sendMetaDataInPost: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendMetaDataInPost? = nil, sendInputImagesInPost: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendInputImagesInPost? = nil, sendProcessedImagesInPost: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendProcessedImagesInPost? = nil, needImmediateResponse: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.NeedImmediateResponse? = nil, deduplicationSynchronous: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.DeduplicationSynchronous? = nil, verifyDataWithHost: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.VerifyDataWithHost? = nil, idBackImageRequired: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.IdBackImageRequired? = nil, stripSpecialCharacters: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.StripSpecialCharacters? = nil, idImageResolutionCheck: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.IdImageResolutionCheck? = .yes, deDupDataRequiredInResponse: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.DeDupDataRequiredInResponse? = nil, deDupManualReviewRequired: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.DeDupManualReviewRequired? = .yes, postDataOnReviewRequired: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.PostDataOnReviewRequired? = .no, postDataOnReviewAPIURL: Swift.String? = nil, paymentGateway: Swift.String? = nil, gpsCoordinates: Swift.String? = nil, piiExclusion: Swift.String? = nil, detectLiveness: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.DetectLiveness? = .yes, advancedTamperDetection: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.AdvancedTamperDetection? = .no, detectLabel: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.DetectLabel? = nil, detectClosedEyes: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.DetectClosedEyes? = nil, sendSignatureFromIdInResponse: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendSignatureFromIdInResponse? = nil, sendDocumentIdInResponse: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendDocumentIdInResponse? = nil, customerDataMatchConfig: IDentityLivenessSDK.CustomerDataMatchConfig? = nil, sendProcessedImagesInResponse: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendProcessedImagesInResponse? = .yes, sendInputImagesInResponse: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendInputImagesInResponse? = .yes)
+  public init(idToken: Swift.String? = "", uniqueRequestId: Swift.String = IDentitySDK.requestID, clientTraceId: Swift.String? = nil, clientRequestID: Swift.String? = nil, manualReviewRequired: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.ManualReviewRequired? = .no, bypassAgeValidation: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.BypassAgeValidation? = .no, deDuplicationRequired: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.DeDuplicationRequired? = .no, bypassNameMatching: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.BypassNameMatching? = .yes, postDataAPIRequired: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.PostDataAPIRequired? = .no, postDataAPIURL: Swift.String? = nil, sendMetaDataInPost: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendMetaDataInPost? = nil, sendInputImagesInPost: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendInputImagesInPost? = nil, sendProcessedImagesInPost: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendProcessedImagesInPost? = nil, needImmediateResponse: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.NeedImmediateResponse? = nil, deduplicationSynchronous: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.DeduplicationSynchronous? = nil, verifyDataWithHost: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.VerifyDataWithHost? = nil, idBackImageRequired: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.IdBackImageRequired? = nil, stripSpecialCharacters: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.StripSpecialCharacters? = nil, idImageResolutionCheck: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.IdImageResolutionCheck? = .yes, deDupDataRequiredInResponse: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.DeDupDataRequiredInResponse? = nil, deDupManualReviewRequired: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.DeDupManualReviewRequired? = .yes, postDataOnReviewRequired: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.PostDataOnReviewRequired? = .no, postDataOnReviewAPIURL: Swift.String? = nil, paymentGateway: Swift.String? = nil, gpsCoordinates: Swift.String? = nil, piiExclusion: Swift.String? = nil, detectLiveness: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.DetectLiveness? = .yes, advancedTamperDetection: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.AdvancedTamperDetection? = .no, detectLabel: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.DetectLabel? = nil, detectClosedEyes: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.DetectClosedEyes? = nil, sendSignatureFromIdInResponse: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendSignatureFromIdInResponse? = nil, sendDocumentIdInResponse: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendDocumentIdInResponse? = nil, customerDataMatchConfig: IDentityLivenessSDK.CustomerDataMatchConfig? = nil, sendProcessedImagesInResponse: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendProcessedImagesInResponse? = .no, sendInputImagesInResponse: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendInputImagesInResponse? = .no)
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct DocumentTamper : Swift.Codable {
@@ -1102,7 +1102,7 @@ public struct CustomerIdentifyDataResponse : Swift.Codable {
 public struct FormDetailVerifyResponseData : Swift.Codable {
   public var uniqueRequestId: Swift.String?
   public var verificationResultId: Swift.Int?
-  public var verificationResultDetails: [Swift.String : Any]?
+  public var verificationResultDetails: [Swift.String : IDentityLivenessSDK.JSONValue]?
   public var verificationResult: Swift.String?
   public var verificationResultCode: Swift.String?
   public var faceMask: Swift.String?
@@ -1269,7 +1269,7 @@ public struct PersonalCustomerIdentifyResponseData : Swift.Codable {
 public struct FormDetailEnrollBiometricsResponseData : Swift.Codable {
   public var uniqueRequestId: Swift.String?
   public var verificationResultId: Swift.Int?
-  public var verificationResultDetails: [Swift.String : Any]?
+  public var verificationResultDetails: [Swift.String : IDentityLivenessSDK.JSONValue]?
   public var verificationResult: Swift.String?
   public var verificationResultCode: Swift.String?
   public var faceMask: Swift.String?
@@ -2024,7 +2024,7 @@ public struct CardDataRequest : Swift.Encodable {
 public struct FormDetailLiveCheckResponseData : Swift.Codable {
   public var uniqueRequestId: Swift.String?
   public var verificationResultId: Swift.Int?
-  public var verificationResultDetails: [Swift.String : Any]?
+  public var verificationResultDetails: [Swift.String : IDentityLivenessSDK.JSONValue]?
   public var verificationResult: Swift.String?
   public var verificationResultCode: Swift.String?
   public var faceMask: Swift.String?
@@ -2037,9 +2037,9 @@ public struct FormDetailLiveCheckResponseData : Swift.Codable {
   public var eyeCoveringScore: Swift.Double?
   public var cellPhone: Swift.String?
   public var cellPhoneScore: Swift.Double?
-  public var estimatedAge: Swift.Int?
+  public var estimatedAge: Swift.Double?
   public var predicatedGender: Swift.String?
-  public var closedEyes: Swift.String?
+  public var closedEyes: Swift.Bool?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -2091,7 +2091,7 @@ public struct Metadata : Swift.Encodable {
 public struct FormDetailIdentifyResponseData : Swift.Codable {
   public var uniqueRequestId: Swift.String?
   public var verificationResultId: Swift.Int?
-  public var verificationResultDetails: [Swift.String : Any]?
+  public var verificationResultDetails: [Swift.String : IDentityLivenessSDK.JSONValue]?
   public var verificationResult: Swift.String?
   public var verificationResultCode: Swift.String?
   public var faceMask: Swift.String?
@@ -2106,7 +2106,7 @@ public struct FormDetailIdentifyResponseData : Swift.Codable {
   public var cellPhoneScore: Swift.Double?
   public var estimatedAge: Swift.Int?
   public var predicatedGender: Swift.String?
-  public var closedEyes: Swift.String?
+  public var closedEyes: Swift.Bool?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -2879,7 +2879,7 @@ public protocol ScreenSecurityDelegate : AnyObject {
 public struct FormDetailResultResponseData : Swift.Codable {
   public var uniqueRequestId: Swift.String?
   public var verificationResultId: Swift.Int?
-  public var verificationResultDetails: [Swift.String : Any]?
+  public var verificationResultDetails: [Swift.String : IDentityLivenessSDK.JSONValue]?
   public var verificationResult: Swift.String?
   public var verificationResultCode: Swift.String?
   public var faceVerificationResult: Swift.String?
