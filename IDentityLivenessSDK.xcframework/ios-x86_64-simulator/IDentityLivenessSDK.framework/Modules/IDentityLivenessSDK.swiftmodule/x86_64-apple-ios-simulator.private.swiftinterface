@@ -12,7 +12,8 @@ import CoreMedia
 import CryptoKit
 import Darwin
 import Foundation
-import GZIP
+import Foundation/*.Data*/
+import Foundation/*.LocalizedError*/
 @_exported import IDentityLivenessSDK
 import ImageIO
 import MachO
@@ -26,6 +27,7 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+import zlib
 public struct InitializeResponse : Swift.Codable {
   public var status: IDentityLivenessSDK.StatusData?
   public var companyData: IDentityLivenessSDK.CompanyData?
@@ -429,9 +431,10 @@ public struct BiometricVerifyRequestData : Swift.Encodable {
     get
   }
   public static func requestLocation()
+  public static func isAuthorized(completion: @escaping IDentityLivenessSDK.BoolCompletion)
   @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
   @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: any Swift.Error)
-  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didChangeAuthorization status: CoreLocation.CLAuthorizationStatus)
+  @objc public func locationManagerDidChangeAuthorization(_ manager: CoreLocation.CLLocationManager)
   @objc deinit
 }
 public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
@@ -893,6 +896,7 @@ extension IDentityLivenessSDK.SelfieCapture {
     }
     public var cameraPosition: AVFoundation.AVCaptureDevice.Position
     public var showToggleCamera: Swift.Bool
+    public var isSelfieCapturePreviewEnabled: Swift.Bool
   }
 }
 public struct ProfilesResult : Swift.Codable {
@@ -1266,6 +1270,180 @@ public struct PersonalCustomerIdentifyResponseData : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public struct GzipError : Swift.Error, Swift.Hashable, Swift.Sendable {
+  public enum Kind : Swift.Hashable, Swift.Sendable {
+    case stream
+    case data
+    case memory
+    case buffer
+    case version
+    case unknown(code: Swift.Int)
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: IDentityLivenessSDK.GzipError.Kind, b: IDentityLivenessSDK.GzipError.Kind) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public var kind: IDentityLivenessSDK.GzipError.Kind
+  public var message: Swift.String
+  public var localizedDescription: Swift.String {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: IDentityLivenessSDK.GzipError, b: IDentityLivenessSDK.GzipError) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public let maxWindowBits: Swift.Int32
+extension Foundation.Data {
+  public var isGzipped: Swift.Bool {
+    get
+  }
+  #if compiler(>=5.3) && $TypedThrows
+  public func gzipped(level: IDentityLivenessSDK.CompressionLevel = .defaultCompression, wBits: Swift.Int32 = maxWindowBits + 16) throws(IDentityLivenessSDK.GzipError) -> Foundation.Data
+  #endif
+  #if compiler(>=5.3) && $TypedThrows
+  public func gunzipped(wBits: Swift.Int32 = maxWindowBits + 32) throws(IDentityLivenessSDK.GzipError) -> Foundation.Data
+  #endif
+}
+public struct CompressionLevel : Swift.RawRepresentable, Swift.Hashable, Swift.Sendable {
+  public var rawValue: Swift.Int32
+  public static let noCompression: IDentityLivenessSDK.CompressionLevel
+  public static let bestSpeed: IDentityLivenessSDK.CompressionLevel
+  public static let bestCompression: IDentityLivenessSDK.CompressionLevel
+  public static let defaultCompression: IDentityLivenessSDK.CompressionLevel
+  public init(rawValue: Swift.Int32)
+  public init(_ rawValue: Swift.Int32)
+  public typealias RawValue = Swift.Int32
+}
+extension IDentityLivenessSDK.CompressionLevel : Swift.Comparable {
+  public static func < (lhs: IDentityLivenessSDK.CompressionLevel, rhs: IDentityLivenessSDK.CompressionLevel) -> Swift.Bool
+}
+public enum InterpreterError : Swift.Error, Swift.Equatable, Swift.Hashable {
+  case invalidTensorIndex(index: Swift.Int, maxIndex: Swift.Int)
+  case invalidTensorDataCount(provided: Swift.Int, required: Swift.Int)
+  case invalidTensorDataType
+  case failedToLoadModel
+  case failedToCreateInterpreter
+  case failedToResizeInputTensor(index: Swift.Int)
+  case failedToCopyDataToInputTensor
+  case failedToAllocateTensors
+  case allocateTensorsRequired
+  case invokeInterpreterRequired
+  case tensorFlowLiteError(Swift.String)
+  public static func == (a: IDentityLivenessSDK.InterpreterError, b: IDentityLivenessSDK.InterpreterError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension IDentityLivenessSDK.InterpreterError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+extension IDentityLivenessSDK.InterpreterError : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct Tensor : Swift.Equatable, Swift.Hashable {
+  public let name: Swift.String
+  public let dataType: IDentityLivenessSDK.Tensor.DataType
+  public let shape: IDentityLivenessSDK.Tensor.Shape
+  public let data: Foundation.Data
+  public let quantizationParameters: IDentityLivenessSDK.QuantizationParameters?
+  public static func == (a: IDentityLivenessSDK.Tensor, b: IDentityLivenessSDK.Tensor) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension IDentityLivenessSDK.Tensor {
+  public enum DataType : Swift.Equatable, Swift.Hashable {
+    case bool
+    case uInt8
+    case int16
+    case int32
+    case int64
+    case float16
+    case float32
+    case float64
+    public static func == (a: IDentityLivenessSDK.Tensor.DataType, b: IDentityLivenessSDK.Tensor.DataType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+extension IDentityLivenessSDK.Tensor {
+  public struct Shape : Swift.Equatable, Swift.Hashable {
+    public let rank: Swift.Int
+    public let dimensions: [Swift.Int]
+    public init(_ dimensions: [Swift.Int])
+    public init(_ elements: Swift.Int...)
+    public static func == (a: IDentityLivenessSDK.Tensor.Shape, b: IDentityLivenessSDK.Tensor.Shape) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+extension IDentityLivenessSDK.Tensor.Shape : Swift.ExpressibleByArrayLiteral {
+  public init(arrayLiteral: Swift.Int...)
+  public typealias ArrayLiteralElement = Swift.Int
+}
+public struct QuantizationParameters : Swift.Equatable, Swift.Hashable {
+  public let scale: Swift.Float
+  public let zeroPoint: Swift.Int
+  public static func == (a: IDentityLivenessSDK.QuantizationParameters, b: IDentityLivenessSDK.QuantizationParameters) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum Runtime {
+  public static var version: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers final public class Interpreter {
+  final public let options: IDentityLivenessSDK.Interpreter.Options?
+  final public var inputTensorCount: Swift.Int {
+    get
+  }
+  final public var outputTensorCount: Swift.Int {
+    get
+  }
+  @objc deinit
+  final public func invoke() throws
+  final public func input(at index: Swift.Int) throws -> IDentityLivenessSDK.Tensor
+  final public func output(at index: Swift.Int) throws -> IDentityLivenessSDK.Tensor
+  final public func resizeInput(at index: Swift.Int, to shape: IDentityLivenessSDK.Tensor.Shape) throws
+  @discardableResult
+  final public func copy(_ data: Foundation.Data, toInputAt index: Swift.Int) throws -> IDentityLivenessSDK.Tensor
+  final public func allocateTensors() throws
+}
+extension IDentityLivenessSDK.Interpreter {
+  public struct Options : Swift.Equatable, Swift.Hashable {
+    public var threadCount: Swift.Int?
+    public var isXNNPackEnabled: Swift.Bool
+    public init()
+    public static func == (a: IDentityLivenessSDK.Interpreter.Options, b: IDentityLivenessSDK.Interpreter.Options) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+@available(*, deprecated, renamed: "Interpreter.Options")
+public typealias InterpreterOptions = IDentityLivenessSDK.Interpreter.Options
+extension IDentityLivenessSDK.GzipError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
 public struct FormDetailEnrollBiometricsResponseData : Swift.Codable {
   public var uniqueRequestId: Swift.String?
   public var verificationResultId: Swift.Int?
@@ -1453,6 +1631,9 @@ extension IDentityLivenessSDK.SelfieCapture {
     public var removeHand: Swift.String
     public var removeScarf: Swift.String
     public var fakeFace: Swift.String
+    public var previewScreenTitle: Swift.String
+    public var previewScreenRetryBtnText: Swift.String
+    public var previewScreenDoneBtnText: Swift.String
     public var retryScreenText: Swift.String
     public var retryButtonText: Swift.String
     public var cancelButtonText: Swift.String
@@ -2364,6 +2545,7 @@ extension IDentityLivenessSDK.IDError {
     case debuggerAttachedDetected
     case errorDownloadingSearchCompanyTemplateDetails
     case errorDownloadingGetXsltData
+    case errorDownloadingModelsAndKeys
     case invalidURL
     case gzipError
     case gunzipError
@@ -2380,7 +2562,9 @@ extension IDentityLivenessSDK.IDError {
     case customerValidateIdFaceMatchRequestError
     case customerEnrollRequestError
     case liveFaceNotDetectedLimitExceeded
+    case realIdNotDetectedLimitExceeded
     case invalidIdToken
+    case modelsNotDownloaded
     case unknownError
     public static func == (a: IDentityLivenessSDK.IDError.Strings, b: IDentityLivenessSDK.IDError.Strings) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
@@ -2491,6 +2675,8 @@ extension IDentityLivenessSDK.SelfieCapture {
   }
   public struct ButtonStyle {
     public var instructionScreenContinueButton: IDentityLivenessSDK.SelfieCapture.ButtonBorderStyle?
+    public var previewScreenRetryButton: IDentityLivenessSDK.SelfieCapture.ButtonBorderStyle?
+    public var previewScreenDoneButton: IDentityLivenessSDK.SelfieCapture.ButtonBorderStyle?
     public var retryScreenRetryButton: IDentityLivenessSDK.SelfieCapture.ButtonBorderStyle?
     public var retryScreenCancelButton: IDentityLivenessSDK.SelfieCapture.ButtonBorderStyle?
   }
@@ -2627,6 +2813,7 @@ public struct AdditionalCustomerLiveCheckData : Swift.Encodable {
 }
 extension CoreFoundation.CGRect {
   public func rotatedCCW(in size: CoreFoundation.CGSize) -> CoreFoundation.CGRect
+  public func rotatedCW(in size: CoreFoundation.CGSize) -> CoreFoundation.CGRect
   public func aspectFill(from size1: CoreFoundation.CGSize, to size2: CoreFoundation.CGSize) -> CoreFoundation.CGRect
   public func aspectFit(from size1: CoreFoundation.CGSize, to size2: CoreFoundation.CGSize) -> CoreFoundation.CGRect
   public func expand(by factor: CoreFoundation.CGFloat) -> CoreFoundation.CGRect
@@ -2642,6 +2829,9 @@ extension IDentityLivenessSDK.SelfieCapture {
     public var closeButtonTextFont: UIKit.UIFont?
     public var labelFont: UIKit.UIFont?
     public var captureLabelFont: UIKit.UIFont?
+    public var previewScreenTitleLabelFont: UIKit.UIFont?
+    public var previewScreenRetryBtnFont: UIKit.UIFont?
+    public var previewScreenDoneBtnFont: UIKit.UIFont?
     public var retryScreenLabelFont: UIKit.UIFont?
     public var retryScreenRetryButtonFont: UIKit.UIFont?
     public var retryScreenCancelButtonFont: UIKit.UIFont?
@@ -2920,6 +3110,14 @@ extension IDentityLivenessSDK.SelfieCapture {
     public var errorLabelTextColor: UIKit.UIColor?
     public var successLabelBackgroundColor: UIKit.UIColor?
     public var errorLabelBackgroundColor: UIKit.UIColor?
+    public var previewScreenBackgroundColor: UIKit.UIColor?
+    public var previewScreenTopViewColor: UIKit.UIColor?
+    public var previewScreenTitleLabelColor: UIKit.UIColor?
+    public var previewScreenTitleTextColor: UIKit.UIColor?
+    public var previewScreenRetryBtnTextColor: UIKit.UIColor?
+    public var previewScreenRetryBtnBackgroundColor: UIKit.UIColor?
+    public var previewScreenDoneBtnTextColor: UIKit.UIColor?
+    public var previewScreenDoneBtnBackgroundColor: UIKit.UIColor?
     public var retryScreenBackgroundColor: UIKit.UIColor?
     public var retryScreenLabelTextColor: UIKit.UIColor?
     public var retryScreenImageTintColor: UIKit.UIColor?
@@ -3346,7 +3544,7 @@ public typealias ErrorCompletion = ((any Swift.Error)?) -> Swift.Void
   public class func setDevelopmentRelaxationSecret(_ secret: Swift.Int)
   public class func setScreenSecurityEnabled(_ enabled: Swift.Bool)
   public class func isScreenRecordingEnabled(_ enabled: Swift.Bool)
-  public class func initializeSDK(language: IDentityLivenessSDK.Language = .en, isGPSEnabled: Swift.Bool = true, isUpdateModelsData: Swift.Bool = true, accessToken: Swift.String, completion: @escaping IDentityLivenessSDK.ErrorCompletion)
+  public class func initializeSDK(language: IDentityLivenessSDK.Language = .en, isGPSEnabled: Swift.Bool = true, geolocationRequired: Swift.Bool = false, isUpdateModelsData: Swift.Bool = true, accessToken: Swift.String, completion: @escaping IDentityLivenessSDK.ErrorCompletion)
   @objc deinit
 }
 extension IDentityLivenessSDK.IDentitySDK {
@@ -3366,6 +3564,9 @@ extension IDentityLivenessSDK.IDentitySDK {
     get
   }
   public static var faceMaskModelName: Swift.String {
+    get
+  }
+  public static var areModelsAlreadyDownloadedAndValid: Swift.Bool {
     get
   }
   public static var modelVersions: [Swift.String : Swift.String] {
