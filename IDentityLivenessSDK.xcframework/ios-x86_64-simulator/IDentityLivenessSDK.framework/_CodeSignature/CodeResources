@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/IDentityLivenessSDK-Swift.h</key>
 		<data>
-		1nWKYJNZZiXzkL4kUwH3wpj7MKU=
+		h30N91JIKnEVkL05pBWs30U4Ysk=
 		</data>
 		<key>Headers/IDentityLivenessSDK.h</key>
 		<data>
@@ -150,7 +150,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fauviC6C1FCksTT1eSYS0Ab3fLk=
+		YyH2SLmx4u9hmV0TEDVemNj14TY=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -158,23 +158,23 @@
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		FWW+V9ArQly5OB/8g/emT67wxs4=
+		+giAhUrPFWNVpdauthskM9m++HI=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		gvJ0SNFE7C4o1bhbDNem76l3Qo8=
+		krlVUIbEFzUaNuW8pRxhHRCb3Y8=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		PPWtAkSXwQOQ6gCAkVeXBa/lkBo=
+		x4frzwLxPC0HNoW2p/jZntH2j3A=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gvJ0SNFE7C4o1bhbDNem76l3Qo8=
+		krlVUIbEFzUaNuW8pRxhHRCb3Y8=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MaOk3VNrmL+Pe/2v2NwvTcEbUDc=
+		zGb+l428Qn1NpxuYCt3w9ZmdQaA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -191,7 +191,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NeDfdg5tLyWZsd5QlmH1LChRbk7D279bFMOH29YIY3A=
+			NzDu3t1iY5l3XWVAcWPhh/crAdVgdw56K07vXtO8Blo=
 			</data>
 		</dict>
 		<key>Headers/IDentityLivenessSDK.h</key>
@@ -450,35 +450,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dxyvkzH18XHTnGIQ8Y83SVR+UnwMr/N16YXPk5KXrXQ=
+			CABp+bWyV++Ym5ngnaTDBva+M3nf9OYz3RcWu+cTxeQ=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9ZK15ylMFZWVjtBiqn/eXmOeLf2eeq9Oz5G6lIYT/b0=
+			fLqA40GFE1g6tl3FOvDSWTkYg9jAQv4okaHGHGdSX78=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MBpn0vESaDEBxz4Nh8caztGC4rwFlauf3K5f0tOg8+Y=
+			nbzhVqRGNi4AGFtuAd54B2Geb7q3aJHdLZKt8di+HD4=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9ZK15ylMFZWVjtBiqn/eXmOeLf2eeq9Oz5G6lIYT/b0=
+			fLqA40GFE1g6tl3FOvDSWTkYg9jAQv4okaHGHGdSX78=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wvvmzJs3BNjbLvij3AIQ4pfIN3JdnDXs/NYSOzd0EGI=
+			KF3gQlWOzqR+QmCnJrVWgUNMPPsnWl1agk1Sv9tLYEE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
