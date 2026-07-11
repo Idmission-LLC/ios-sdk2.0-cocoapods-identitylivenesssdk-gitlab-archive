@@ -150,7 +150,7 @@
 		</data>
 		<key>ios-arm64/IDentityLivenessSDK.framework/IDentityLivenessSDK</key>
 		<data>
-		F/HtJtjRt12EP/kL0vVPXJFszaY=
+		xX/z8mpWMlOynv07I8DYaHdaP+o=
 		</data>
 		<key>ios-arm64/IDentityLivenessSDK.framework/Info.plist</key>
 		<data>
@@ -194,11 +194,11 @@
 		</data>
 		<key>ios-arm64/dSYMs/IDentityLivenessSDK.framework.dSYM/Contents/Resources/DWARF/IDentityLivenessSDK</key>
 		<data>
-		PNf0+xMHsgelHqHvVRYYvTkh6bo=
+		OM2RtCJFNRx8zFtoUpnLQS3f2u4=
 		</data>
 		<key>ios-arm64/dSYMs/IDentityLivenessSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/IDentityLivenessSDK.yml</key>
 		<data>
-		U4pYcztfn4eww559cXyicL04Fo8=
+		LpeIc//j0MmkT0x7sBOMdE4S2rE=
 		</data>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/Headers/IDentityLivenessSDK-Swift.h</key>
 		<data>
@@ -390,11 +390,11 @@
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/IDentityLivenessSDK.framework.dSYM/Contents/Resources/DWARF/IDentityLivenessSDK</key>
 		<data>
-		kRjWn2x6DLjLd9uRMFxLvim1cWo=
+		Oz6eDFAh9J4uvxoOdCJGh5e6v/U=
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/IDentityLivenessSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/IDentityLivenessSDK.yml</key>
 		<data>
-		DjDRv3z5T1XWrEyfT4Bvxg4AMlU=
+		1+sTkIwxsxyUvRWcy7sM+busBkU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -799,11 +799,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			F/HtJtjRt12EP/kL0vVPXJFszaY=
+			xX/z8mpWMlOynv07I8DYaHdaP+o=
 			</data>
 			<key>hash2</key>
 			<data>
-			mz+fzBkk4ppmQlfAK5ObqUl87Cf9/3sGAsR5MJw7YWw=
+			UBRVo0BT7C0GA7tFldEOlZW2G0rKh3jmauBTScMH480=
 			</data>
 		</dict>
 		<key>ios-arm64/IDentityLivenessSDK.framework/Info.plist</key>
@@ -920,22 +920,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PNf0+xMHsgelHqHvVRYYvTkh6bo=
+			OM2RtCJFNRx8zFtoUpnLQS3f2u4=
 			</data>
 			<key>hash2</key>
 			<data>
-			O8cAsQx/DhtsJGsf8E+C+gorVflTKwCnZKkwPIH+uCc=
+			IgMkTPFSG6M4ATrhNQ8xRvtM1h4hGxCseOG/PnzcJj0=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/IDentityLivenessSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/IDentityLivenessSDK.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			U4pYcztfn4eww559cXyicL04Fo8=
+			LpeIc//j0MmkT0x7sBOMdE4S2rE=
 			</data>
 			<key>hash2</key>
 			<data>
-			OtaIzagv+0cUszlPKmDZncnYFe/9GxYK1oANQXZVMmo=
+			Q2bc0cJBKUE0tOrdccSVCUk6BJ8dqGzCWdIwZPhayKc=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLivenessSDK.framework/Headers/IDentityLivenessSDK-Swift.h</key>
@@ -1459,22 +1459,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kRjWn2x6DLjLd9uRMFxLvim1cWo=
+			Oz6eDFAh9J4uvxoOdCJGh5e6v/U=
 			</data>
 			<key>hash2</key>
 			<data>
-			I7vn9h+JUDljwukzK7uSCM/U9qp9xW5uN2TknU4T4W4=
+			a95L/a0B4ORRKR0Sq0plyAhkYx1aWkBsss2cd6qyre0=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/dSYMs/IDentityLivenessSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/IDentityLivenessSDK.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DjDRv3z5T1XWrEyfT4Bvxg4AMlU=
+			1+sTkIwxsxyUvRWcy7sM+busBkU=
 			</data>
 			<key>hash2</key>
 			<data>
-			+NFcpDN5GnK65U7mDw1LuixQDF4qi1UlsWWgEOVvAGo=
+			T56a6zgVyGkowy87wrgHMBSUbCzMjILe2x9x3YSGJD0=
 			</data>
 		</dict>
 	</dict>
