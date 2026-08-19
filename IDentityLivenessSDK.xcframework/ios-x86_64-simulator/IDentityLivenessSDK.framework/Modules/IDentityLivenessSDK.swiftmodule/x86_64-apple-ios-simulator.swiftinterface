@@ -960,6 +960,10 @@ public struct PersonalCustomerAutofillResponseData : Swift.Codable {
   public var parish: Swift.String?
   public var additionalNames: Swift.String?
   public var additionalNamesNonEng: Swift.String?
+  public var nameNonEng: Swift.String?
+  public var firstNameNonEng: Swift.String?
+  public var lastNameNonEng: Swift.String?
+  public var middleNameNonEng: Swift.String?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -2396,6 +2400,7 @@ public struct PersonalCustomerValidateIdFaceMatchResponseData : Swift.Codable {
   public var firstName: Swift.String?
   public var middleName: Swift.String?
   public var lastName: Swift.String?
+  public var nameNonEng: Swift.String?
   public var firstNameNonEng: Swift.String?
   public var lastNameNonEng: Swift.String?
   public var middleNameNonEng: Swift.String?
@@ -2871,6 +2876,7 @@ public struct PersonalCustomerValidateIdResponseData : Swift.Codable {
   public var firstName: Swift.String?
   public var middleName: Swift.String?
   public var lastName: Swift.String?
+  public var nameNonEng: Swift.String?
   public var firstNameNonEng: Swift.String?
   public var lastNameNonEng: Swift.String?
   public var middleNameNonEng: Swift.String?
