@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name                   = "IDentityLivenessSDK2.0"
-  spec.version                = "11.1.19.2.2"
+  spec.version                = "11.1.19.2.5"
   spec.summary                = "IDentityLivenessSDK lets user add IDentityLivenessSDK in their project"
   spec.description            = <<-DESC 
                                 IDentityLivenessSDK helps user to add IDentityLivenessSDK in their project.

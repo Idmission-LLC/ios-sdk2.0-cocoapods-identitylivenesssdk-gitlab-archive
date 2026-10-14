@@ -150,7 +150,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Kk9I1jnBkYPukhpgVQiryO+qjvM=
+		baiVkVgkT0rRvgkKk6SflEE+rIY=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		CzEANP55XeMXaxiyS7dQGCI3N3Q=
+		WSYkoB69f/Lq1W7dKxQWFsGQKiU=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -174,7 +174,7 @@
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		uy4LkN8g0S+BrC3P3JeZ9p4Znwk=
+		yyT7g0C9gEiM2iJLDdaTTRV4Hjo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -450,7 +450,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7MsBPmYbOmG5UvA/HNrt6sGgvvl0CsRKx6VG9lVZMGo=
+			c/iriYgcFtqOZpUVmB3ztRmlrcBNubTIpg72iWI7+wU=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -478,7 +478,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MadfaC7ggO7Qn9qTm8q5KRyv8Uic5hEaw/cGIE8qVJ4=
+			i7ChJRRViQML3D+sk/43RxlfoDJEV0cdBV6y6TQ5HNQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

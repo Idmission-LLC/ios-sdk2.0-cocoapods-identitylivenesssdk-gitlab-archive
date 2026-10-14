@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name                   = "SelfieCaptureLiveness"
-  spec.version                = "11.1.19.2.2"
+  spec.version                = "11.1.19.2.5"
   spec.summary                = "SelfieCaptureLiveness lets user add SelfieCaptureLivenessSDK in their project"
   spec.description            = <<-DESC 
                                 SelfieCaptureLiveness helps user to add SelfieCaptureLivenessSDK in their project.
